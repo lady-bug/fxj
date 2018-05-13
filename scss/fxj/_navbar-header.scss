@@ -1,15 +1,80 @@
 .navbar-header {
+  width: 100%;
 
   .logo {
-
     display: block;
     height: 50px;
-    margin: 8px 15px 8px 0;
+    margin: 8px 15px 8px 60px;
     padding: 0;
 
     img {
       display: block;
       max-height: 100%;
+    }
+  }
+
+  .search-block-form {
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    width: calc(100% - 250px);
+    max-width: 200px;
+  }
+
+  #superfish-main-toggle {
+    @include square(40px);
+    float: right;
+    font-size: 40px;
+    left: 15px;
+    line-height: .5;
+    padding: 0;
+    position: absolute;
+
+    &:after {
+      right: 0;
+    }
+
+    span {
+      @extend .sr-only;
+    }
+  }
+
+  .menu.sf-accordion {
+    > li > a {
+      padding-left: 0;
+    }
+  }
+}
+
+/*
+ * Nav Accordion & Superfish
+ *****************************/
+
+
+@media (min-width: $screen-md-min) {
+  .navbar-header {
+    .region-navigation {
+      position: relative;
+    }
+    .logo {
+      margin-left: 0;
+    }
+    .block-superfish {
+      float: right;
+      margin-right: 220px;
+      width: auto;
+
+      .menu {
+        margin-bottom: 0;
+
+        > li > a {
+          font-size: 20px;
+          padding: 15px;
+        }
+      }
+    }
+    .search-block-form {
+      right: 0px;
     }
   }
 }

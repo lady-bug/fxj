@@ -1,0 +1,14 @@
+div.sf-accordion-toggle.sf-style-default a,
+div.sf-accordion-toggle.sf-style-default a.sf-expanded,
+ul.sf-menu.sf-style-default.sf-accordion li.sf-expanded,
+ul.sf-menu.sf-style-default a,
+ul.sf-menu.sf-style-default a:visited,
+ul.sf-menu.sf-style-default span.nolink,
+ul.sf-menu.sf-style-default li:hover,
+ul.sf-menu.sf-style-default li.sfHover,
+ul.sf-menu.sf-style-default a:focus,
+ul.sf-menu.sf-style-default a:hover,
+ul.sf-menu.sf-style-default span.nolink:hover {
+  background-color: white;
+  color: $gray-dark;
+}

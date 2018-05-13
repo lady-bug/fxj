@@ -1528,11 +1528,11 @@ textarea {
 
 /* line 48, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
 a {
-  color: #337ab7;
+  color: #16a085;
   text-decoration: none; }
   /* line 52, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:hover, a:focus {
-    color: #23527c;
+    color: #0d5d4d;
     text-decoration: underline; }
   /* line 58, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
   a:focus {
@@ -1583,7 +1583,7 @@ hr {
   border-top: 1px solid #eeeeee; }
 
 /* line 125, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only {
+.sr-only, .navbar-header #superfish-main-toggle span {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -1756,12 +1756,12 @@ mark,
 
 /* line 5, ../bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-primary {
-  color: #337ab7; }
+  color: #16a085; }
 
 /* line 8, ../bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 a.text-primary:hover,
 a.text-primary:focus {
-  color: #286090; }
+  color: #107360; }
 
 /* line 5, ../bootstrap/assets/stylesheets/bootstrap/mixins/_text-emphasis.scss */
 .text-success {
@@ -1805,12 +1805,12 @@ a.text-danger:focus {
 
 /* line 5, ../bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-primary {
-  background-color: #337ab7; }
+  background-color: #16a085; }
 
 /* line 8, ../bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 a.bg-primary:hover,
 a.bg-primary:focus {
-  background-color: #286090; }
+  background-color: #107360; }
 
 /* line 5, ../bootstrap/assets/stylesheets/bootstrap/mixins/_background-variant.scss */
 .bg-success {
@@ -3838,38 +3838,38 @@ a.btn.disabled, fieldset[disabled] a.btn {
 /* line 71, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4; }
+  background-color: #16a085;
+  border-color: #138a72; }
   /* line 11, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:focus, .btn-primary.focus {
     color: #fff;
-    background-color: #286090;
-    border-color: #122b40; }
+    background-color: #107360;
+    border-color: #041915; }
   /* line 17, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:hover {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74; }
+    background-color: #107360;
+    border-color: #0c5446; }
   /* line 22, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #286090;
-    border-color: #204d74; }
+    background-color: #107360;
+    border-color: #0c5446; }
     /* line 29, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
     .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
       color: #fff;
-      background-color: #204d74;
-      border-color: #122b40; }
+      background-color: #0c5446;
+      border-color: #041915; }
   /* line 37, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
     background-image: none; }
   /* line 45, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus {
-    background-color: #337ab7;
-    border-color: #2e6da4; }
+    background-color: #16a085;
+    border-color: #138a72; }
   /* line 53, ../bootstrap/assets/stylesheets/bootstrap/mixins/_buttons.scss */
   .btn-primary .badge {
-    color: #337ab7;
+    color: #16a085;
     background-color: #fff; }
 
 /* line 75, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4022,7 +4022,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 /* line 96, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
 .btn-link {
-  color: #337ab7;
+  color: #16a085;
   font-weight: normal;
   border-radius: 0; }
   /* line 101, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4035,7 +4035,7 @@ a.btn.disabled, fieldset[disabled] a.btn {
     border-color: transparent; }
   /* line 115, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
   .btn-link:hover, .btn-link:focus {
-    color: #23527c;
+    color: #0d5d4d;
     text-decoration: underline;
     background-color: transparent; }
   /* line 123, ../bootstrap/assets/stylesheets/bootstrap/_buttons.scss */
@@ -4189,7 +4189,7 @@ tbody.collapse.in {
   color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #337ab7; }
+  background-color: #16a085; }
 
 /* line 103, ../bootstrap/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4631,7 +4631,7 @@ tbody.collapse.in {
   /* line 46, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
   .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
     background-color: #eeeeee;
-    border-color: #337ab7; }
+    border-color: #16a085; }
   /* line 59, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
   .nav .nav-divider {
     height: 1px;
@@ -4678,7 +4678,7 @@ tbody.collapse.in {
   /* line 131, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
   .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
     color: #fff;
-    background-color: #337ab7; }
+    background-color: #16a085; }
 
 /* line 144, ../bootstrap/assets/stylesheets/bootstrap/_navs.scss */
 .nav-stacked > li {
@@ -5097,8 +5097,8 @@ tbody.collapse.in {
       margin-right: 0; } }
 /* line 397, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7; }
+  background-color: white;
+  border-color: #333; }
   /* line 401, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-brand {
     color: #777; }
@@ -5119,7 +5119,7 @@ tbody.collapse.in {
   /* line 425, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #555;
-    background-color: #e7e7e7; }
+    background-color: #eeeeee; }
   /* line 433, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
@@ -5136,10 +5136,10 @@ tbody.collapse.in {
   /* line 453, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #e7e7e7; }
+    border-color: #333; }
   /* line 462, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #e7e7e7;
+    background-color: #eeeeee;
     color: #555; }
   @media (max-width: 767px) {
     /* line 473, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5152,7 +5152,7 @@ tbody.collapse.in {
     /* line 482, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #555;
-      background-color: #e7e7e7; }
+      background-color: #eeeeee; }
     /* line 490, ../bootstrap/assets/stylesheets/bootstrap/_navbar.scss */
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
@@ -5293,7 +5293,7 @@ tbody.collapse.in {
       padding: 6px 12px;
       line-height: 1.42857;
       text-decoration: none;
-      color: #337ab7;
+      color: #16a085;
       background-color: #fff;
       border: 1px solid #ddd;
       margin-left: -1px; }
@@ -5313,7 +5313,7 @@ tbody.collapse.in {
   .pagination > li > span:hover,
   .pagination > li > span:focus {
     z-index: 2;
-    color: #23527c;
+    color: #0d5d4d;
     background-color: #eeeeee;
     border-color: #ddd; }
   /* line 52, ../bootstrap/assets/stylesheets/bootstrap/_pagination.scss */
@@ -5323,8 +5323,8 @@ tbody.collapse.in {
   .pagination > .active > span:focus {
     z-index: 3;
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7;
+    background-color: #16a085;
+    border-color: #16a085;
     cursor: default; }
   /* line 64, ../bootstrap/assets/stylesheets/bootstrap/_pagination.scss */
   .pagination > .disabled > span,
@@ -5453,10 +5453,10 @@ a.label:hover, a.label:focus {
 
 /* line 48, ../bootstrap/assets/stylesheets/bootstrap/_labels.scss */
 .label-primary {
-  background-color: #337ab7; }
+  background-color: #16a085; }
   /* line 7, ../bootstrap/assets/stylesheets/bootstrap/mixins/_labels.scss */
   .label-primary[href]:hover, .label-primary[href]:focus {
-    background-color: #286090; }
+    background-color: #107360; }
 
 /* line 52, ../bootstrap/assets/stylesheets/bootstrap/_labels.scss */
 .label-success {
@@ -5513,7 +5513,7 @@ a.label:hover, a.label:focus {
     padding: 1px 5px; }
   /* line 41, ../bootstrap/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
-    color: #337ab7;
+    color: #16a085;
     background-color: #fff; }
   /* line 47, ../bootstrap/assets/stylesheets/bootstrap/_badges.scss */
   .list-group-item > .badge {
@@ -5601,7 +5601,7 @@ a.badge:hover, a.badge:focus {
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #337ab7; }
+  border-color: #16a085; }
 
 /* line 9, ../bootstrap/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
@@ -5713,7 +5713,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #fff;
   text-align: center;
-  background-color: #337ab7;
+  background-color: #16a085;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5889,8 +5889,8 @@ button.list-group-item {
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
   color: #fff;
-  background-color: #337ab7;
-  border-color: #337ab7; }
+  background-color: #16a085;
+  border-color: #16a085; }
   /* line 96, ../bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-heading,
   .list-group-item.active .list-group-item-heading > small,
@@ -5902,7 +5902,7 @@ button.list-group-item {
     color: inherit; }
   /* line 101, ../bootstrap/assets/stylesheets/bootstrap/_list-group.scss */
   .list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
-    color: #c7ddef; }
+    color: #92f0de; }
 
 /* line 4, ../bootstrap/assets/stylesheets/bootstrap/mixins/_list-group.scss */
 .list-group-item-success {
@@ -6299,22 +6299,22 @@ button.list-group-item-danger {
 
 /* line 257, ../bootstrap/assets/stylesheets/bootstrap/_panels.scss */
 .panel-primary {
-  border-color: #337ab7; }
+  border-color: #16a085; }
   /* line 6, ../bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-heading {
     color: #fff;
-    background-color: #337ab7;
-    border-color: #337ab7; }
+    background-color: #16a085;
+    border-color: #16a085; }
     /* line 11, ../bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading + .panel-collapse > .panel-body {
-      border-top-color: #337ab7; }
+      border-top-color: #16a085; }
     /* line 14, ../bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
     .panel-primary > .panel-heading .badge {
-      color: #337ab7;
+      color: #16a085;
       background-color: #fff; }
   /* line 20, ../bootstrap/assets/stylesheets/bootstrap/mixins/_panels.scss */
   .panel-primary > .panel-footer + .panel-collapse > .panel-body {
-    border-bottom-color: #337ab7; }
+    border-bottom-color: #16a085; }
 
 /* line 260, ../bootstrap/assets/stylesheets/bootstrap/_panels.scss */
 .panel-success {
@@ -7435,7 +7435,7 @@ html.js .form-item .input-group-addon .glyphicon {
   transition: 150ms color, 150ms opacity; }
   /* line 30, ../scss/component/_ajax.scss */
   html.js .form-item .input-group-addon .glyphicon.glyphicon-spin {
-    color: #337ab7;
+    color: #16a085;
     opacity: 1; }
 /* line 35, ../scss/component/_ajax.scss */
 html.js .form-item .input-group-addon .input-group-addon {
@@ -7487,7 +7487,7 @@ html.js .ajax-new-content:empty {
   /* line 10, ../scss/component/_file.scss */
   .file > span {
     background: #fff;
-    color: #337ab7;
+    color: #16a085;
     border-bottom: 1px solid #ccc;
     border-top: 1px solid #ccc; }
     /* line 15, ../scss/component/_file.scss */
@@ -7602,7 +7602,7 @@ table .checkbox.form-no-label, table .radio.form-no-label {
       opacity: 0; }
   /* line 45, ../scss/component/_form.scss */
   .select-wrapper:after {
-    color: #337ab7;
+    color: #16a085;
     content: '▼';
     font-style: normal;
     font-weight: 400;
@@ -7792,7 +7792,7 @@ body {
   padding: 10px; }
   /* line 20, ../scss/component/_table-drag.scss */
   .tabledrag-handle:hover, .tabledrag-handle:focus {
-    color: #337ab7; }
+    color: #16a085; }
 
 /* line 24, ../scss/component/_table-drag.scss */
 .indentation {
@@ -8005,7 +8005,7 @@ body.toolbar-loading {
       color: #262626; }
     /* line 44, ../scss/jquery-ui/_autocomplete.scss */
     .ui-autocomplete .ui-menu-item.ui-state-active, .ui-autocomplete .ui-menu-item.ui-state-focus {
-      background: #337ab7;
+      background: #16a085;
       color: #fff; }
 
 /* line 21, ../scss/_overrides.scss */
@@ -8051,122 +8051,83 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
-/* line 3, ../scss/fxj/_navbar-header.scss */
-.navbar-header .logo {
-  display: block;
-  height: 50px;
-  margin: 8px 15px 8px 0;
-  padding: 0; }
-  /* line 10, ../scss/fxj/_navbar-header.scss */
-  .navbar-header .logo img {
-    display: block;
-    max-height: 100%; }
+/* line 2, ../scss/fxj/_layout.scss */
+.container-fluid {
+  max-width: 1160px; }
 
-/* source-sans-pro-200 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 200;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro ExtraLight"), local("SourceSansPro-ExtraLight"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-200italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 200;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro ExtraLight Italic"), local("SourceSansPro-ExtraLightItalic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-200italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-300 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-300italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightItalic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-300italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-regular - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-regular.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Italic"), local("SourceSansPro-Italic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-600 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro SemiBold"), local("SourceSansPro-SemiBold"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-600italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 600;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro SemiBold Italic"), local("SourceSansPro-SemiBoldItalic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-600italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-700 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-900 - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: normal;
-  font-weight: 900;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Black"), local("SourceSansPro-Black"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-700italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldItalic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-700italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
-/* source-sans-pro-900italic - latin */
-@font-face {
-  font-family: 'Source Sans Pro';
-  font-style: italic;
-  font-weight: 900;
-  src: url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Source Sans Pro Black Italic"), local("SourceSansPro-BlackItalic"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.woff2") format("woff2"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.woff") format("woff"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.ttf") format("truetype"), url("../fonts/Source_Sans_Pro/source-sans-pro-v11-latin-900italic.svg#SourceSansPro") format("svg");
-  /* Legacy iOS */ }
+/* line 1, ../scss/fxj/_navbar-header.scss */
+.navbar-header {
+  width: 100%; }
+  /* line 4, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .logo {
+    display: block;
+    height: 50px;
+    margin: 8px 15px 8px 60px;
+    padding: 0; }
+    /* line 10, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .logo img {
+      display: block;
+      max-height: 100%; }
+  /* line 16, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .search-block-form {
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    width: calc(100% - 250px);
+    max-width: 200px; }
+  /* line 24, ../scss/fxj/_navbar-header.scss */
+  .navbar-header #superfish-main-toggle {
+    width: 40px;
+    height: 40px;
+    float: right;
+    font-size: 40px;
+    left: 15px;
+    line-height: .5;
+    padding: 0;
+    position: absolute; }
+    /* line 33, ../scss/fxj/_navbar-header.scss */
+    .navbar-header #superfish-main-toggle:after {
+      right: 0; }
+  /* line 43, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .menu.sf-accordion > li > a {
+    padding-left: 0; }
+
+/*
+ * Nav Accordion & Superfish
+ *****************************/
+@media (min-width: 992px) {
+  /* line 56, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .region-navigation {
+    position: relative; }
+  /* line 59, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .logo {
+    margin-left: 0; }
+  /* line 62, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .block-superfish {
+    float: right;
+    margin-right: 220px;
+    width: auto; }
+    /* line 67, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .block-superfish .menu {
+      margin-bottom: 0; }
+      /* line 70, ../scss/fxj/_navbar-header.scss */
+      .navbar-header .block-superfish .menu > li > a {
+        font-size: 20px;
+        padding: 15px; }
+  /* line 76, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .search-block-form {
+    right: 0px; } }
+/* line 1, ../scss/fxj/_superfish.scss */
+div.sf-accordion-toggle.sf-style-default a,
+div.sf-accordion-toggle.sf-style-default a.sf-expanded,
+ul.sf-menu.sf-style-default.sf-accordion li.sf-expanded,
+ul.sf-menu.sf-style-default a,
+ul.sf-menu.sf-style-default a:visited,
+ul.sf-menu.sf-style-default span.nolink,
+ul.sf-menu.sf-style-default li:hover,
+ul.sf-menu.sf-style-default li.sfHover,
+ul.sf-menu.sf-style-default a:focus,
+ul.sf-menu.sf-style-default a:hover,
+ul.sf-menu.sf-style-default span.nolink:hover {
+  background-color: white;
+  color: #333333; }
