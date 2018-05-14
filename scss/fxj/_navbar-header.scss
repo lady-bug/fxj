@@ -102,9 +102,13 @@
       margin-left: 0;
     }
     .block-superfish {
-
       .menu {
+        margin-right: 250px;
+        text-align: right;
+        
         > li {
+          display: inline-block;
+          float: none;
           margin-right: 1px;
 
           > a {
@@ -131,7 +135,14 @@
           > ul {
             @include shadow-sm();
             background-color: white;
+            text-align: left;
             top: auto;
+
+            > li > a {
+              font-weight: 300;
+              font-size: 16px;
+              padding: 10px 20px;
+            }
           }
         }
         .menu-sub {
