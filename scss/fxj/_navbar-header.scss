@@ -1,4 +1,8 @@
+.navbar {
+  @include shadow();
+}
 .navbar-header {
+
   width: 100%;
 
   .logo {
@@ -21,17 +25,31 @@
     max-width: 200px;
   }
 
+  /* menu */
   #superfish-main-toggle {
     @include square(40px);
-    float: right;
-    font-size: 40px;
+    color: $gray-dark;
+    cursor: pointer;
+    font-size: 30px;
     left: 15px;
-    line-height: .5;
+    line-height: 1.4;
     padding: 0;
     position: absolute;
+    text-align: center;
+    text-decoration: none;
+    top: 10px;
 
-    &:after {
-      right: 0;
+    @extend .glyphicon;
+    @extend .glyphicon-menu-hamburger;
+
+    &.sf-expanded {
+      @extend .glyphicon-remove;
+    }
+
+    &:hover,
+    &:focus {
+      background-color: $gray-dark;
+      color: white;
     }
 
     span {
@@ -39,17 +57,41 @@
     }
   }
 
-  .menu.sf-accordion {
-    > li > a {
-      padding-left: 0;
+  .menu {
+    .menu-enlace {
+      color: $gray-dark;
+      text-decoration: none;
+
+      &:not(.menuparent) {
+        &:hover,
+        &:focus {
+          color: $brand-primary;
+        }
+      }
+    }
+    .menu-sub {
+      &:not(.sf-no-children) {
+        &:before {
+          @extend .glyphicon;
+          @extend .glyphicon-menu-down;
+
+          position: absolute;
+          right: 0;
+          top: 1em;
+        }
+        &:hover,
+        &:focus {
+          &:before {
+            color: $brand-primary;
+          }
+        }
+      }
+    }
+    .sf-has-clone-parent {
+      margin-left: 15px;
     }
   }
 }
-
-/*
- * Nav Accordion & Superfish
- *****************************/
-
 
 @media (min-width: $screen-md-min) {
   .navbar-header {
@@ -60,16 +102,50 @@
       margin-left: 0;
     }
     .block-superfish {
-      float: right;
-      margin-right: 220px;
-      width: auto;
 
       .menu {
-        margin-bottom: 0;
+        > li {
+          margin-right: 1px;
 
-        > li > a {
-          font-size: 20px;
-          padding: 15px;
+          > a {
+            border-bottom: 5px solid white;
+            bottom: -1px;
+            font-size: 20px;
+            font-weight: 300;
+            padding: 20px 25px 21px 20px;
+            position: relative;
+
+            &:hover,
+            &:focus {
+              border-color: $brand-tertiary;
+            }
+          }
+
+          &.sfHover,
+          &.active-trail {
+            > a {
+              border-color: $brand-tertiary;
+            }
+          }
+
+          > ul {
+            @include shadow-sm();
+            background-color: white;
+            top: auto;
+          }
+        }
+        .menu-sub {
+          &:not(.sf-no-children) {
+            &:before {
+              top: 23px;
+            }
+            &:hover,
+            &:focus {
+              &:before {
+                color: $gray-dark;
+              }
+            }
+          }
         }
       }
     }

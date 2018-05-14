@@ -79,11 +79,7 @@ table td {
 @media (min-width: 768px) {
     .block[id*="footermobile"] {display: none;}
 }
-@media (min-width: 992px){
-	.breadcrumb {
-    margin-top: 70px;
-}
-}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.region .block[id*="noticias-block-1"], .region .block[id*="agenda-block-1"] {
     	width: 100%;
