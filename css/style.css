@@ -8136,10 +8136,10 @@ p:last-child,
       /* line 118, ../scss/fxj/_navbar-header.scss */
       .navbar-header .block-superfish .menu > li > a {
         border-bottom: 5px solid white;
-        bottom: -1px;
-        font-size: 20px;
+        bottom: -4px;
+        font-size: 18px;
         font-weight: 300;
-        padding: 20px 25px 21px 20px;
+        padding: 20px 25px 20px 20px;
         position: relative; }
         /* line 126, ../scss/fxj/_navbar-header.scss */
         .navbar-header .block-superfish .menu > li > a:hover, .navbar-header .block-superfish .menu > li > a:focus {
@@ -8167,7 +8167,10 @@ p:last-child,
   /* line 167, ../scss/fxj/_navbar-header.scss */
   .navbar-header .search-block-form {
     right: 0px;
-    top: 14px; } }
+    top: 15px; }
+    /* line 171, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .search-block-form .form-item {
+      margin-bottom: 0; } }
 /* line 2, ../scss/fxj/_forms.scss */
 ::-webkit-input-placeholder {
   color: #555555 !important;
