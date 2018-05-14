@@ -1,0 +1,54 @@
+//Override placeholder ... using scss nested rule on .form-control or % / @extend  does not work
+::-webkit-input-placeholder {
+  color: $gray !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+}
+:-ms-input-placeholder {
+  color: $gray !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+}
+::-ms-input-placeholder {
+  color: $gray !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+}
+::placeholder {
+  color: $gray !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: $font-family-sans-serif;
+}
+
+//search-block-form
+.search-block-form {
+  .form-control {
+    @include box-shadow(none);
+    border-color: $gray;
+    border-radius: 0;
+    border-width: 0;
+    color: $gray !important;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: $font-family-sans-serif;
+  }
+  .form-submit {
+    @include box-shadow(none);
+    background-color: white;
+    border-radius: 0;
+    border-width: 0;
+    color: $gray;
+
+    &:hover,
+    &:focus {
+      color: $brand-primary;
+    }
+  }
+  .input-group{
+    border-bottom: 1px solid $gray;
+  }
+}

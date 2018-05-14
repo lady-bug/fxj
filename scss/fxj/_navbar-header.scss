@@ -152,7 +152,7 @@
         .menu-sub {
           &:not(.sf-no-children) {
             &:before {
-              top: 23px;
+              top: 24px;
             }
             &:hover,
             &:focus {
@@ -166,6 +166,7 @@
     }
     .search-block-form {
       right: 0px;
+      top: 14px;
     }
   }
 }

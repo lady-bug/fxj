@@ -8160,10 +8160,64 @@ p:last-child,
           padding: 10px 20px; }
     /* line 154, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):before {
-      top: 23px; }
+      top: 24px; }
     /* line 159, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):hover:before, .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):focus:before {
       color: #333333; }
   /* line 167, ../scss/fxj/_navbar-header.scss */
   .navbar-header .search-block-form {
-    right: 0px; } }
+    right: 0px;
+    top: 14px; } }
+/* line 2, ../scss/fxj/_forms.scss */
+::-webkit-input-placeholder {
+  color: #555555 !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* line 8, ../scss/fxj/_forms.scss */
+:-ms-input-placeholder {
+  color: #555555 !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* line 14, ../scss/fxj/_forms.scss */
+::-ms-input-placeholder {
+  color: #555555 !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* line 20, ../scss/fxj/_forms.scss */
+::placeholder {
+  color: #555555 !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+
+/* line 29, ../scss/fxj/_forms.scss */
+.search-block-form .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #555555;
+  border-radius: 0;
+  border-width: 0;
+  color: #555555 !important;
+  font-weight: 300;
+  font-size: 14px;
+  font-family: "Source Sans Pro", sans-serif; }
+/* line 39, ../scss/fxj/_forms.scss */
+.search-block-form .form-submit {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: white;
+  border-radius: 0;
+  border-width: 0;
+  color: #555555; }
+  /* line 46, ../scss/fxj/_forms.scss */
+  .search-block-form .form-submit:hover, .search-block-form .form-submit:focus {
+    color: #16a085; }
+/* line 51, ../scss/fxj/_forms.scss */
+.search-block-form .input-group {
+  border-bottom: 1px solid #555555; }
