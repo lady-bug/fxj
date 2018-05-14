@@ -79,6 +79,9 @@
           right: 0;
           top: 1em;
         }
+        &.sf-expanded:before {
+          @extend .glyphicon-menu-up;
+        }
         &:hover,
         &:focus {
           &:before {
@@ -86,6 +89,7 @@
           }
         }
       }
+
     }
     .sf-has-clone-parent {
       margin-left: 15px;
@@ -105,7 +109,7 @@
       .menu {
         margin-right: 250px;
         text-align: right;
-        
+
         > li {
           display: inline-block;
           float: none;

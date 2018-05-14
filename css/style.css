@@ -1488,7 +1488,7 @@ th {
   content: "\e259"; }
 
 /* line 307, ../bootstrap/assets/stylesheets/bootstrap/_glyphicons.scss */
-.glyphicon-menu-up:before {
+.glyphicon-menu-up:before, .navbar-header .menu .menu-sub.sf-expanded:not(.sf-no-children):before {
   content: "\e260"; }
 
 /* line 11, ../bootstrap/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -8110,30 +8110,30 @@ p:last-child,
     position: absolute;
     right: 0;
     top: 1em; }
-  /* line 84, ../scss/fxj/_navbar-header.scss */
+  /* line 87, ../scss/fxj/_navbar-header.scss */
   .navbar-header .menu .menu-sub:not(.sf-no-children):hover:before, .navbar-header .menu .menu-sub:not(.sf-no-children):focus:before {
     color: #16a085; }
-  /* line 90, ../scss/fxj/_navbar-header.scss */
+  /* line 94, ../scss/fxj/_navbar-header.scss */
   .navbar-header .menu .sf-has-clone-parent {
     margin-left: 15px; }
 
 @media (min-width: 992px) {
-  /* line 98, ../scss/fxj/_navbar-header.scss */
+  /* line 102, ../scss/fxj/_navbar-header.scss */
   .navbar-header .region-navigation {
     position: relative; }
-  /* line 101, ../scss/fxj/_navbar-header.scss */
+  /* line 105, ../scss/fxj/_navbar-header.scss */
   .navbar-header .logo {
     margin-left: 0; }
-  /* line 105, ../scss/fxj/_navbar-header.scss */
+  /* line 109, ../scss/fxj/_navbar-header.scss */
   .navbar-header .block-superfish .menu {
     margin-right: 250px;
     text-align: right; }
-    /* line 109, ../scss/fxj/_navbar-header.scss */
+    /* line 113, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block-superfish .menu > li {
       display: inline-block;
       float: none;
       margin-right: 1px; }
-      /* line 114, ../scss/fxj/_navbar-header.scss */
+      /* line 118, ../scss/fxj/_navbar-header.scss */
       .navbar-header .block-superfish .menu > li > a {
         border-bottom: 5px solid white;
         bottom: -1px;
@@ -8141,29 +8141,29 @@ p:last-child,
         font-weight: 300;
         padding: 20px 25px 21px 20px;
         position: relative; }
-        /* line 122, ../scss/fxj/_navbar-header.scss */
+        /* line 126, ../scss/fxj/_navbar-header.scss */
         .navbar-header .block-superfish .menu > li > a:hover, .navbar-header .block-superfish .menu > li > a:focus {
           border-color: #f1c40f; }
-      /* line 130, ../scss/fxj/_navbar-header.scss */
+      /* line 134, ../scss/fxj/_navbar-header.scss */
       .navbar-header .block-superfish .menu > li.sfHover > a, .navbar-header .block-superfish .menu > li.active-trail > a {
         border-color: #f1c40f; }
-      /* line 135, ../scss/fxj/_navbar-header.scss */
+      /* line 139, ../scss/fxj/_navbar-header.scss */
       .navbar-header .block-superfish .menu > li > ul {
         box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
         background-color: white;
         text-align: left;
         top: auto; }
-        /* line 141, ../scss/fxj/_navbar-header.scss */
+        /* line 145, ../scss/fxj/_navbar-header.scss */
         .navbar-header .block-superfish .menu > li > ul > li > a {
           font-weight: 300;
           font-size: 16px;
           padding: 10px 20px; }
-    /* line 150, ../scss/fxj/_navbar-header.scss */
+    /* line 154, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):before {
       top: 23px; }
-    /* line 155, ../scss/fxj/_navbar-header.scss */
+    /* line 159, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):hover:before, .navbar-header .block-superfish .menu .menu-sub:not(.sf-no-children):focus:before {
       color: #333333; }
-  /* line 163, ../scss/fxj/_navbar-header.scss */
+  /* line 167, ../scss/fxj/_navbar-header.scss */
   .navbar-header .search-block-form {
     right: 0px; } }
