@@ -1,0 +1,45 @@
+//cookies
+#sliding-popup {
+
+  @extend .alert;
+  @extend .alert-warning;
+  margin-bottom: 0;
+  background-image: none;
+  padding: 0 15px;
+
+  .popup-content {
+
+    max-width: $container-large-desktop;
+    #popup-text {
+      max-width: 1100px;
+      margin: 0;
+      padding: 10px 0 0 ;
+      p {
+        color: $alert-warning-text;
+        font-size: 14px;
+        font-weight: 400;
+        margin: 0;
+      }
+    }
+    #popup-buttons {
+      max-width: 50px;
+      .agree-button {
+        @extend .btn;
+        @extend .close;
+        @include square(40px);
+        margin: 0;
+        overflow: hidden;
+
+        &:before {
+          @include square(40px);
+          content: 'x';
+          display: block;
+          line-height: 1.7;
+        }
+      }
+      .find-more-button {
+        display: none;
+      }
+    }
+  }
+}
