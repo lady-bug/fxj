@@ -8312,3 +8312,26 @@ p:last-child,
       /* line 40, ../scss/fxj/_footer.scss */
       #sliding-popup .popup-content #popup-buttons .find-more-button {
         display: none; }
+
+/* line 49, ../scss/fxj/_footer.scss */
+.footer.container-fluid {
+  background-color: #333333;
+  color: white;
+  font-weight: 300;
+  max-width: none;
+  padding: 0; }
+  /* line 55, ../scss/fxj/_footer.scss */
+  .footer.container-fluid a {
+    color: white;
+    font-size: 300; }
+  /* line 60, ../scss/fxj/_footer.scss */
+  .footer.container-fluid .region-footer {
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px; }
+    /* line 66, ../scss/fxj/_footer.scss */
+    .footer.container-fluid .region-footer section:last-child {
+      border-top: 1px solid white;
+      margin-top: 15px;
+      padding: 15px 0 0 0; }

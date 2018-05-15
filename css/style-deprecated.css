@@ -62,22 +62,6 @@ table td {
 	.view.view-colabora .views-field-title, .view.view-colabora .views-field-body, .view.view-colabora .views-field-field-boton {
     	width: 100%;
 	}
-	/*footer*/
-	.footermap-item--depth-1 {
-    clear: both;
-    border-bottom: 1px dotted #cfcfcf;
-    width: 100%;
-    margin-bottom: 5px;
-	}
-    .block[id*="footer2"] {
-        display: none;
-    }
-    #enlace-aviso-legal {
-        margin-top: 5px;
-    }
-}
-@media (min-width: 768px) {
-    .block[id*="footermobile"] {display: none;}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -92,12 +76,6 @@ table td {
 	}
 	.block[id*="conversionportada"] #socio, .block[id*="conversionportada"] #campanya, .block[id*="conversionportada"] #voluntario, .block[id*="conversionportada"] #empresas {
    	width: 23.5%;
-	}
-	.footermap-item--depth-1 {
-    clear: both;
-    border-bottom: 1px dotted #cfcfcf;
-    width: 100%;
-    margin-bottom: 5px;
 	}
 }
 
@@ -510,78 +488,6 @@ li.webform-progress-bar__page--current > b {color: #658d1b;}
 /*contenido de las noticias*/
 .article.full img{
 	margin-bottom: 10px;
-}
-/*FOOTER*/
-.footer{
-	border: none
-}
-.region-footer{
-background-color: #4d4d4d;
-}
-.block-footermap{
-	float: left;
-	z-index: 1000;
-}
-.footermap-item--depth-1 {
-	float: left;
-	border-left: 1px dotted #fff;
-	padding: 0 10px;
-	font-weight: bold;
-	height: 135px;
-}
-.footermap-item--depth-2 {
-	font-weight: normal;
-}
-.block-footermap h2 {
-	color: #fff;
-	font-size: 20px;
-}
-.block-footermap a {
-	color: #fff;
-}
-.block-footermap a:hover, .block-footermap a:focus {
-	color: #ffb511;
-}
-.block-footermap ul {
-	padding: 15px 0;
-	margin-left: -1px;
-}
-.footermap-col {
-    padding: 0;
-    margin: 0;
-}
-/*---logo---*/
-#branding-footer {
-	float: right;
-	color: #fff;
-	padding: 20px 10px;
-}
-#branding-footer p {
-	line-height: 10px;
-}
-#branding-footer a{
-	color: #fff;
-}
-#branding-footer a:hover, #branding-footer a:focus {
-	color: #ffb511;
-}
-/*footer bajo*/
-.block[id*="footer2"]{
-	background-color: #cfcfcf;
-	padding: 5px 10px;
-}
-#copyright{
-	float: left;
-	color: #000;
-}
-#enlace-aviso-legal{
-	font-weight: 700;
-	float: right;
-}
-.block[id*="footermobile"]{
-    background-color: #fff;
-    padding: 5px 10px;
-    min-height: 60px;
 }
 #rrss-footer {
     clear: both;
