@@ -13,28 +13,44 @@
     #popup-text {
       max-width: 1100px;
       margin: 0;
-      padding: 10px 0 0 ;
+      padding: 5px 0 0 ;
       p {
         color: $alert-warning-text;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 400;
         margin: 0;
       }
     }
     #popup-buttons {
-      max-width: 50px;
+      max-width: 70px;
       .agree-button {
-        @extend .btn;
-        @extend .close;
-        @include square(40px);
-        margin: 0;
-        overflow: hidden;
+        @extend .alert-link;
+        -webkit-appearance: none;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        float: right;
+        font-size: 12px;
+        line-height: 1;
+        margin: 5px 0;
+        padding: 0;
+        text-shadow: none;
 
-        &:before {
-          @include square(40px);
+        &:after {
+          @include square(13px);
           content: 'x';
-          display: block;
-          line-height: 1.7;
+          border-radius: 7px;
+          border: 1px solid darken($alert-warning-text, 10%);
+          display: inline-block;
+          font-weight: 300;
+          line-height: .9;
+          margin-left:5px;
+        }
+
+        &:hover,
+        &:focus {
+          background: inherit;
+          text-decoration: underline;
         }
       }
       .find-more-button {
