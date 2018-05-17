@@ -4667,16 +4667,16 @@ tbody.collapse.in {
       cursor: default; }
 
 /* line 118, ../bootstrap/stylesheets/bootstrap/_navs.scss */
-.nav-pills > li {
+.nav-pills > li, .sticky-footer .menu.footer > li {
   float: left; }
   /* line 122, ../bootstrap/stylesheets/bootstrap/_navs.scss */
-  .nav-pills > li > a {
+  .nav-pills > li > a, .sticky-footer .menu.footer > li > a {
     border-radius: 4px; }
   /* line 125, ../bootstrap/stylesheets/bootstrap/_navs.scss */
-  .nav-pills > li + li {
+  .nav-pills > li + li, .sticky-footer .menu.footer > li + li {
     margin-left: 2px; }
   /* line 131, ../bootstrap/stylesheets/bootstrap/_navs.scss */
-  .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+  .nav-pills > li.active > a, .sticky-footer .menu.footer > li.active > a, .nav-pills > li.active > a:hover, .sticky-footer .menu.footer > li.active > a:hover, .nav-pills > li.active > a:focus, .sticky-footer .menu.footer > li.active > a:focus {
     color: #fff;
     background-color: #16a085; }
 
@@ -5512,7 +5512,7 @@ a.label:hover, a.label:focus {
     top: 0;
     padding: 1px 5px; }
   /* line 41, ../bootstrap/stylesheets/bootstrap/_badges.scss */
-  .list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+  .list-group-item.active > .badge, .nav-pills > .active > a > .badge, .sticky-footer .menu.footer > .active > a > .badge {
     color: #16a085;
     background-color: #fff; }
   /* line 47, ../bootstrap/stylesheets/bootstrap/_badges.scss */
@@ -5522,7 +5522,7 @@ a.label:hover, a.label:focus {
   .list-group-item > .badge + .badge {
     margin-right: 5px; }
   /* line 55, ../bootstrap/stylesheets/bootstrap/_badges.scss */
-  .nav-pills > li > a > .badge {
+  .nav-pills > li > a > .badge, .sticky-footer .menu.footer > li > a > .badge {
     margin-left: 3px; }
 
 /* line 62, ../bootstrap/stylesheets/bootstrap/_badges.scss */
@@ -8280,45 +8280,65 @@ p:last-child,
         display: none; }
 
 /* line 65, ../scss/fxj/_footer.scss */
+.sticky-footer.container-fluid,
 .footer.container-fluid {
-  background-color: #333333;
+  border-top: 1px solid white;
   color: white;
   font-weight: 300;
+  margin: 0;
   max-width: none;
   padding: 0; }
-/* line 72, ../scss/fxj/_footer.scss */
-.footer a {
-  color: white; }
-/* line 75, ../scss/fxj/_footer.scss */
-.footer h2 {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 0; }
-/* line 80, ../scss/fxj/_footer.scss */
-.footer strong {
-  font-weight: 400; }
-/* line 83, ../scss/fxj/_footer.scss */
-.footer .region-footer {
+
+/* line 74, ../scss/fxj/_footer.scss */
+.region-sticky-footer,
+.region-footer {
   max-width: 1170px;
   margin-right: auto;
   margin-left: auto;
   padding: 15px; }
+
+/* line 83, ../scss/fxj/_footer.scss */
+.sticky-footer.container-fluid {
+  background-color: #c0392b; }
+/* line 86, ../scss/fxj/_footer.scss */
+.sticky-footer a {
+  color: white; }
 /* line 89, ../scss/fxj/_footer.scss */
+.sticky-footer .menu.footer {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* line 99, ../scss/fxj/_footer.scss */
+.footer.container-fluid {
+  background-color: #333333; }
+/* line 102, ../scss/fxj/_footer.scss */
+.footer a {
+  color: white; }
+/* line 105, ../scss/fxj/_footer.scss */
+.footer h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0; }
+/* line 110, ../scss/fxj/_footer.scss */
+.footer strong {
+  font-weight: 400; }
+/* line 113, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 15px 0; }
-  /* line 97, ../scss/fxj/_footer.scss */
+  /* line 121, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 101, ../scss/fxj/_footer.scss */
+  /* line 125, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid white;
     padding: 15px 0 0 0; }
 
 @media (min-width: 768px) {
-  /* line 112, ../scss/fxj/_footer.scss */
+  /* line 136, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 116, ../scss/fxj/_footer.scss */
+  /* line 140, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
