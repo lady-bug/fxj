@@ -8313,36 +8313,82 @@ p:last-child,
     .sticky-footer .menu.footer a:hover, .sticky-footer .menu.footer a:focus {
       text-decoration: underline; }
 
-/* line 106, ../scss/fxj/_footer.scss */
+/* line 105, ../scss/fxj/_footer.scss */
+.block-dropdown-language {
+  float: left;
+  margin-right: 15px; }
+  /* line 109, ../scss/fxj/_footer.scss */
+  .block-dropdown-language .dropdown {
+    background: #c0392b;
+    border: 1px solid white;
+    border-radius: 0;
+    border-width: 0 0 1px 0; }
+    /* line 115, ../scss/fxj/_footer.scss */
+    .block-dropdown-language .dropdown > .language-link {
+      background: inherit;
+      color: white;
+      border: 1px solid white;
+      border-width: 0 1px 0 0;
+      border-radius: 0;
+      padding-left: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+      margin-top: 6px;
+      margin-right: 1px; }
+      /* line 127, ../scss/fxj/_footer.scss */
+      .block-dropdown-language .dropdown > .language-link:hover, .block-dropdown-language .dropdown > .language-link:focus, .block-dropdown-language .dropdown > .language-link:active {
+        background: inherit;
+        border: 1px solid white;
+        border-width: 0 1px 0 0;
+        color: inherit;
+        box-shadow: none; }
+    /* line 137, ../scss/fxj/_footer.scss */
+    .block-dropdown-language .dropdown .dropdown-toggle {
+      background: inherit;
+      color: white;
+      border: 0;
+      border-radius: 0;
+      padding-right: 0; }
+      /* line 144, ../scss/fxj/_footer.scss */
+      .block-dropdown-language .dropdown .dropdown-toggle:hover, .block-dropdown-language .dropdown .dropdown-toggle:focus, .block-dropdown-language .dropdown .dropdown-toggle:active {
+        background: inherit;
+        border: 0;
+        color: inherit;
+        box-shadow: none; }
+    /* line 153, ../scss/fxj/_footer.scss */
+    .block-dropdown-language .dropdown .language-link {
+      font-weight: 300; }
+
+/* line 161, ../scss/fxj/_footer.scss */
 .footer.container-fluid {
   background-color: #333333; }
-/* line 109, ../scss/fxj/_footer.scss */
+/* line 164, ../scss/fxj/_footer.scss */
 .footer a {
   color: white; }
-/* line 112, ../scss/fxj/_footer.scss */
+/* line 167, ../scss/fxj/_footer.scss */
 .footer h2 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 0; }
-/* line 117, ../scss/fxj/_footer.scss */
+/* line 172, ../scss/fxj/_footer.scss */
 .footer strong {
   font-weight: 400; }
-/* line 120, ../scss/fxj/_footer.scss */
+/* line 175, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 15px 0; }
-  /* line 128, ../scss/fxj/_footer.scss */
+  /* line 183, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 132, ../scss/fxj/_footer.scss */
+  /* line 187, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid white;
     padding: 15px 0 0 0; }
 
 @media (min-width: 768px) {
-  /* line 143, ../scss/fxj/_footer.scss */
+  /* line 198, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 147, ../scss/fxj/_footer.scss */
+  /* line 202, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
