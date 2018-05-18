@@ -8319,7 +8319,7 @@ p:last-child,
   position: relative; }
   /* line 110, ../scss/fxj/_footer.scss */
   .sticky-footer .block-addtoany .a2a_kit {
-    position: absolute;
+    position: relative;
     right: 0;
     top: -32px; }
 
@@ -8400,9 +8400,12 @@ a.a2a_i, i.a2a_i {
 
 /* line 47, ../scss/fxj/_addtoany.scss */
 #a2apage_dropdown {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 0.9) !important;
   border: 0 !important;
-  border-radius: 0 !important; }
+  border-width: 0 1px 0 0;
+  border-radius: 0 !important;
+  transform: translateY(-4em); }
 
 /* line 2, ../scss/fxj/_language-selector.scss */
 .block-dropdown-language {
@@ -8415,48 +8418,59 @@ a.a2a_i, i.a2a_i {
     border-radius: 0;
     border-width: 0 0 1px 0; }
     /* line 12, ../scss/fxj/_language-selector.scss */
+    .block-dropdown-language .dropdown .caret {
+      border-top: 0;
+      border-bottom: 4px dashed; }
+    /* line 18, ../scss/fxj/_language-selector.scss */
+    .block-dropdown-language .dropdown.open .caret {
+      border-top: 4px dashed;
+      border-bottom: 0; }
+    /* line 24, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown > .language-link {
       background: inherit;
       color: white;
       border: 1px solid white;
       border-width: 0 1px 0 0;
       border-radius: 0;
-      padding-left: 0;
-      padding-top: 0;
-      padding-bottom: 0;
       margin-top: 6px;
-      margin-right: 1px; }
-      /* line 24, ../scss/fxj/_language-selector.scss */
+      margin-right: 1px;
+      padding: 0;
+      text-align: left;
+      width: 5em; }
+      /* line 36, ../scss/fxj/_language-selector.scss */
       .block-dropdown-language .dropdown > .language-link:hover, .block-dropdown-language .dropdown > .language-link:focus, .block-dropdown-language .dropdown > .language-link:active {
         background: inherit;
         border: 1px solid white;
         border-width: 0 1px 0 0;
         color: inherit;
         box-shadow: none; }
-    /* line 34, ../scss/fxj/_language-selector.scss */
+    /* line 46, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown .dropdown-toggle {
       background: inherit;
       color: white;
       border: 0;
       border-radius: 0;
       padding-right: 0; }
-      /* line 41, ../scss/fxj/_language-selector.scss */
+      /* line 53, ../scss/fxj/_language-selector.scss */
       .block-dropdown-language .dropdown .dropdown-toggle:hover, .block-dropdown-language .dropdown .dropdown-toggle:focus, .block-dropdown-language .dropdown .dropdown-toggle:active {
         background: inherit;
         border: 0;
         color: inherit;
         box-shadow: none; }
-    /* line 50, ../scss/fxj/_language-selector.scss */
+    /* line 62, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown .language-link {
       font-weight: 300; }
-    /* line 53, ../scss/fxj/_language-selector.scss */
+    /* line 65, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown .dropdown-menu {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
       background-color: rgba(255, 255, 255, 0.9);
       border: 0;
-      border-radius: 0; }
-      /* line 57, ../scss/fxj/_language-selector.scss */
+      border-radius: 0;
+      min-width: 6.5em;
+      transform: translateY(-6.5em); }
+      /* line 73, ../scss/fxj/_language-selector.scss */
       .block-dropdown-language .dropdown .dropdown-menu .language-link {
         background-color: transparent; }
-        /* line 60, ../scss/fxj/_language-selector.scss */
+        /* line 76, ../scss/fxj/_language-selector.scss */
         .block-dropdown-language .dropdown .dropdown-menu .language-link:hover, .block-dropdown-language .dropdown .dropdown-menu .language-link:focus {
           text-decoration: underline; }

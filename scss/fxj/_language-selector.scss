@@ -9,17 +9,29 @@
     border-radius: 0;
     border-width: 0 0 1px 0;
 
+    .caret {
+      border-top: 0;
+      border-bottom: 4px dashed;
+    }
+
+    &.open {
+      .caret {
+        border-top: 4px dashed;;
+        border-bottom: 0
+      }
+    }
+
     > .language-link{
       background: inherit;
       color: white;
       border: 1px solid white;
       border-width: 0 1px 0 0;
       border-radius: 0;
-      padding-left: 0;
-      padding-top: 0;
-      padding-bottom: 0;
       margin-top: 6px;
       margin-right: 1px;
+      padding: 0;
+      text-align: left;
+      width: 5em;
 
       &:hover,
       &:focus,
@@ -51,9 +63,13 @@
       font-weight: 300;
     }
     .dropdown-menu {
+      @include shadow();
       background-color: rgba(255,255,255,.9);
       border: 0;
       border-radius: 0;
+      min-width: 6.5em;
+      transform: translateY(-6.5em);
+
       .language-link {
         background-color: transparent;
 
