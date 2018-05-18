@@ -1583,7 +1583,7 @@ hr {
   border-top: 1px solid #eeeeee; }
 
 /* line 125, ../bootstrap/stylesheets/bootstrap/_scaffolding.scss */
-.sr-only, .navbar-header #superfish-main-toggle span {
+.sr-only, .navbar-header #superfish-main-toggle span, .page-header {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -3649,7 +3649,7 @@ select[multiple].input-lg,
 .has-feedback label ~ .form-control-feedback {
   top: 25px; }
 /* line 442, ../bootstrap/stylesheets/bootstrap/_forms.scss */
-.has-feedback label.sr-only ~ .form-control-feedback {
+.has-feedback label.sr-only ~ .form-control-feedback, .has-feedback label.page-header ~ .form-control-feedback {
   top: 0; }
 
 /* line 453, ../bootstrap/stylesheets/bootstrap/_forms.scss */
