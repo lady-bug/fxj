@@ -9,18 +9,6 @@ table td {
 
 @media (max-width: 767px) {
 	/*content*/
-	.carousel-inner .carousel-caption{
-		padding: 0;
-	}
-	.carousel-caption h3{
-		font-size: 17px;
-	}
-	.carousel-caption p{
-		display: none;
-	}
-	.carousel-indicators{
-		margin-bottom: 0;
-	}
 	.view-display-id-page_1 .views-row {
 		text-align: center;
 	}
@@ -145,15 +133,7 @@ h2.encabezado-a {
 	padding: 5px;
 	color: #fff;
 }
-/*----slider-----*/
-#block-views-block-slideshow-block-1{
-	margin: 0 0 20px 0;
-}
-.carousel-caption{
-    background-color: rgba(255,255,255,0.6);
-    padding-right: 10px;
-    padding-left: 10px;
-}
+
 /*-----panel de proyectos en portada-----*/
 .titulo {
     text-align: center;
