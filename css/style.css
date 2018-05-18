@@ -8526,3 +8526,11 @@ a.a2a_i, i.a2a_i {
         /* line 76, ../scss/fxj/_language-selector.scss */
         .block-dropdown-language .dropdown .dropdown-menu .language-link:hover, .block-dropdown-language .dropdown .dropdown-menu .language-link:focus {
           text-decoration: underline; }
+
+/* line 1, ../scss/fxj/_breadcrumb.scss */
+.breadcrumb {
+  background-color: transparent;
+  padding: 8px 0; }
+  /* line 5, ../scss/fxj/_breadcrumb.scss */
+  .breadcrumb > li + li:before {
+    content: "> "; }
