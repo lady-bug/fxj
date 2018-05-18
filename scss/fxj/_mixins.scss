@@ -1,6 +1,12 @@
 @mixin shadow() {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
 }
+@mixin shadow-white() {
+  box-shadow: 0 .5rem 1rem rgba(255,255,255,.15);
+}
 @mixin shadow-sm {
   box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+@mixin shadow-sm-white {
+  box-shadow: 0 .125rem .25rem rgba(255,255,255,.075);
 }

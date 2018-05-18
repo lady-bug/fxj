@@ -1,0 +1,51 @@
+.a2a_kit {
+  > a {
+    outline: none !important;
+
+    .a2a_s__default {
+      @include shadow-white();
+      background: white url(../images/share.png) no-repeat center center !important;
+      border: 1px solid $brand-secondary !important;
+      border-radius: 16px !important;
+      color: $brand-secondary !important;
+      opacity: 1 !important;
+
+      &:hover,
+      &:focus {
+        background: $brand-secondary url(../images/share-white.png) no-repeat center center !important;
+        border-color: white !important;
+      }
+
+      svg {
+        display:none !important;
+        g {
+          fill: $brand-secondary !important;
+        }
+      }
+    }
+  }
+
+}
+.a2a_mini {
+  min-width: auto !important;
+  width: auto !important;
+}
+.a2apage_wide {
+  display: none !important;
+}
+a.a2a_i, i.a2a_i {
+  background-color: transparent !important;
+  border: 0 !important;
+  color: $gray-dark !important;
+  float: none !important;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline !important;
+  }
+}
+#a2apage_dropdown {
+  background-color: rgba(255,255,255,.9) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}
