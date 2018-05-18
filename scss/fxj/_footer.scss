@@ -80,9 +80,11 @@
 }
 .region-sticky-footer{
   @extend .clearfix;
+  padding: 5px 15px;
 }
 //Sticky footer
 .sticky-footer {
+
   &.container-fluid {
     background-color: $brand-quaternary;
   }
@@ -114,7 +116,7 @@
     .a2a_kit {
       position: relative;
       right: 0;
-      top: -32px;
+      bottom: 2em;
     }
   }
 }
