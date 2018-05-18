@@ -115,61 +115,6 @@
   }
 }
 
-//Language Selector
-.block-dropdown-language {
-  float: left;
-  margin-right: 15px;
-
-  .dropdown {
-    background: $brand-quaternary;
-    border: 1px solid white;
-    border-radius: 0;
-    border-width: 0 0 1px 0;
-
-    > .language-link{
-      background: inherit;
-      color: white;
-      border: 1px solid white;
-      border-width: 0 1px 0 0;
-      border-radius: 0;
-      padding-left: 0;
-      padding-top: 0;
-      padding-bottom: 0;
-      margin-top: 6px;
-      margin-right: 1px;
-
-      &:hover,
-      &:focus,
-      &:active {
-        background: inherit;
-        border: 1px solid white;
-        border-width: 0 1px 0 0;
-        color: inherit;
-        box-shadow: none;
-      }
-    }
-    .dropdown-toggle {
-      background: inherit;
-      color: white;
-      border: 0;
-      border-radius: 0;
-      padding-right: 0;
-
-      &:hover,
-      &:focus,
-      &:active {
-        background: inherit;
-        border: 0;
-        color: inherit;
-        box-shadow: none;
-      }
-    }
-    .language-link {
-      font-weight: 300;
-    }
-  }
-}
-
 //Footer
 .footer {
   &.container-fluid{
