@@ -1,3 +1,4 @@
+//Navbar
 .navbar {
   @include shadow();
 }
@@ -58,17 +59,34 @@
   }
 
   .menu {
-    .menu-enlace {
-      color: $gray-dark;
-      text-decoration: none;
 
-      &:not(.menuparent) {
-        &:hover,
-        &:focus {
-          color: $brand-primary;
+    > li {
+      &:not(:last-of-type) {
+        .menu-enlace {
+          color: $gray-dark;
+          text-decoration: none;
+
+          &:not(.menuparent) {
+            &:hover,
+            &:focus {
+              color: $brand-primary;
+            }
+          }
+        }
+      }
+
+      &:last-of-type {
+        padding: 14px 21px;
+
+        .menu-enlace {
+          @include btn-donate();
+          border-radius: 21px;
+          display: inline-block;
+          text-decoration: none;
         }
       }
     }
+
     .menu-sub {
       &:not(.sf-no-children) {
         &:before {
@@ -114,26 +132,30 @@
           display: inline-block;
           float: none;
           margin-right: 1px;
+          &:not(:last-of-type) {
+            > a {
+              border-bottom: 5px solid white;
+              bottom: -4px;
+              font-size: 18px;
+              font-weight: 300;
+              padding: 20px 25px 20px 20px;
+              position: relative;
 
-          > a {
-            border-bottom: 5px solid white;
-            bottom: -4px;
-            font-size: 18px;
-            font-weight: 300;
-            padding: 20px 25px 20px 20px;
-            position: relative;
+              &:hover,
+              &:focus {
+                border-color: $brand-primary;
+              }
+            }
 
-            &:hover,
-            &:focus {
-              border-color: $brand-tertiary;
+            &.sfHover,
+            &.active-trail {
+              > a {
+                border-color: $brand-primary;
+              }
             }
           }
-
-          &.sfHover,
-          &.active-trail {
-            > a {
-              border-color: $brand-tertiary;
-            }
+          &:last-of-type {
+            padding: 9px 20px;
           }
 
           > ul {

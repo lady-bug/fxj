@@ -10,3 +10,9 @@
 @mixin shadow-sm-white {
   box-shadow: 0 .125rem .25rem rgba(255,255,255,.075);
 }
+
+//utilities
+// Donate button
+@mixin btn-donate() {
+  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
+}
