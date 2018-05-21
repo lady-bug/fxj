@@ -5,15 +5,16 @@
   @extend .alert-warning;
   margin-bottom: 0;
   background-image: none;
-  padding: 0 15px;
+  padding: 15px;
 
   .popup-content {
 
     max-width: $container-large-desktop;
     #popup-text {
-      max-width: 1100px;
       margin: 0;
-      padding: 5px 0 0 ;
+      padding: 0;
+      width: calc(100% - 70px);
+      max-width: 1100px;
       p {
         color: $alert-warning-text;
         font-size: 12px;
@@ -22,17 +23,20 @@
       }
     }
     #popup-buttons {
+      padding: 0;
       max-width: 70px;
+      margin: 0;
+      float: right;
+
       .agree-button {
         @extend .alert-link;
         -webkit-appearance: none;
         background: transparent;
         border: 0;
         box-shadow: none;
-        float: right;
         font-size: 12px;
         line-height: 1;
-        margin: 5px 0;
+        margin: 0;
         padding: 0;
         text-shadow: none;
 
@@ -118,6 +122,24 @@
       right: 0;
       bottom: 2em;
     }
+  }
+}
+//sticky footer in action with js
+.js {
+  .sticky-footer{
+    width: 100%;
+
+    &.fixed {
+      position: fixed;
+      bottom: 0px;
+      top: auto;
+      z-index: 21;
+    }
+  }
+  #sliding-popup {
+    bottom: 0;
+    width: 100%;
+    z-index: 20;
   }
 }
 
