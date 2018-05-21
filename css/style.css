@@ -8702,30 +8702,74 @@ a.a2a_i, i.a2a_i {
 
 @media (max-width: 768px) {
   /* line 79, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen {
+  .col .views-field-field-imagen,
+  .col .views-field-field-image {
     box-sizing: border-box;
     float: left;
     overflow: hidden;
     margin-right: 10px;
     text-align: center;
     width: 100px; }
-    /* line 87, ../scss/fxj/_views.scss */
-    .col .views-field-field-imagen img {
+    /* line 88, ../scss/fxj/_views.scss */
+    .col .views-field-field-imagen img,
+    .col .views-field-field-image img {
       height: 100px;
       left: -35%;
       position: relative;
       width: auto;
       max-width: none; }
-  /* line 95, ../scss/fxj/_views.scss */
+  /* line 96, ../scss/fxj/_views.scss */
   .col .views-field-title,
   .col .views-field-body {
     padding-left: 110px; } }
 @media (min-width: 768px) {
-  /* line 103, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen {
-    margin-bottom: -30px; }
-  /* line 106, ../scss/fxj/_views.scss */
+  /* line 104, ../scss/fxj/_views.scss */
+  .col .views-field-field-imagen,
+  .col .views-field-field-image {
+    height: 100px;
+    margin-bottom: -30px;
+    overflow: hidden; }
+  /* line 110, ../scss/fxj/_views.scss */
   .col .views-field-field-tipo {
     left: 10px;
     position: relative;
     top: -10px; } }
+/* line 121, ../scss/fxj/_views.scss */
+.view-colaborate .view-colaborate-fields {
+  background-color: #f1c40f;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px; }
+  /* line 128, ../scss/fxj/_views.scss */
+  .view-colaborate .view-colaborate-fields a {
+    color: white; }
+  /* line 132, ../scss/fxj/_views.scss */
+  .view-colaborate .view-colaborate-fields p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px 0 0 0; }
+  /* line 137, ../scss/fxj/_views.scss */
+  .view-colaborate .view-colaborate-fields .fontawesome-icon {
+    border-radius: 20px;
+    border: 1px solid white;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    padding-top: 9px;
+    width: 40px; }
+
+@media (min-width: 992px) {
+  /* line 154, ../scss/fxj/_views.scss */
+  .view-colaborate .view-colaborate-fields {
+    font-size: 30px; }
+    /* line 157, ../scss/fxj/_views.scss */
+    .view-colaborate .view-colaborate-fields p {
+      padding: 30px 0 0 0; }
+    /* line 161, ../scss/fxj/_views.scss */
+    .view-colaborate .view-colaborate-fields .fontawesome-icon {
+      border-radius: 35px;
+      font-size: 30px;
+      height: 70px;
+      padding-top: 14px;
+      width: 70px; } }
