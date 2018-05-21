@@ -69,6 +69,7 @@ p:last-child,
 }
 
 @import "fxj/mixins";
+@import "fxj/typo";
 @import "fxj/layout";
 @import "fxj/navbar-header";
 @import "fxj/forms";
@@ -78,3 +79,4 @@ p:last-child,
 @import "fxj/breadcrumb";
 @import "fxj/front-page";
 @import "fxj/bootstrap-carousel";
+@import "fxj/views";

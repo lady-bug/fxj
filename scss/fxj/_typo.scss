@@ -1,0 +1,23 @@
+.h2--separator {
+  position: relative;
+  z-index: 1;
+
+  &:before {
+        border-top: 1px solid $gray-dark;
+        content:"";
+        margin: 0 auto; /* this centers the line to the full width specified */
+        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        top: 50%; left: 0; right: 0; bottom: 0;
+        width: 100%;
+        z-index: -1;
+    }
+
+  span {
+    background-color: white;
+    display: inline-block;
+    padding-right: 5px;
+  }
+}
+.block-title {
+  @extend .h2--separator;
+}

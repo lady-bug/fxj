@@ -7105,11 +7105,11 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:before, .filter-wrapper:before, .region-sticky-footer:before, .clearfix:after, .filter-wrapper:after, .region-sticky-footer:after {
+.clearfix:before, .filter-wrapper:before, .region-sticky-footer:before, .view-row-media:before, .clearfix:after, .filter-wrapper:after, .region-sticky-footer:after, .view-row-media:after {
   content: " ";
   display: table; }
 /* line 19, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:after, .filter-wrapper:after, .region-sticky-footer:after {
+.clearfix:after, .filter-wrapper:after, .region-sticky-footer:after, .view-row-media:after {
   clear: both; }
 
 /* line 12, ../bootstrap/stylesheets/bootstrap/_utilities.scss */
@@ -8052,6 +8052,30 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/* line 1, ../scss/fxj/_typo.scss */
+.h2--separator, .block-title {
+  position: relative;
+  z-index: 1; }
+  /* line 5, ../scss/fxj/_typo.scss */
+  .h2--separator:before, .block-title:before {
+    border-top: 1px solid #333333;
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1; }
+  /* line 15, ../scss/fxj/_typo.scss */
+  .h2--separator span, .block-title span {
+    background-color: white;
+    display: inline-block;
+    padding-right: 5px; }
+
 /* line 2, ../scss/fxj/_layout.scss */
 .container-fluid {
   max-width: 1170px; }
@@ -8607,3 +8631,101 @@ a.a2a_i, i.a2a_i {
   .carousel .carousel-control .glyphicon, .carousel .carousel-control .navbar-header #superfish-main-toggle, .navbar-header .carousel .carousel-control #superfish-main-toggle, .carousel .carousel-control .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control .menu-sub:not(.sf-no-children):before {
     bottom: 30%;
     top: auto; } }
+/* line 1, ../scss/fxj/_views.scss */
+.views-element-container {
+  margin-bottom: 30px; }
+
+/* line 5, ../scss/fxj/_views.scss */
+.view-header {
+  margin-bottom: 15px; }
+
+/* line 8, ../scss/fxj/_views.scss */
+.views-field-field-tipo .field-content {
+  background-color: white;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 7px; }
+  /* line 16, ../scss/fxj/_views.scss */
+  .views-field-field-tipo .field-content h2,
+  .views-field-field-tipo .field-content .field--label {
+    display: none; }
+
+/* line 22, ../scss/fxj/_views.scss */
+.views-field-title a {
+  display: block;
+  padding: 5px; }
+
+/* line 27, ../scss/fxj/_views.scss */
+.views-field-body {
+  margin: 5px 0; }
+
+/* line 32, ../scss/fxj/_views.scss */
+.col {
+  position: relative;
+  margin-bottom: 15px; }
+  /* line 37, ../scss/fxj/_views.scss */
+  .col .views-field-title a {
+    background-color: #16a085;
+    color: white; }
+  /* line 42, ../scss/fxj/_views.scss */
+  .col .views-field-field-tipo {
+    left: 20px;
+    position: absolute;
+    top: 60px; }
+
+/* line 49, ../scss/fxj/_views.scss */
+.view-row-media {
+  margin-bottom: 15px; }
+  /* line 53, ../scss/fxj/_views.scss */
+  .view-row-media .views-field-field-tipo {
+    background-color: #16a085;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center; }
+    /* line 61, ../scss/fxj/_views.scss */
+    .view-row-media .views-field-field-tipo .field-content {
+      border-radius: 30px;
+      display: inline-block;
+      font-size: 30px;
+      height: 60px;
+      margin-top: 20px;
+      width: 60px; }
+  /* line 71, ../scss/fxj/_views.scss */
+  .view-row-media .views-field-title,
+  .view-row-media .views-field-body,
+  .view-row-media .views-field-field-fecha {
+    padding-left: 110px; }
+
+@media (max-width: 768px) {
+  /* line 79, ../scss/fxj/_views.scss */
+  .col .views-field-field-imagen {
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    margin-right: 10px;
+    text-align: center;
+    width: 100px; }
+    /* line 87, ../scss/fxj/_views.scss */
+    .col .views-field-field-imagen img {
+      height: 100px;
+      left: -35%;
+      position: relative;
+      width: auto;
+      max-width: none; }
+  /* line 95, ../scss/fxj/_views.scss */
+  .col .views-field-title,
+  .col .views-field-body {
+    padding-left: 110px; } }
+@media (min-width: 768px) {
+  /* line 103, ../scss/fxj/_views.scss */
+  .col .views-field-field-imagen {
+    margin-bottom: -30px; }
+  /* line 106, ../scss/fxj/_views.scss */
+  .col .views-field-field-tipo {
+    left: 10px;
+    position: relative;
+    top: -10px; } }

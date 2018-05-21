@@ -1,0 +1,112 @@
+.views-element-container {
+  margin-bottom: 30px;
+}
+
+.view-header {
+  margin-bottom: 15px;
+}
+.views-field-field-tipo .field-content {
+  background-color: white;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 7px;
+
+  h2,
+  .field--label {
+    display: none;
+  }
+}
+.views-field-title {
+  a {
+    display: block;
+    padding:5px;
+  }
+}
+.views-field-body {
+  margin: 5px 0;
+}
+
+// grid display
+.col {
+  position: relative;
+  margin-bottom: 15px;
+
+  .views-field-title {
+    a {
+      background-color: $brand-primary;
+      color: white;
+    }
+  }
+  .views-field-field-tipo {
+    left: 20px;
+    position: absolute;
+    top: 60px;
+  }
+}
+//unordered list extra class view-row-media
+.view-row-media {
+  @extend .clearfix;
+  margin-bottom: 15px;
+
+  .views-field-field-tipo {
+    background-color: $brand-primary;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+    text-align: center;
+
+    .field-content {
+      border-radius: 30px;
+      display: inline-block;
+      font-size: 30px;
+      height: 60px;
+      margin-top: 20px;
+      width: 60px;
+
+    }
+  }
+  .views-field-title,
+  .views-field-body,
+  .views-field-field-fecha {
+    padding-left: 110px;
+  }
+}
+@media (max-width: $screen-sm-min) {
+  .col{
+    .views-field-field-imagen {
+      box-sizing: border-box;
+      float: left;
+      overflow: hidden;
+      margin-right: 10px;
+      text-align: center;
+      width: 100px;
+
+      img {
+        height: 100px;
+        left: -35%;
+        position: relative;
+        width: auto;
+        max-width: none;
+      }
+    }
+    .views-field-title,
+    .views-field-body {
+      padding-left: 110px;
+    }
+  }
+}
+@media (min-width: $screen-sm-min) {
+   .col{
+    .views-field-field-imagen {
+      margin-bottom: -30px;
+    }
+    .views-field-field-tipo {
+      left: 10px;
+      position: relative;
+      top: -10px;
+    }
+  }
+}
