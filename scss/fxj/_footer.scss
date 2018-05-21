@@ -1,14 +1,20 @@
 //EU Cookies Compliance
 #sliding-popup {
 
-  @extend .alert;
-  @extend .alert-warning;
-  margin-bottom: 0;
+  background-color: rgba(252, 248, 227, .9);
+  border: 1px solid #faebcc;
+  border-radius: 4px;
+  bottom: 0;
+  color: $alert-warning-text;
   background-image: none;
   padding: 15px;
+  margin: 20px;
+  position: fixed;
+  width: calc(100% - 40px);
+  max-width: $container-large-desktop;
+  z-index: 20;
 
   .popup-content {
-
     max-width: $container-large-desktop;
     #popup-text {
       margin: 0;
@@ -21,6 +27,9 @@
         font-weight: 400;
         margin: 0;
       }
+      a {
+        color: #66512c;
+      }
     }
     #popup-buttons {
       padding: 0;
@@ -29,11 +38,11 @@
       float: right;
 
       .agree-button {
-        @extend .alert-link;
         -webkit-appearance: none;
         background: transparent;
         border: 0;
         box-shadow: none;
+        color: #66512c;
         font-size: 12px;
         line-height: 1;
         margin: 0;
@@ -135,11 +144,6 @@
       top: auto;
       z-index: 21;
     }
-  }
-  #sliding-popup {
-    bottom: 0;
-    width: 100%;
-    z-index: 20;
   }
 }
 
