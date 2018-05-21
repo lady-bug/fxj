@@ -21,8 +21,12 @@ var stickyFooterEl = document.getElementsByClassName('sticky-footer');
 var mainEl = document.getElementsByClassName('main-container');
 
 var CheckOutStickyElts = function(){
+	var cookiesHeight = Math.max(cookiesEl.offsetHeight,cookiesEl.clientHeight);
+	//cookiesHeight += parseInt(window.getComputedStyle(cookiesEl).getPropertyValue('margin-top'));
+	//cookiesHeight += parseInt(window.getComputedStyle(cookiesEl).getPropertyValue('margin-bottom'));
+console.log(cookiesHeight);
 
-	if( (getDocHeight() - Math.max(footerEl[0].offsetHeight,footerEl[0].clientHeight) + (cookiesEl ? Math.max(cookiesEl.offsetHeight,cookiesEl.clientHeight) : 0) ) <= getScrollXY()[1] + window.innerHeight) {
+	if( (getDocHeight() - Math.max(footerEl[0].offsetHeight,footerEl[0].clientHeight) + (cookiesEl ? cookiesHeight : 0) ) < getScrollXY()[1] + window.innerHeight) {
        stickyFooterEl[0].classList.remove('fixed');
 			 mainEl[0].classList.remove('fixed');
 			 if(cookiesEl){
