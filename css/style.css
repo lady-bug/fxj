@@ -7104,11 +7104,14 @@ button.close {
   .carousel-indicators {
     bottom: 20px; } }
 /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:before, .filter-wrapper:before, #sliding-popup .popup-content:before, .region-sticky-footer:before, .view-row-media:before, .clearfix:after, .filter-wrapper:after, #sliding-popup .popup-content:after, .region-sticky-footer:after, .view-row-media:after {
+.clearfix:before, .filter-wrapper:before, #sliding-popup .popup-content:before, .region-sticky-footer:before,
+.region-footer:before, .view-row-media:before, .clearfix:after, .filter-wrapper:after, #sliding-popup .popup-content:after, .region-sticky-footer:after,
+.region-footer:after, .view-row-media:after {
   content: " ";
   display: table; }
 /* line 19, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-.clearfix:after, .filter-wrapper:after, #sliding-popup .popup-content:after, .region-sticky-footer:after, .view-row-media:after {
+.clearfix:after, .filter-wrapper:after, #sliding-popup .popup-content:after, .region-sticky-footer:after,
+.region-footer:after, .view-row-media:after {
   clear: both; }
 
 /* line 12, ../bootstrap/stylesheets/bootstrap/_utilities.scss */
@@ -8383,7 +8386,7 @@ p:last-child,
   margin-left: auto;
   padding: 15px; }
 
-/* line 97, ../scss/fxj/_footer.scss */
+/* line 98, ../scss/fxj/_footer.scss */
 .region-sticky-footer {
   padding: 5px 15px; }
 
@@ -8430,32 +8433,35 @@ p:last-child,
 .footer.container-fluid {
   background-color: #333333; }
 /* line 158, ../scss/fxj/_footer.scss */
+.footer .svg-inline--fa {
+  width: 30px; }
+/* line 161, ../scss/fxj/_footer.scss */
 .footer a {
   color: white; }
-/* line 161, ../scss/fxj/_footer.scss */
+/* line 164, ../scss/fxj/_footer.scss */
 .footer h2 {
   font-size: 20px;
   font-weight: 400;
   margin-top: 0; }
-/* line 166, ../scss/fxj/_footer.scss */
+/* line 169, ../scss/fxj/_footer.scss */
 .footer strong {
   font-weight: 400; }
-/* line 169, ../scss/fxj/_footer.scss */
+/* line 172, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 15px 0; }
-  /* line 177, ../scss/fxj/_footer.scss */
+  /* line 180, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 181, ../scss/fxj/_footer.scss */
+  /* line 184, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid white;
     padding: 15px 0 0 0; }
 
 @media (min-width: 768px) {
-  /* line 192, ../scss/fxj/_footer.scss */
+  /* line 195, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 196, ../scss/fxj/_footer.scss */
+  /* line 199, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;

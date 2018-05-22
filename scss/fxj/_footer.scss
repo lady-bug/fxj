@@ -89,13 +89,13 @@
 }
 .region-sticky-footer,
 .region-footer {
+  @extend .clearfix;
   max-width: $container-large-desktop;
   margin-right: auto;
   margin-left: auto;
   padding: 15px;
 }
 .region-sticky-footer{
-  @extend .clearfix;
   padding: 5px 15px;
 }
 //Sticky footer
@@ -154,6 +154,9 @@
 .footer {
   &.container-fluid{
     background-color: $gray-dark;
+  }
+  .svg-inline--fa {
+    width: 30px;
   }
   a {
     color: white;
