@@ -116,9 +116,22 @@
 }
 
 //collaborate
-.view-colaborate {
-
-  .view-colaborate-fields {
+.collaborate-header,
+.collaborate-footer {
+  margin-bottom: 15px;
+}
+.main-container {
+  .collaborate-header {
+    h2 {
+      display:none;
+    }
+  }
+  .collaborate-feature-container {
+    @extend .col;
+    @extend .col-sm-6;
+    @extend .col-md-3;
+  }
+  .collaborate-feature {
     background-color: $brand-tertiary;
     color: white;
     font-size: 20px;
@@ -132,40 +145,35 @@
     p {
       font-size: 20px;
       font-weight: 300;
-      padding: 15px 0 0 0;
     }
     .fontawesome-icon {
+      @include square(40px);
       border-radius: 20px;
       border: 1px solid white;
-      display: inline-block;
+      display: block;
       font-size: 16px;
-      height: 40px;
-      padding-top: 9px;
-      width: 40px;
+      margin: 0 auto 10px auto;
     }
   }
-
-
-}
-
-@media (min-width: $screen-md-min) {
-  .view-colaborate {
-
-    .view-colaborate-fields {
+  @media (min-width: $screen-md-min) {
+    .collaborate-feature {
       font-size: 30px;
 
-      p {
-        padding: 30px 0 0 0;
-      }
-
       .fontawesome-icon {
+        @include square(70px);
         border-radius: 35px;
         font-size: 30px;
-        height: 70px;
-        padding-top: 14px;
-        width: 70px;
       }
     }
-
+  }
+}
+.footer {
+  .collaborate-header {
+    p {
+      display:none;
+    }
+  }
+  .collaborate-feature-container {
+    margin-bottom: 10px;
   }
 }

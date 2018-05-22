@@ -2097,7 +2097,7 @@ pre {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .footer .block:not(:last-of-type), .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .footer .block:not(:last-of-type), .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2313,7 +2313,7 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .footer .block:not(:last-of-type), .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2337,7 +2337,7 @@ pre {
     width: 41.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-6, .footer .block:not(:last-of-type) {
+  .col-sm-6, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container {
     width: 50%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2521,7 +2521,7 @@ pre {
     margin-left: 100%; } }
 @media (min-width: 992px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .footer .block:not(:last-of-type), .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-md-1, .col-md-2, .col-md-3, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2533,7 +2533,7 @@ pre {
     width: 16.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-md-3, .footer .block:not(:last-of-type) {
+  .col-md-3, .footer .block:not(:last-of-type), .main-container .collaborate-feature-container {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -8054,6 +8054,43 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
+/* line 20, ../scss/fxj/_mixins.scss */
+.btn-donate {
+  color: #fff;
+  background-color: #f1c40f;
+  border-color: #f1c40f; }
+  /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:focus, .btn-donate.focus {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #796307; }
+  /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:hover {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #b8960b; }
+  /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+    color: #fff;
+    background-color: #c29d0b;
+    border-color: #b8960b; }
+    /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+    .btn-donate:active:hover, .btn-donate:active:focus, .btn-donate:active.focus, .btn-donate.active:hover, .btn-donate.active:focus, .btn-donate.active.focus, .open > .btn-donate.dropdown-toggle:hover, .open > .btn-donate.dropdown-toggle:focus, .open > .btn-donate.dropdown-toggle.focus {
+      color: #fff;
+      background-color: #a08209;
+      border-color: #796307; }
+  /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+    background-image: none; }
+  /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate.disabled:hover, .btn-donate.disabled:focus, .btn-donate.disabled.focus, .btn-donate[disabled]:hover, .btn-donate[disabled]:focus, .btn-donate[disabled].focus, fieldset[disabled] .btn-donate:hover, fieldset[disabled] .btn-donate:focus, fieldset[disabled] .btn-donate.focus {
+    background-color: #f1c40f;
+    border-color: #f1c40f; }
+  /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
+  .btn-donate .badge {
+    color: #f1c40f;
+    background-color: #fff; }
+
 /* line 1, ../scss/fxj/_typo.scss */
 .h2--separator, .block-title {
   position: relative;
@@ -8695,15 +8732,15 @@ a.a2a_i, i.a2a_i {
   margin: 5px 0; }
 
 /* line 32, ../scss/fxj/_views.scss */
-.col {
+.col, .main-container .collaborate-feature-container {
   position: relative;
   margin-bottom: 15px; }
   /* line 37, ../scss/fxj/_views.scss */
-  .col .views-field-title a {
+  .col .views-field-title a, .main-container .collaborate-feature-container .views-field-title a {
     background-color: #16a085;
     color: white; }
   /* line 42, ../scss/fxj/_views.scss */
-  .col .views-field-field-tipo {
+  .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 20px;
     position: absolute;
     top: 60px; }
@@ -8735,8 +8772,9 @@ a.a2a_i, i.a2a_i {
 
 @media (max-width: 768px) {
   /* line 79, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen,
-  .col .views-field-field-image {
+  .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
+  .col .views-field-field-image,
+  .main-container .collaborate-feature-container .views-field-field-image {
     box-sizing: border-box;
     float: left;
     overflow: hidden;
@@ -8744,65 +8782,77 @@ a.a2a_i, i.a2a_i {
     text-align: center;
     width: 100px; }
     /* line 88, ../scss/fxj/_views.scss */
-    .col .views-field-field-imagen img,
-    .col .views-field-field-image img {
+    .col .views-field-field-imagen img, .main-container .collaborate-feature-container .views-field-field-imagen img,
+    .col .views-field-field-image img,
+    .main-container .collaborate-feature-container .views-field-field-image img {
       height: 100px;
       left: -35%;
       position: relative;
       width: auto;
       max-width: none; }
   /* line 96, ../scss/fxj/_views.scss */
-  .col .views-field-title,
-  .col .views-field-body {
+  .col .views-field-title, .main-container .collaborate-feature-container .views-field-title,
+  .col .views-field-body,
+  .main-container .collaborate-feature-container .views-field-body {
     padding-left: 110px; } }
 @media (min-width: 768px) {
   /* line 104, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen,
-  .col .views-field-field-image {
+  .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
+  .col .views-field-field-image,
+  .main-container .collaborate-feature-container .views-field-field-image {
     height: 100px;
     margin-bottom: -30px;
     overflow: hidden; }
   /* line 110, ../scss/fxj/_views.scss */
-  .col .views-field-field-tipo {
+  .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 10px;
     position: relative;
     top: -10px; } }
-/* line 121, ../scss/fxj/_views.scss */
-.view-colaborate .view-colaborate-fields {
+/* line 119, ../scss/fxj/_views.scss */
+.collaborate-header,
+.collaborate-footer {
+  margin-bottom: 15px; }
+
+/* line 125, ../scss/fxj/_views.scss */
+.main-container .collaborate-header h2 {
+  display: none; }
+/* line 134, ../scss/fxj/_views.scss */
+.main-container .collaborate-feature {
   background-color: #f1c40f;
   color: white;
   font-size: 20px;
   text-align: center;
   padding: 20px; }
-  /* line 128, ../scss/fxj/_views.scss */
-  .view-colaborate .view-colaborate-fields a {
+  /* line 141, ../scss/fxj/_views.scss */
+  .main-container .collaborate-feature a {
     color: white; }
-  /* line 132, ../scss/fxj/_views.scss */
-  .view-colaborate .view-colaborate-fields p {
+  /* line 145, ../scss/fxj/_views.scss */
+  .main-container .collaborate-feature p {
     font-size: 20px;
-    font-weight: 300;
-    padding: 15px 0 0 0; }
-  /* line 137, ../scss/fxj/_views.scss */
-  .view-colaborate .view-colaborate-fields .fontawesome-icon {
+    font-weight: 300; }
+  /* line 149, ../scss/fxj/_views.scss */
+  .main-container .collaborate-feature .fontawesome-icon {
+    width: 40px;
+    height: 40px;
     border-radius: 20px;
     border: 1px solid white;
-    display: inline-block;
+    display: block;
     font-size: 16px;
-    height: 40px;
-    padding-top: 9px;
-    width: 40px; }
-
+    margin: 0 auto 10px auto; }
 @media (min-width: 992px) {
-  /* line 154, ../scss/fxj/_views.scss */
-  .view-colaborate .view-colaborate-fields {
+  /* line 159, ../scss/fxj/_views.scss */
+  .main-container .collaborate-feature {
     font-size: 30px; }
-    /* line 157, ../scss/fxj/_views.scss */
-    .view-colaborate .view-colaborate-fields p {
-      padding: 30px 0 0 0; }
-    /* line 161, ../scss/fxj/_views.scss */
-    .view-colaborate .view-colaborate-fields .fontawesome-icon {
-      border-radius: 35px;
-      font-size: 30px;
+    /* line 162, ../scss/fxj/_views.scss */
+    .main-container .collaborate-feature .fontawesome-icon {
+      width: 70px;
       height: 70px;
-      padding-top: 14px;
-      width: 70px; } }
+      border-radius: 35px;
+      font-size: 30px; } }
+
+/* line 172, ../scss/fxj/_views.scss */
+.footer .collaborate-header p {
+  display: none; }
+/* line 176, ../scss/fxj/_views.scss */
+.footer .collaborate-feature-container {
+  margin-bottom: 10px; }

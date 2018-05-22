@@ -16,3 +16,7 @@
 @mixin btn-donate() {
   @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
 }
+
+.btn-donate {
+  @include button-variant($btn-donate-color, $btn-donate-bg, $btn-donate-border);
+}
