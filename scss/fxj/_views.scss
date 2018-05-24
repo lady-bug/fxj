@@ -116,6 +116,28 @@
       top: -10px;
     }
   }
+  .block,
+  .view {
+    position: relative;
+
+    .view-footer,
+    .collaborate-footer {
+      position: absolute;
+      right: 0;
+    }
+  }
+  .block {
+    .view-footer,
+    .collaborate-footer {
+      top: 4em;
+    }
+  }
+  .view {
+    .view-footer {
+      top: 2em;
+    }
+  }
+
 }
 
 //collaborate

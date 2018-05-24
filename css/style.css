@@ -8811,29 +8811,50 @@ a.a2a_i, i.a2a_i {
   .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 10px;
     position: relative;
-    top: -10px; } }
-/* line 122, ../scss/fxj/_views.scss */
+    top: -10px; }
+
+  /* line 119, ../scss/fxj/_views.scss */
+  .block,
+  .view {
+    position: relative; }
+    /* line 123, ../scss/fxj/_views.scss */
+    .block .view-footer,
+    .block .collaborate-footer,
+    .view .view-footer,
+    .view .collaborate-footer {
+      position: absolute;
+      right: 0; }
+
+  /* line 130, ../scss/fxj/_views.scss */
+  .block .view-footer,
+  .block .collaborate-footer {
+    top: 4em; }
+
+  /* line 136, ../scss/fxj/_views.scss */
+  .view .view-footer {
+    top: 2em; } }
+/* line 144, ../scss/fxj/_views.scss */
 .collaborate-header {
   margin-bottom: 15px; }
 
-/* line 127, ../scss/fxj/_views.scss */
+/* line 149, ../scss/fxj/_views.scss */
 .main-container .collaborate-header h2 {
   display: none; }
-/* line 136, ../scss/fxj/_views.scss */
+/* line 158, ../scss/fxj/_views.scss */
 .main-container .collaborate-feature {
   background-color: #f1c40f;
   color: white;
   font-size: 20px;
   text-align: center;
   padding: 20px; }
-  /* line 143, ../scss/fxj/_views.scss */
+  /* line 165, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature a {
     color: white; }
-  /* line 147, ../scss/fxj/_views.scss */
+  /* line 169, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature p {
     font-size: 20px;
     font-weight: 300; }
-  /* line 151, ../scss/fxj/_views.scss */
+  /* line 173, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature .fontawesome-icon {
     width: 40px;
     height: 40px;
@@ -8844,19 +8865,19 @@ a.a2a_i, i.a2a_i {
     margin: 0 auto 10px auto;
     padding-top: 8px; }
 @media (min-width: 992px) {
-  /* line 162, ../scss/fxj/_views.scss */
+  /* line 184, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature {
     font-size: 30px; }
-    /* line 165, ../scss/fxj/_views.scss */
+    /* line 187, ../scss/fxj/_views.scss */
     .main-container .collaborate-feature .fontawesome-icon {
       width: 70px;
       height: 70px;
       border-radius: 35px;
       font-size: 30px; } }
 
-/* line 175, ../scss/fxj/_views.scss */
+/* line 197, ../scss/fxj/_views.scss */
 .footer .collaborate-header p {
   display: none; }
-/* line 179, ../scss/fxj/_views.scss */
+/* line 201, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
