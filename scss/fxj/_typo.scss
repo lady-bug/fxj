@@ -1,6 +1,7 @@
 .h2--separator {
   position: relative;
   z-index: 1;
+  margin: 30px 0;
 
   &:before {
         border-top: 1px solid $gray-dark;

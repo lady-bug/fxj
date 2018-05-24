@@ -1,4 +1,6 @@
-.views-element-container {
+.views-element-container,
+.views-element-container:last-child,
+.block {
   margin-bottom: 30px;
 }
 
@@ -70,8 +72,9 @@
   }
   .views-field-title,
   .views-field-body,
-  .views-field-field-fecha {
-    padding-left: 110px;
+  .views-field-field-fecha,
+  .views-field-view-node {
+    padding-left: 120px;
   }
 }
 @media (max-width: $screen-sm-min) {
@@ -116,8 +119,7 @@
 }
 
 //collaborate
-.collaborate-header,
-.collaborate-footer {
+.collaborate-header {
   margin-bottom: 15px;
 }
 .main-container {
@@ -153,6 +155,7 @@
       display: block;
       font-size: 16px;
       margin: 0 auto 10px auto;
+      padding-top: 8px;
     }
   }
   @media (min-width: $screen-md-min) {

@@ -8094,8 +8094,9 @@ p:last-child,
 /* line 1, ../scss/fxj/_typo.scss */
 .h2--separator, .block-title {
   position: relative;
-  z-index: 1; }
-  /* line 5, ../scss/fxj/_typo.scss */
+  z-index: 1;
+  margin: 30px 0; }
+  /* line 6, ../scss/fxj/_typo.scss */
   .h2--separator:before, .block-title:before {
     border-top: 1px solid #333333;
     content: "";
@@ -8109,7 +8110,7 @@ p:last-child,
     bottom: 0;
     width: 100%;
     z-index: -1; }
-  /* line 15, ../scss/fxj/_typo.scss */
+  /* line 16, ../scss/fxj/_typo.scss */
   .h2--separator span, .block-title span {
     background-color: white;
     display: inline-block;
@@ -8702,14 +8703,16 @@ a.a2a_i, i.a2a_i {
     bottom: 30%;
     top: auto; } }
 /* line 1, ../scss/fxj/_views.scss */
-.views-element-container {
+.views-element-container,
+.views-element-container:last-child,
+.block {
   margin-bottom: 30px; }
 
-/* line 5, ../scss/fxj/_views.scss */
+/* line 7, ../scss/fxj/_views.scss */
 .view-header {
   margin-bottom: 15px; }
 
-/* line 8, ../scss/fxj/_views.scss */
+/* line 10, ../scss/fxj/_views.scss */
 .views-field-field-tipo .field-content {
   background-color: white;
   border-radius: 15px;
@@ -8717,38 +8720,38 @@ a.a2a_i, i.a2a_i {
   width: 30px;
   text-align: center;
   padding-top: 7px; }
-  /* line 16, ../scss/fxj/_views.scss */
+  /* line 18, ../scss/fxj/_views.scss */
   .views-field-field-tipo .field-content h2,
   .views-field-field-tipo .field-content .field--label {
     display: none; }
 
-/* line 22, ../scss/fxj/_views.scss */
+/* line 24, ../scss/fxj/_views.scss */
 .views-field-title a {
   display: block;
   padding: 5px; }
 
-/* line 27, ../scss/fxj/_views.scss */
+/* line 29, ../scss/fxj/_views.scss */
 .views-field-body {
   margin: 5px 0; }
 
-/* line 32, ../scss/fxj/_views.scss */
+/* line 34, ../scss/fxj/_views.scss */
 .col, .main-container .collaborate-feature-container {
   position: relative;
   margin-bottom: 15px; }
-  /* line 37, ../scss/fxj/_views.scss */
+  /* line 39, ../scss/fxj/_views.scss */
   .col .views-field-title a, .main-container .collaborate-feature-container .views-field-title a {
     background-color: #16a085;
     color: white; }
-  /* line 42, ../scss/fxj/_views.scss */
+  /* line 44, ../scss/fxj/_views.scss */
   .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 20px;
     position: absolute;
     top: 60px; }
 
-/* line 49, ../scss/fxj/_views.scss */
+/* line 51, ../scss/fxj/_views.scss */
 .view-row-media {
   margin-bottom: 15px; }
-  /* line 53, ../scss/fxj/_views.scss */
+  /* line 55, ../scss/fxj/_views.scss */
   .view-row-media .views-field-field-tipo {
     background-color: #16a085;
     height: 100px;
@@ -8756,7 +8759,7 @@ a.a2a_i, i.a2a_i {
     margin-right: 10px;
     width: 100px;
     text-align: center; }
-    /* line 61, ../scss/fxj/_views.scss */
+    /* line 63, ../scss/fxj/_views.scss */
     .view-row-media .views-field-field-tipo .field-content {
       border-radius: 30px;
       display: inline-block;
@@ -8764,14 +8767,15 @@ a.a2a_i, i.a2a_i {
       height: 60px;
       margin-top: 20px;
       width: 60px; }
-  /* line 71, ../scss/fxj/_views.scss */
+  /* line 73, ../scss/fxj/_views.scss */
   .view-row-media .views-field-title,
   .view-row-media .views-field-body,
-  .view-row-media .views-field-field-fecha {
-    padding-left: 110px; }
+  .view-row-media .views-field-field-fecha,
+  .view-row-media .views-field-view-node {
+    padding-left: 120px; }
 
 @media (max-width: 768px) {
-  /* line 79, ../scss/fxj/_views.scss */
+  /* line 82, ../scss/fxj/_views.scss */
   .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
   .main-container .collaborate-feature-container .views-field-field-image {
@@ -8781,7 +8785,7 @@ a.a2a_i, i.a2a_i {
     margin-right: 10px;
     text-align: center;
     width: 100px; }
-    /* line 88, ../scss/fxj/_views.scss */
+    /* line 91, ../scss/fxj/_views.scss */
     .col .views-field-field-imagen img, .main-container .collaborate-feature-container .views-field-field-imagen img,
     .col .views-field-field-image img,
     .main-container .collaborate-feature-container .views-field-field-image img {
@@ -8790,47 +8794,46 @@ a.a2a_i, i.a2a_i {
       position: relative;
       width: auto;
       max-width: none; }
-  /* line 96, ../scss/fxj/_views.scss */
+  /* line 99, ../scss/fxj/_views.scss */
   .col .views-field-title, .main-container .collaborate-feature-container .views-field-title,
   .col .views-field-body,
   .main-container .collaborate-feature-container .views-field-body {
     padding-left: 110px; } }
 @media (min-width: 768px) {
-  /* line 104, ../scss/fxj/_views.scss */
+  /* line 107, ../scss/fxj/_views.scss */
   .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
   .main-container .collaborate-feature-container .views-field-field-image {
     height: 100px;
     margin-bottom: -30px;
     overflow: hidden; }
-  /* line 110, ../scss/fxj/_views.scss */
+  /* line 113, ../scss/fxj/_views.scss */
   .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 10px;
     position: relative;
     top: -10px; } }
-/* line 119, ../scss/fxj/_views.scss */
-.collaborate-header,
-.collaborate-footer {
+/* line 122, ../scss/fxj/_views.scss */
+.collaborate-header {
   margin-bottom: 15px; }
 
-/* line 125, ../scss/fxj/_views.scss */
+/* line 127, ../scss/fxj/_views.scss */
 .main-container .collaborate-header h2 {
   display: none; }
-/* line 134, ../scss/fxj/_views.scss */
+/* line 136, ../scss/fxj/_views.scss */
 .main-container .collaborate-feature {
   background-color: #f1c40f;
   color: white;
   font-size: 20px;
   text-align: center;
   padding: 20px; }
-  /* line 141, ../scss/fxj/_views.scss */
+  /* line 143, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature a {
     color: white; }
-  /* line 145, ../scss/fxj/_views.scss */
+  /* line 147, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature p {
     font-size: 20px;
     font-weight: 300; }
-  /* line 149, ../scss/fxj/_views.scss */
+  /* line 151, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature .fontawesome-icon {
     width: 40px;
     height: 40px;
@@ -8838,21 +8841,22 @@ a.a2a_i, i.a2a_i {
     border: 1px solid white;
     display: block;
     font-size: 16px;
-    margin: 0 auto 10px auto; }
+    margin: 0 auto 10px auto;
+    padding-top: 8px; }
 @media (min-width: 992px) {
-  /* line 159, ../scss/fxj/_views.scss */
+  /* line 162, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature {
     font-size: 30px; }
-    /* line 162, ../scss/fxj/_views.scss */
+    /* line 165, ../scss/fxj/_views.scss */
     .main-container .collaborate-feature .fontawesome-icon {
       width: 70px;
       height: 70px;
       border-radius: 35px;
       font-size: 30px; } }
 
-/* line 172, ../scss/fxj/_views.scss */
+/* line 175, ../scss/fxj/_views.scss */
 .footer .collaborate-header p {
   display: none; }
-/* line 176, ../scss/fxj/_views.scss */
+/* line 179, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
