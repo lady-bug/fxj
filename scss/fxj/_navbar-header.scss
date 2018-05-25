@@ -156,6 +156,12 @@
                 border-color: $brand-primary;
               }
             }
+            &.sfHover{
+              > ul {
+                top: auto;
+              }
+            }
+
           }
           &:last-of-type {
             padding: 9px 20px;
@@ -165,7 +171,6 @@
             @include shadow-sm();
             background-color: white;
             text-align: left;
-            top: auto;
 
             > li > a {
               font-weight: 300;
