@@ -1,6 +1,9 @@
 //Navbar
 .navbar {
   @include shadow();
+  .block {
+    margin-bottom: 0;
+  }
 }
 .navbar-header {
 
