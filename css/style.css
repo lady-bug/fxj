@@ -8876,11 +8876,12 @@ a.a2a_i, i.a2a_i {
       width: 70px;
       height: 70px;
       border-radius: 35px;
-      font-size: 30px; } }
+      font-size: 30px;
+      padding-top: 14px; } }
 
-/* line 197, ../scss/fxj/_views.scss */
+/* line 198, ../scss/fxj/_views.scss */
 .footer .collaborate-header p {
   display: none; }
-/* line 201, ../scss/fxj/_views.scss */
+/* line 202, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
