@@ -36,7 +36,7 @@ console.log(cookiesHeight);
       stickyFooterEl[0].classList.add('fixed');
       mainEl[0].classList.add('fixed');
 			if(cookiesEl){
-				cookiesEl.style.bottom = Math.max(stickyFooterEl[0].offsetHeight,stickyFooterEl[0].clientHeight) + 'px';
+				cookiesEl.style.bottom = (Math.max(stickyFooterEl[0].offsetHeight,stickyFooterEl[0].clientHeight) + 15 ) + 'px';
 			}
     }
 }
