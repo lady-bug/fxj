@@ -7,6 +7,10 @@
 .view-header {
   margin-bottom: 15px;
 }
+.view-footer,
+.collaborate-footer {
+  font-size: 20px;
+}
 .views-field-field-tipo .field-content {
   background-color: white;
   border-radius: 15px;
@@ -61,12 +65,13 @@
     text-align: center;
 
     .field-content {
-      border-radius: 30px;
+      border-radius: 25px;
       display: inline-block;
-      font-size: 30px;
-      height: 60px;
-      margin-top: 20px;
-      width: 60px;
+      font-size: 20px;
+      height: 50px;
+      margin-top: 25px;
+      padding-top: 10px;
+      width: 50px;
 
     }
   }
@@ -98,7 +103,7 @@
     }
     .views-field-title,
     .views-field-body {
-      padding-left: 110px;
+      padding-left: 120px;
     }
   }
 }
