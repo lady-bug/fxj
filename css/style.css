@@ -8853,10 +8853,10 @@ a.a2a_i, i.a2a_i {
   /* line 136, ../scss/fxj/_views.scss */
   .path-frontpage .main-container .block .view-footer,
   .path-frontpage .main-container .block .collaborate-footer {
-    top: 4em; }
+    top: 2em; }
   /* line 142, ../scss/fxj/_views.scss */
   .path-frontpage .main-container .view .view-footer {
-    top: 2em; } }
+    top: 1em; } }
 /* line 151, ../scss/fxj/_views.scss */
 .collaborate-header {
   margin-bottom: 15px; }
