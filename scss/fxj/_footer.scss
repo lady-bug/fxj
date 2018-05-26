@@ -165,9 +165,11 @@
     color: white;
   }
   h2 {
+    color: $gray;
     font-size: 20px;
     font-weight: 400;
     margin-top: 0;
+    margin-bottom: 20px;
   }
   strong{
     font-weight: 400;
@@ -185,8 +187,14 @@
       }
     }
     &:last-of-type {
-      border-top: 1px solid white;
+      border-top: 1px solid $gray-light;
+      color: $gray-light;
+      margin: 0;
       padding: 15px 0 0 0;
+
+      a {
+        color: $gray-light;
+      }
     }
   }
 }
