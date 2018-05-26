@@ -1,5 +1,16 @@
 
 .carousel {
+  .item > a {
+    .img-responsive {
+      @include transition(0.3s);
+    }
+    &:hover,
+    &:focus {
+      .img-responsive {
+        @include scale(1.1);
+      }
+    }
+  }
   .carousel-caption {
     background-color: white;
     bottom: 40px;

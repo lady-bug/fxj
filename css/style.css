@@ -8650,75 +8650,86 @@ a.a2a_i, i.a2a_i {
   .breadcrumb > li + li:before {
     content: "> "; }
 
-/* line 3, ../scss/fxj/_bootstrap-carousel.scss */
+/* line 4, ../scss/fxj/_bootstrap-carousel.scss */
+.carousel .item > a .img-responsive {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s; }
+/* line 9, ../scss/fxj/_bootstrap-carousel.scss */
+.carousel .item > a:hover .img-responsive, .carousel .item > a:focus .img-responsive {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1); }
+/* line 14, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-caption {
   background-color: white;
   bottom: 40px;
   padding: 0;
   text-align: left; }
-  /* line 9, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 20, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption h3 {
     padding: 0;
     margin: 0;
     font-size: 14px;
     font-weight: 400; }
-    /* line 15, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 26, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-caption h3 a {
       background-color: #16a085;
       color: white;
       display: block;
       padding: 10px;
       text-decoration: none; }
-  /* line 23, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 34, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption p {
     padding: 0;
     margin: 0; }
-    /* line 27, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 38, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-caption p a {
       color: #333333;
       display: block;
       padding: 10px;
       text-decoration: none; }
-/* line 35, ../scss/fxj/_bootstrap-carousel.scss */
+/* line 46, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-indicators {
   margin-bottom: 0;
   bottom: 0; }
-  /* line 39, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 50, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-indicators li {
     width: 20px;
     height: 20px;
     border-radius: 10px;
     margin-right: 5px; }
-    /* line 43, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 54, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-indicators li:hover, .carousel .carousel-indicators li:focus, .carousel .carousel-indicators li.active {
       background-color: #16a085; }
-/* line 51, ../scss/fxj/_bootstrap-carousel.scss */
+/* line 62, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-control {
   opacity: 1;
   filter: alpha(opacity=100);
   background: transparent none; }
-  /* line 55, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 66, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control .glyphicon, .carousel .carousel-control .navbar-header #superfish-main-toggle, .navbar-header .carousel .carousel-control #superfish-main-toggle, .carousel .carousel-control .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control .menu-sub:not(.sf-no-children):before {
     width: 40px;
     height: 40px;
     border: 1px solid white;
     border-radius: 20px;
     font-size: 20px; }
-    /* line 61, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 72, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-control .glyphicon:before, .carousel .carousel-control .navbar-header #superfish-main-toggle:before, .navbar-header .carousel .carousel-control #superfish-main-toggle:before, .carousel .carousel-control .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control .menu-sub:not(.sf-no-children):before {
       margin-top: 8px;
       display: block; }
-  /* line 69, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 80, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control:hover .glyphicon, .carousel .carousel-control:hover .navbar-header #superfish-main-toggle, .navbar-header .carousel .carousel-control:hover #superfish-main-toggle, .carousel .carousel-control:hover .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control:hover .menu-sub:not(.sf-no-children):before, .carousel .carousel-control:focus .glyphicon, .carousel .carousel-control:focus .navbar-header #superfish-main-toggle, .navbar-header .carousel .carousel-control:focus #superfish-main-toggle, .carousel .carousel-control:focus .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control:focus .menu-sub:not(.sf-no-children):before {
     background-color: white;
     color: #16a085; }
 
 @media (min-width: 768px) {
-  /* line 79, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 90, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption {
     bottom: 30%;
     width: 30%; }
-  /* line 84, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 95, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control .glyphicon, .carousel .carousel-control .navbar-header #superfish-main-toggle, .navbar-header .carousel .carousel-control #superfish-main-toggle, .carousel .carousel-control .navbar-header .menu .menu-sub:not(.sf-no-children):before, .navbar-header .menu .carousel .carousel-control .menu-sub:not(.sf-no-children):before {
     bottom: 30%;
     top: auto; } }
