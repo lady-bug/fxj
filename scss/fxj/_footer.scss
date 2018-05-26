@@ -123,7 +123,7 @@
         text-decoration: underline;
       }
 
-      svg {
+      .svg-inline--fa {
         margin-right: 5px;
       }
     }
@@ -204,6 +204,21 @@
         float: left;
         width: 100%;
       }
+    }
+  }
+}
+@media (max-width: $screen-sm-min) {
+  .sticky-footer {
+    .menu.nav a {
+      padding: 5px 15px;
+      text-align: center;
+      .svg-inline--fa {
+        display: block;
+        margin:0 auto 5px auto;
+      }
+    }
+    .block-dropdown-language {
+      margin-top: 5px;
     }
   }
 }

@@ -8453,7 +8453,7 @@ p:last-child,
     .sticky-footer .menu.nav a:hover, .sticky-footer .menu.nav a:focus {
       text-decoration: underline; }
     /* line 126, ../scss/fxj/_footer.scss */
-    .sticky-footer .menu.nav a svg {
+    .sticky-footer .menu.nav a .svg-inline--fa {
       margin-right: 5px; }
 /* line 132, ../scss/fxj/_footer.scss */
 .sticky-footer .block-addtoany {
@@ -8512,6 +8512,18 @@ p:last-child,
     clear: both;
     float: left;
     width: 100%; } }
+@media (max-width: 768px) {
+  /* line 212, ../scss/fxj/_footer.scss */
+  .sticky-footer .menu.nav a {
+    padding: 5px 15px;
+    text-align: center; }
+    /* line 215, ../scss/fxj/_footer.scss */
+    .sticky-footer .menu.nav a .svg-inline--fa {
+      display: block;
+      margin: 0 auto 5px auto; }
+  /* line 220, ../scss/fxj/_footer.scss */
+  .sticky-footer .block-dropdown-language {
+    margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
 .a2a_kit > a {
   outline: none !important; }
