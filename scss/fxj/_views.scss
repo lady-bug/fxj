@@ -7,9 +7,14 @@
 .view-header {
   margin-bottom: 15px;
 }
-.view-footer,
-.collaborate-footer {
-  font-size: 20px;
+.path-frontpage .main-container{
+  .block,
+  .view {
+    .view-footer,
+    .collaborate-footer {
+      font-size: 20px;
+    }
+  }
 }
 .views-field-field-tipo .field-content {
   background-color: white;
