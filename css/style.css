@@ -3836,39 +3836,39 @@ a.btn.disabled, fieldset[disabled] a.btn {
     background-color: #333; }
 
 /* line 71, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
-.btn-primary {
+.btn-primary, .col .views-field-title a, .main-container .collaborate-feature-container .views-field-title a {
   color: #fff;
   background-color: #16a085;
   border-color: #138a72; }
   /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:focus, .btn-primary.focus {
+  .btn-primary:focus, .col .views-field-title a:focus, .main-container .collaborate-feature-container .views-field-title a:focus, .btn-primary.focus, .col .views-field-title a.focus, .main-container .collaborate-feature-container .views-field-title a.focus {
     color: #fff;
     background-color: #107360;
     border-color: #041915; }
   /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:hover {
+  .btn-primary:hover, .col .views-field-title a:hover, .main-container .collaborate-feature-container .views-field-title a:hover {
     color: #fff;
     background-color: #107360;
     border-color: #0c5446; }
   /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  .btn-primary:active, .col .views-field-title a:active, .main-container .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .col .views-field-title a.active, .main-container .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .main-container .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
     color: #fff;
     background-color: #107360;
     border-color: #0c5446; }
     /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-    .btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus, .open > .btn-primary.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus {
+    .btn-primary:active:hover, .col .views-field-title a:active:hover, .main-container .collaborate-feature-container .views-field-title a:active:hover, .btn-primary:active:focus, .col .views-field-title a:active:focus, .main-container .collaborate-feature-container .views-field-title a:active:focus, .btn-primary:active.focus, .col .views-field-title a:active.focus, .main-container .collaborate-feature-container .views-field-title a:active.focus, .btn-primary.active:hover, .col .views-field-title a.active:hover, .main-container .collaborate-feature-container .views-field-title a.active:hover, .btn-primary.active:focus, .col .views-field-title a.active:focus, .main-container .collaborate-feature-container .views-field-title a.active:focus, .btn-primary.active.focus, .col .views-field-title a.active.focus, .main-container .collaborate-feature-container .views-field-title a.active.focus, .open > .btn-primary.dropdown-toggle:hover, .col .views-field-title .open > a.dropdown-toggle:hover, .main-container .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .col .views-field-title .open > a.dropdown-toggle:focus, .main-container .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus, .col .views-field-title .open > a.dropdown-toggle.focus, .main-container .collaborate-feature-container .views-field-title .open > a.dropdown-toggle.focus {
       color: #fff;
       background-color: #0c5446;
       border-color: #041915; }
   /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  .btn-primary:active, .col .views-field-title a:active, .main-container .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .col .views-field-title a.active, .main-container .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .main-container .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
     background-image: none; }
   /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus {
+  .btn-primary.disabled:hover, .col .views-field-title a.disabled:hover, .main-container .collaborate-feature-container .views-field-title a.disabled:hover, .btn-primary.disabled:focus, .col .views-field-title a.disabled:focus, .main-container .collaborate-feature-container .views-field-title a.disabled:focus, .btn-primary.disabled.focus, .col .views-field-title a.disabled.focus, .main-container .collaborate-feature-container .views-field-title a.disabled.focus, .btn-primary[disabled]:hover, .col .views-field-title a[disabled]:hover, .main-container .collaborate-feature-container .views-field-title a[disabled]:hover, .btn-primary[disabled]:focus, .col .views-field-title a[disabled]:focus, .main-container .collaborate-feature-container .views-field-title a[disabled]:focus, .btn-primary[disabled].focus, .col .views-field-title a[disabled].focus, .main-container .collaborate-feature-container .views-field-title a[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .col .views-field-title a:hover, .col .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .main-container .collaborate-feature-container .views-field-title a:hover, .main-container .collaborate-feature-container .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .col .views-field-title a:focus, .col .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .main-container .collaborate-feature-container .views-field-title a:focus, .main-container .collaborate-feature-container .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .col .views-field-title a.focus, .col .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .main-container .collaborate-feature-container .views-field-title a.focus, .main-container .collaborate-feature-container .views-field-title fieldset[disabled] a.focus {
     background-color: #16a085;
     border-color: #138a72; }
   /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary .badge {
+  .btn-primary .badge, .col .views-field-title a .badge, .main-container .collaborate-feature-container .views-field-title a .badge {
     color: #16a085;
     background-color: #fff; }
 
@@ -8055,39 +8055,39 @@ p:last-child,
     margin-top: 0; }
 
 /* line 20, ../scss/fxj/_mixins.scss */
-.btn-donate {
+.btn-donate, .main-container .collaborate-feature a {
   color: #fff;
   background-color: #f1c40f;
   border-color: #f1c40f; }
   /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate:focus, .btn-donate.focus {
+  .btn-donate:focus, .main-container .collaborate-feature a:focus, .btn-donate.focus, .main-container .collaborate-feature a.focus {
     color: #fff;
     background-color: #c29d0b;
     border-color: #796307; }
   /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate:hover {
+  .btn-donate:hover, .main-container .collaborate-feature a:hover {
     color: #fff;
     background-color: #c29d0b;
     border-color: #b8960b; }
   /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+  .btn-donate:active, .main-container .collaborate-feature a:active, .btn-donate.active, .main-container .collaborate-feature a.active, .open > .btn-donate.dropdown-toggle, .main-container .collaborate-feature .open > a.dropdown-toggle {
     color: #fff;
     background-color: #c29d0b;
     border-color: #b8960b; }
     /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-    .btn-donate:active:hover, .btn-donate:active:focus, .btn-donate:active.focus, .btn-donate.active:hover, .btn-donate.active:focus, .btn-donate.active.focus, .open > .btn-donate.dropdown-toggle:hover, .open > .btn-donate.dropdown-toggle:focus, .open > .btn-donate.dropdown-toggle.focus {
+    .btn-donate:active:hover, .main-container .collaborate-feature a:active:hover, .btn-donate:active:focus, .main-container .collaborate-feature a:active:focus, .btn-donate:active.focus, .main-container .collaborate-feature a:active.focus, .btn-donate.active:hover, .main-container .collaborate-feature a.active:hover, .btn-donate.active:focus, .main-container .collaborate-feature a.active:focus, .btn-donate.active.focus, .main-container .collaborate-feature a.active.focus, .open > .btn-donate.dropdown-toggle:hover, .main-container .collaborate-feature .open > a.dropdown-toggle:hover, .open > .btn-donate.dropdown-toggle:focus, .main-container .collaborate-feature .open > a.dropdown-toggle:focus, .open > .btn-donate.dropdown-toggle.focus, .main-container .collaborate-feature .open > a.dropdown-toggle.focus {
       color: #fff;
       background-color: #a08209;
       border-color: #796307; }
   /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate:active, .btn-donate.active, .open > .btn-donate.dropdown-toggle {
+  .btn-donate:active, .main-container .collaborate-feature a:active, .btn-donate.active, .main-container .collaborate-feature a.active, .open > .btn-donate.dropdown-toggle, .main-container .collaborate-feature .open > a.dropdown-toggle {
     background-image: none; }
   /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate.disabled:hover, .btn-donate.disabled:focus, .btn-donate.disabled.focus, .btn-donate[disabled]:hover, .btn-donate[disabled]:focus, .btn-donate[disabled].focus, fieldset[disabled] .btn-donate:hover, fieldset[disabled] .btn-donate:focus, fieldset[disabled] .btn-donate.focus {
+  .btn-donate.disabled:hover, .main-container .collaborate-feature a.disabled:hover, .btn-donate.disabled:focus, .main-container .collaborate-feature a.disabled:focus, .btn-donate.disabled.focus, .main-container .collaborate-feature a.disabled.focus, .btn-donate[disabled]:hover, .main-container .collaborate-feature a[disabled]:hover, .btn-donate[disabled]:focus, .main-container .collaborate-feature a[disabled]:focus, .btn-donate[disabled].focus, .main-container .collaborate-feature a[disabled].focus, fieldset[disabled] .btn-donate:hover, fieldset[disabled] .main-container .collaborate-feature a:hover, .main-container .collaborate-feature fieldset[disabled] a:hover, fieldset[disabled] .btn-donate:focus, fieldset[disabled] .main-container .collaborate-feature a:focus, .main-container .collaborate-feature fieldset[disabled] a:focus, fieldset[disabled] .btn-donate.focus, fieldset[disabled] .main-container .collaborate-feature a.focus, .main-container .collaborate-feature fieldset[disabled] a.focus {
     background-color: #f1c40f;
     border-color: #f1c40f; }
   /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-donate .badge {
+  .btn-donate .badge, .main-container .collaborate-feature a .badge {
     color: #f1c40f;
     background-color: #fff; }
 
@@ -8755,7 +8755,7 @@ a.a2a_i, i.a2a_i {
 .path-frontpage .main-container .block .collaborate-footer,
 .path-frontpage .main-container .view .view-footer,
 .path-frontpage .main-container .view .collaborate-footer {
-  font-size: 20px; }
+  font-size: 16px; }
 
 /* line 19, ../scss/fxj/_views.scss */
 .views-field-field-tipo .field-content {
@@ -8770,33 +8770,55 @@ a.a2a_i, i.a2a_i {
   .views-field-field-tipo .field-content .field--label {
     display: none; }
 
-/* line 33, ../scss/fxj/_views.scss */
+/* line 34, ../scss/fxj/_views.scss */
+.views-field-field-imagen a,
+.views-field-field-image a {
+  display: block; }
+  /* line 37, ../scss/fxj/_views.scss */
+  .views-field-field-imagen a .img-responsive,
+  .views-field-field-image a .img-responsive {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  /* line 43, ../scss/fxj/_views.scss */
+  .views-field-field-imagen a:hover .img-responsive, .views-field-field-imagen a:focus .img-responsive,
+  .views-field-field-image a:hover .img-responsive,
+  .views-field-field-image a:focus .img-responsive {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }
+
+/* line 51, ../scss/fxj/_views.scss */
 .views-field-title a {
   display: block;
   padding: 5px; }
 
-/* line 38, ../scss/fxj/_views.scss */
+/* line 56, ../scss/fxj/_views.scss */
 .views-field-body {
   margin: 5px 0; }
 
-/* line 43, ../scss/fxj/_views.scss */
+/* line 61, ../scss/fxj/_views.scss */
 .col, .main-container .collaborate-feature-container {
   position: relative;
   margin-bottom: 15px; }
-  /* line 48, ../scss/fxj/_views.scss */
+  /* line 66, ../scss/fxj/_views.scss */
   .col .views-field-title a, .main-container .collaborate-feature-container .views-field-title a {
-    background-color: #16a085;
-    color: white; }
-  /* line 53, ../scss/fxj/_views.scss */
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: 300;
+    text-decoration: none; }
+  /* line 73, ../scss/fxj/_views.scss */
   .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 20px;
     position: absolute;
     top: 60px; }
 
-/* line 60, ../scss/fxj/_views.scss */
+/* line 80, ../scss/fxj/_views.scss */
 .view-row-media {
   margin-bottom: 15px; }
-  /* line 64, ../scss/fxj/_views.scss */
+  /* line 84, ../scss/fxj/_views.scss */
   .view-row-media .views-field-field-tipo {
     background-color: #16a085;
     height: 100px;
@@ -8804,7 +8826,7 @@ a.a2a_i, i.a2a_i {
     margin-right: 10px;
     width: 100px;
     text-align: center; }
-    /* line 72, ../scss/fxj/_views.scss */
+    /* line 92, ../scss/fxj/_views.scss */
     .view-row-media .views-field-field-tipo .field-content {
       border-radius: 25px;
       display: inline-block;
@@ -8813,7 +8835,7 @@ a.a2a_i, i.a2a_i {
       margin-top: 25px;
       padding-top: 10px;
       width: 50px; }
-  /* line 83, ../scss/fxj/_views.scss */
+  /* line 103, ../scss/fxj/_views.scss */
   .view-row-media .views-field-title,
   .view-row-media .views-field-body,
   .view-row-media .views-field-field-fecha,
@@ -8821,7 +8843,7 @@ a.a2a_i, i.a2a_i {
     padding-left: 120px; }
 
 @media (max-width: 768px) {
-  /* line 92, ../scss/fxj/_views.scss */
+  /* line 112, ../scss/fxj/_views.scss */
   .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
   .main-container .collaborate-feature-container .views-field-field-image {
@@ -8831,7 +8853,7 @@ a.a2a_i, i.a2a_i {
     margin-right: 10px;
     text-align: center;
     width: 100px; }
-    /* line 101, ../scss/fxj/_views.scss */
+    /* line 121, ../scss/fxj/_views.scss */
     .col .views-field-field-imagen img, .main-container .collaborate-feature-container .views-field-field-imagen img,
     .col .views-field-field-image img,
     .main-container .collaborate-feature-container .views-field-field-image img {
@@ -8840,79 +8862,84 @@ a.a2a_i, i.a2a_i {
       position: relative;
       width: auto;
       max-width: none; }
-  /* line 109, ../scss/fxj/_views.scss */
+  /* line 129, ../scss/fxj/_views.scss */
   .col .views-field-title, .main-container .collaborate-feature-container .views-field-title,
   .col .views-field-body,
-  .main-container .collaborate-feature-container .views-field-body {
+  .main-container .collaborate-feature-container .views-field-body,
+  .col .views-field-view-node,
+  .main-container .collaborate-feature-container .views-field-view-node {
     padding-left: 120px; } }
 @media (min-width: 768px) {
-  /* line 117, ../scss/fxj/_views.scss */
+  /* line 138, ../scss/fxj/_views.scss */
   .col .views-field-field-imagen, .main-container .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
   .main-container .collaborate-feature-container .views-field-field-image {
     height: 100px;
     margin-bottom: -30px;
     overflow: hidden; }
-  /* line 123, ../scss/fxj/_views.scss */
+  /* line 144, ../scss/fxj/_views.scss */
   .col .views-field-field-tipo, .main-container .collaborate-feature-container .views-field-field-tipo {
     left: 10px;
     position: relative;
     top: -10px; }
 
-  /* line 130, ../scss/fxj/_views.scss */
+  /* line 151, ../scss/fxj/_views.scss */
   .path-frontpage .main-container .block,
   .path-frontpage .main-container .view {
     position: relative; }
-    /* line 134, ../scss/fxj/_views.scss */
+    /* line 155, ../scss/fxj/_views.scss */
     .path-frontpage .main-container .block .view-footer,
     .path-frontpage .main-container .block .collaborate-footer,
     .path-frontpage .main-container .view .view-footer,
     .path-frontpage .main-container .view .collaborate-footer {
       position: absolute;
       right: 0; }
-  /* line 141, ../scss/fxj/_views.scss */
+  /* line 162, ../scss/fxj/_views.scss */
   .path-frontpage .main-container .block .view-footer,
   .path-frontpage .main-container .block .collaborate-footer {
     top: 2em; }
-  /* line 147, ../scss/fxj/_views.scss */
+  /* line 168, ../scss/fxj/_views.scss */
   .path-frontpage .main-container .view .view-footer {
     top: 1em; } }
-/* line 156, ../scss/fxj/_views.scss */
+/* line 177, ../scss/fxj/_views.scss */
 .collaborate-header {
   margin-bottom: 15px; }
 
-/* line 161, ../scss/fxj/_views.scss */
+/* line 182, ../scss/fxj/_views.scss */
 .main-container .collaborate-header h2 {
   display: none; }
-/* line 170, ../scss/fxj/_views.scss */
+/* line 191, ../scss/fxj/_views.scss */
 .main-container .collaborate-feature {
-  background-color: #f1c40f;
-  color: white;
   font-size: 20px;
-  text-align: center;
-  padding: 20px; }
-  /* line 177, ../scss/fxj/_views.scss */
+  text-align: center; }
+  /* line 195, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature a {
-    color: white; }
-  /* line 181, ../scss/fxj/_views.scss */
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: block;
+    padding: 20px;
+    text-decoration: none; }
+  /* line 203, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature p {
     font-size: 20px;
     font-weight: 300; }
-  /* line 185, ../scss/fxj/_views.scss */
+  /* line 207, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature .fontawesome-icon {
     width: 40px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid white;
+    color: white;
     display: block;
     font-size: 16px;
     margin: 0 auto 10px auto;
     padding-top: 8px; }
 @media (min-width: 992px) {
-  /* line 196, ../scss/fxj/_views.scss */
+  /* line 219, ../scss/fxj/_views.scss */
   .main-container .collaborate-feature {
     font-size: 30px; }
-    /* line 199, ../scss/fxj/_views.scss */
+    /* line 222, ../scss/fxj/_views.scss */
     .main-container .collaborate-feature .fontawesome-icon {
       width: 70px;
       height: 70px;
@@ -8920,9 +8947,9 @@ a.a2a_i, i.a2a_i {
       font-size: 30px;
       padding-top: 14px; } }
 
-/* line 210, ../scss/fxj/_views.scss */
+/* line 233, ../scss/fxj/_views.scss */
 .footer .collaborate-header p {
   display: none; }
-/* line 214, ../scss/fxj/_views.scss */
+/* line 237, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }

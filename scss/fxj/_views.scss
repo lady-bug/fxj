@@ -12,7 +12,7 @@
   .view {
     .view-footer,
     .collaborate-footer {
-      font-size: 20px;
+      font-size: 16px;
     }
   }
 }
@@ -29,6 +29,24 @@
     display: none;
   }
 }
+.views-field-field-imagen,
+.views-field-field-image {
+  a {
+    display: block;
+
+    .img-responsive {
+      @include transition(0.5s);
+    }
+
+    &:hover,
+    &:focus {
+      .img-responsive {
+        @include scale(1.1);
+      }
+    }
+  }
+}
+
 .views-field-title {
   a {
     display: block;
@@ -46,8 +64,10 @@
 
   .views-field-title {
     a {
-      background-color: $brand-primary;
-      color: white;
+      @extend .btn-primary;
+      @include transition(0.5s);
+      font-weight: 300;
+      text-decoration: none;
     }
   }
   .views-field-field-tipo {
@@ -56,7 +76,7 @@
     top: 60px;
   }
 }
-//unordered list extra class view-row-media
+//unordered list extra class view-row-media ... events
 .view-row-media {
   @extend .clearfix;
   margin-bottom: 15px;
@@ -107,7 +127,8 @@
       }
     }
     .views-field-title,
-    .views-field-body {
+    .views-field-body,
+    .views-field-view-node {
       padding-left: 120px;
     }
   }
@@ -168,14 +189,15 @@
     @extend .col-md-3;
   }
   .collaborate-feature {
-    background-color: $brand-tertiary;
-    color: white;
     font-size: 20px;
     text-align: center;
-    padding: 20px;
 
     a {
-      color: white;
+      @extend .btn-donate;
+      @include transition(0.5s);
+      display: block;
+      padding: 20px;
+      text-decoration: none;
     }
 
     p {
@@ -186,6 +208,7 @@
       @include square(40px);
       border-radius: 20px;
       border: 1px solid white;
+      color: white;
       display: block;
       font-size: 16px;
       margin: 0 auto 10px auto;
