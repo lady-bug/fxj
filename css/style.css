@@ -8962,6 +8962,9 @@ a.a2a_i, i.a2a_i {
   .main-container .collaborate-feature {
     font-size: 30px; }
     /* line 245, ../scss/fxj/_views.scss */
+    .main-container .collaborate-feature a {
+      min-height: 5.9em; }
+    /* line 249, ../scss/fxj/_views.scss */
     .main-container .collaborate-feature .fontawesome-icon {
       width: 70px;
       height: 70px;
@@ -8969,9 +8972,9 @@ a.a2a_i, i.a2a_i {
       font-size: 30px;
       padding-top: 14px; } }
 
-/* line 256, ../scss/fxj/_views.scss */
+/* line 260, ../scss/fxj/_views.scss */
 .footer .collaborate-header p {
   display: none; }
-/* line 260, ../scss/fxj/_views.scss */
+/* line 264, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }

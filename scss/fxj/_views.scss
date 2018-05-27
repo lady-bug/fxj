@@ -242,6 +242,10 @@
     .collaborate-feature {
       font-size: 30px;
 
+      a {
+        min-height: 5.9em;
+      }
+
       .fontawesome-icon {
         @include square(70px);
         border-radius: 35px;
