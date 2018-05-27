@@ -1,5 +1,6 @@
 //EU Cookies Compliance
 #sliding-popup {
+  @include transition(0.5s);
   background: transparent none;
   bottom: 15px;
   position: fixed;
@@ -100,6 +101,7 @@
 }
 //Sticky footer
 .sticky-footer {
+
   .block {
     margin-bottom: 0;
   }
@@ -142,7 +144,9 @@
 //sticky footer in action with js
 .js {
   .sticky-footer{
+    @include transition(0.5s);
     width: 100%;
+    bottom: auto;
 
     &.fixed {
       position: fixed;
