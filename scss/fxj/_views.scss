@@ -34,13 +34,13 @@
   a {
     display: block;
 
-    .img-responsive {
+    img {
       @include transition(0.5s);
     }
 
     &:hover,
     &:focus {
-      .img-responsive {
+      img {
         @include scale(1.1);
       }
     }
@@ -134,12 +134,19 @@
   }
 }
 @media (min-width: $screen-sm-min) {
-   .col{
+  .col{
     .views-field-field-imagen,
     .views-field-field-image {
-      height: 100px;
+      height: 150px;
       margin-bottom: -30px;
       overflow: hidden;
+      position: relative;
+
+      .field-content {
+        position: relative;
+        top: -32%;
+      }
+
     }
     .views-field-field-tipo {
       left: 10px;
@@ -173,6 +180,22 @@
 
 }
 
+@media (min-width: $screen-md-min) {
+  .col{
+    .views-field-field-imagen,
+    .views-field-field-image {
+      height: 150px;
+      margin-bottom: -30px;
+      overflow: hidden;
+      position: static;
+
+      .field-content {
+        position: static;
+        top: auto;
+      }
+    }
+  }
+}
 //collaborate
 .collaborate-header {
   margin-bottom: 15px;
