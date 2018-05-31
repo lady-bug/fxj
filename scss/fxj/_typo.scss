@@ -1,7 +1,9 @@
 .h2--separator {
-  position: relative;
-  z-index: 1;
+  font-weight: 300;
   margin: 30px 0;
+  position: relative;
+  text-align: center;
+  z-index: 1;
 
   &:before {
         border-top: 1px solid $gray-dark;
@@ -16,7 +18,7 @@
   span {
     background-color: white;
     display: inline-block;
-    padding-right: 5px;
+    padding: 0 5px;
   }
 }
 .block-title {

@@ -7,15 +7,13 @@
 .view-header {
   margin-bottom: 15px;
 }
-.path-frontpage .main-container{
-  .block,
-  .view {
-    .view-footer,
-    .collaborate-footer {
-      font-size: 16px;
-    }
-  }
+.view-footer,
+.collaborate-footer {
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
 }
+
 .views-field-field-tipo .field-content {
   background-color: white;
   border-radius: 15px;
@@ -154,30 +152,6 @@
       top: -10px;
     }
   }
-  .path-frontpage .main-container{
-    .block,
-    .view {
-      position: relative;
-
-      .view-footer,
-      .collaborate-footer {
-        position: absolute;
-        right: 0;
-      }
-    }
-    .block {
-      .view-footer,
-      .collaborate-footer {
-        top: 2em;
-      }
-    }
-    .view {
-      .view-footer {
-        top: 1em;
-      }
-    }
-  }
-
 }
 
 @media (min-width: $screen-md-min) {
