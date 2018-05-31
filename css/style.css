@@ -8664,6 +8664,10 @@ a.a2a_i, i.a2a_i {
   .breadcrumb > li + li:before {
     content: "> "; }
 
+/* line 4, ../scss/fxj/_front-page.scss */
+.twitter-tweet-rendered {
+  margin-top: 0 !important; }
+
 /* line 4, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .item > a .img-responsive {
   -webkit-transition: 0.3s;
