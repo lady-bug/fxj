@@ -15,6 +15,8 @@ regions:
   content: 'Content'
   sidebar_first: 'Primary'
   sidebar_second: 'Secondary'
+  collaborate: 'Collaborate'
+  social_networks: 'Social Networks'
   sticky_footer: 'Sticky footer'
   footer: 'Footer'
   page_top: 'Page top'

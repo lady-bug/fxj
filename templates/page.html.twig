@@ -159,6 +159,22 @@
   </div>
 {% endblock %}
 
+{% if page.collaborate %}
+  {% block collaborate %}
+    <div class="collaborate {{ container }}" role="contentinfo">
+      {{ page.collaborate }}
+    </div>
+  {% endblock %}
+{% endif %}
+
+{% if page.social_networks %}
+  {% block social_networks %}
+    <div class="social-networks {{ container }}" role="contentinfo">
+      {{ page.social_networks }}
+    </div>
+  {% endblock %}
+{% endif %}
+
 {% if page.sticky_footer %}
   {% block sticky_footer %}
     <div class="sticky-footer {{ container }}" role="contentinfo">

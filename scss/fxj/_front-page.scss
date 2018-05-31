@@ -1,5 +1,10 @@
-.path-frontpage .page-header {
-  @extend .sr-only;
+.path-frontpage {
+  .page-header {
+    @extend .sr-only;
+  }
+  .views-element-container {
+    margin-bottom: 30px;
+  }
 }
 .twitter-tweet-rendered {
   margin-top: 0 !important;
