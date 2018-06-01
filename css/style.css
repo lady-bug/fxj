@@ -8794,7 +8794,7 @@ a.a2a_i, i.a2a_i {
   height: 30px;
   width: 30px;
   text-align: center;
-  padding-top: 7px; }
+  padding-top: 4px; }
   /* line 28, ../scss/fxj/_views.scss */
   .views-field-field-tipo .field-content h2,
   .views-field-field-tipo .field-content .field--label {
@@ -8822,7 +8822,7 @@ a.a2a_i, i.a2a_i {
 /* line 52, ../scss/fxj/_views.scss */
 .views-field-title a {
   display: block;
-  padding: 5px; }
+  padding: 1rem; }
 
 /* line 57, ../scss/fxj/_views.scss */
 .views-field-body {
