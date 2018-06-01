@@ -215,14 +215,9 @@
     &:nth-of-type(2) {
       @extend .col-sm-12;
       @extend .col-md-4;
-
-      img {
-          margin-bottom: 3.5rem;
-      }
     }
   }
   .collaborate-feature {
-    font-size: 2rem;
     text-align: center;
     margin-bottom: 2rem;
 
@@ -230,12 +225,12 @@
       @extend .btn-donate;
       @include transition(0.5s);
       display: block;
+      font-size: 2rem;
       padding: 20px;
       text-decoration: none;
     }
 
     p {
-      font-size: 2rem;
       font-weight: 300;
     }
     .fontawesome-icon {
@@ -251,11 +246,23 @@
   }
 }
 
+@media (max-width: $screen-md-min) {
+  .region-collaborate {
+    .collaborate-feature-container:nth-of-type(2) {
+      margin-bottom: 2rem;
+
+      .collaborate-feature {
+        text-align: left;
+        &:nth-of-type(2) {
+          display: none;
+        }
+      }
+    }
+  }
+}
 @media (min-width: $screen-md-min) {
   .region-collaborate {
     .collaborate-feature {
-      font-size: 3rem;
-
       .fontawesome-icon {
         @include square(70px);
         border-radius: 35px;
@@ -263,14 +270,12 @@
         padding-top: 14px;
       }
     }
-  }
-}
-@media (max-width: $screen-md-min) {
-  .region-collaborate {
     .collaborate-feature-container:nth-of-type(2) {
-      margin-bottom: 2rem;
-      img {
-        display: none;
+
+      .collaborate-feature {
+        text-align: left;
+        min-height: 148px;
+        overflow: hidden;
       }
     }
   }
