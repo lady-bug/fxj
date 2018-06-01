@@ -8482,77 +8482,71 @@ body {
   position: sticky;
   width: 100%;
   z-index: 20; }
-  /* line 153, ../scss/fxj/_footer.scss */
-  .js .sticky-footer.fixed {
-    /*position: fixed;
-    bottom: 0;
-    top: auto;
-    z-index: 20;*/ }
 
-/* line 164, ../scss/fxj/_footer.scss */
+/* line 157, ../scss/fxj/_footer.scss */
 .footer.container-fluid {
   background-color: #333333; }
-/* line 167, ../scss/fxj/_footer.scss */
+/* line 160, ../scss/fxj/_footer.scss */
 .footer .svg-inline--fa {
   width: 30px; }
-/* line 170, ../scss/fxj/_footer.scss */
+/* line 163, ../scss/fxj/_footer.scss */
 .footer a {
   color: white; }
-/* line 173, ../scss/fxj/_footer.scss */
+/* line 166, ../scss/fxj/_footer.scss */
 .footer h2 {
   color: #777777;
   font-size: 2rem;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 20px; }
-/* line 180, ../scss/fxj/_footer.scss */
+/* line 173, ../scss/fxj/_footer.scss */
 .footer strong {
   font-weight: 400; }
-/* line 183, ../scss/fxj/_footer.scss */
+/* line 176, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 3rem 0; }
-  /* line 192, ../scss/fxj/_footer.scss */
+  /* line 185, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 197, ../scss/fxj/_footer.scss */
+  /* line 190, ../scss/fxj/_footer.scss */
   .footer .block:nth-last-of-type(2) .row {
     margin-left: 0;
     margin-right: 0; }
-  /* line 202, ../scss/fxj/_footer.scss */
+  /* line 195, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid #777777;
     color: #777777;
     margin: 0;
     padding: 15px 0 0 0; }
-    /* line 208, ../scss/fxj/_footer.scss */
+    /* line 201, ../scss/fxj/_footer.scss */
     .footer .block:last-of-type a {
       color: #777777; }
-/* line 214, ../scss/fxj/_footer.scss */
+/* line 207, ../scss/fxj/_footer.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
-  /* line 217, ../scss/fxj/_footer.scss */
+  /* line 210, ../scss/fxj/_footer.scss */
   .footer .collaborate-feature-container:first-of-type {
     display: none; }
 
 @media (min-width: 768px) {
-  /* line 227, ../scss/fxj/_footer.scss */
+  /* line 220, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 231, ../scss/fxj/_footer.scss */
+  /* line 224, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
     width: 100%; } }
 @media (max-width: 768px) {
-  /* line 241, ../scss/fxj/_footer.scss */
+  /* line 234, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     padding: 5px 15px;
     text-align: center; }
-    /* line 244, ../scss/fxj/_footer.scss */
+    /* line 237, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       display: block;
       margin: 0 auto 5px auto; }
-  /* line 249, ../scss/fxj/_footer.scss */
+  /* line 242, ../scss/fxj/_footer.scss */
   .sticky-footer .block-dropdown-language {
     margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
