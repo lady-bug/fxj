@@ -8511,44 +8511,48 @@ body {
 /* line 181, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 3rem 0; }
-  /* line 189, ../scss/fxj/_footer.scss */
+  /* line 190, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 193, ../scss/fxj/_footer.scss */
+  /* line 195, ../scss/fxj/_footer.scss */
+  .footer .block:nth-last-of-type(2) .row {
+    margin-left: 0;
+    margin-right: 0; }
+  /* line 200, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid #777777;
     color: #777777;
     margin: 0;
     padding: 15px 0 0 0; }
-    /* line 199, ../scss/fxj/_footer.scss */
+    /* line 206, ../scss/fxj/_footer.scss */
     .footer .block:last-of-type a {
       color: #777777; }
-/* line 205, ../scss/fxj/_footer.scss */
+/* line 212, ../scss/fxj/_footer.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
-  /* line 208, ../scss/fxj/_footer.scss */
+  /* line 215, ../scss/fxj/_footer.scss */
   .footer .collaborate-feature-container:first-of-type {
     display: none; }
 
 @media (min-width: 768px) {
-  /* line 218, ../scss/fxj/_footer.scss */
+  /* line 225, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 222, ../scss/fxj/_footer.scss */
+  /* line 229, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
     width: 100%; } }
 @media (max-width: 768px) {
-  /* line 232, ../scss/fxj/_footer.scss */
+  /* line 239, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     padding: 5px 15px;
     text-align: center; }
-    /* line 235, ../scss/fxj/_footer.scss */
+    /* line 242, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       display: block;
       margin: 0 auto 5px auto; }
-  /* line 240, ../scss/fxj/_footer.scss */
+  /* line 247, ../scss/fxj/_footer.scss */
   .sticky-footer .block-dropdown-language {
     margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
@@ -9020,11 +9024,7 @@ a.a2a_i, i.a2a_i {
   /* line 282, ../scss/fxj/_views.scss */
   .footer .collaborate-feature-container:nth-of-type(2) {
     display: none; }
-    /* line 285, ../scss/fxj/_views.scss */
-    .footer .collaborate-feature-container:nth-of-type(2) .row {
-      margin-left: 0;
-      margin-right: 0; }
-/* line 293, ../scss/fxj/_views.scss */
+/* line 288, ../scss/fxj/_views.scss */
 .footer .view-footer a,
 .footer .collaborate-footer a {
   color: white; }

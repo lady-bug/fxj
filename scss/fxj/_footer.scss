@@ -180,6 +180,7 @@
   }
   .block {
     margin: 0 0 3rem 0;
+
     &:not(:last-of-type) {
       @extend .col-sm-6;
       @extend .col-md-3;
@@ -190,7 +191,13 @@
         width: 100px;
       }
     }
-    &:last-of-type {
+    &:nth-last-of-type(2) {//collaborate
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+    }
+    &:last-of-type {//copyright
       border-top: 1px solid $gray-light;
       color: $gray-light;
       margin: 0;
