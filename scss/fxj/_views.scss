@@ -4,9 +4,12 @@
 }
 .view-footer,
 .collaborate-footer {
-  font-size: 16px;
-  font-weight: 300;
+  margin: 2rem 0 3rem 0;
   text-transform: uppercase;
+
+  .svg-inline--fa {
+    margin-right: 1rem;
+  }
 }
 
 .views-field-field-tipo .field-content {
@@ -85,7 +88,7 @@
     .field-content {
       border-radius: 25px;
       display: inline-block;
-      font-size: 20px;
+      font-size: 2rem;
       height: 50px;
       margin-top: 25px;
       padding-top: 10px;
@@ -169,7 +172,7 @@
 .collaborate {
 
   &.container-fluid {
-    background-color: #fdf9ea;
+    background-color: $gray-lighter;
     margin: 40px 0;
     max-width: none;
     padding: 0;
@@ -186,8 +189,13 @@
   margin-bottom: 15px;
 }
 .region-collaborate {
-  .h2--separator span {
-    background-color: #fdf9ea;
+  .h2--separator {
+    &:before {
+      border-color: white;
+    }
+    span {
+      background-color: $gray-lighter;
+    }
   }
   .collaborate-header {
     h2 {
@@ -200,7 +208,7 @@
     @extend .col-md-3;
   }
   .collaborate-feature {
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
 
     a {
@@ -212,7 +220,7 @@
     }
 
     p {
-      font-size: 20px;
+      font-size: 2rem;
       font-weight: 300;
     }
     .fontawesome-icon {
@@ -228,11 +236,7 @@
   }
   @media (min-width: $screen-md-min) {
     .collaborate-feature {
-      font-size: 30px;
-
-      a {
-        min-height: 5.9em;
-      }
+      font-size: 3rem;
 
       .fontawesome-icon {
         @include square(70px);
