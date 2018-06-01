@@ -11,6 +11,10 @@
     margin-right: 1rem;
     width:auto;
   }
+
+  a {
+    color: $gray-dark;
+  }
 }
 
 .views-field-field-tipo .field-content {
@@ -282,6 +286,12 @@
         margin-left: 0;
         margin-right: 0;
       }
+    }
+  }
+  .view-footer,
+  .collaborate-footer {
+    a {
+      color: white;
     }
   }
 }
