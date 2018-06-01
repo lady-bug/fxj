@@ -201,6 +201,14 @@
       }
     }
   }
+
+  .collaborate-feature-container {
+    margin-bottom: 10px;
+
+    &:first-of-type {
+      display:none;
+    }
+  }
 }
 
 @media (min-width: $screen-sm-min) {
