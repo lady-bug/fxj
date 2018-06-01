@@ -8188,7 +8188,7 @@ body {
       color: #fff;
       background-color: #f1c40f;
       border-color: #f1c40f;
-      border-radius: 21px;
+      border-radius: 2.5rem;
       display: inline-block;
       text-decoration: none; }
       /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
@@ -8253,8 +8253,8 @@ body {
       /* line 139, ../scss/fxj/_navbar-header.scss */
       .navbar-header .block-superfish .menu > li:not(:last-of-type) > a {
         border-bottom: 5px solid white;
-        bottom: -4px;
-        font-size: 18px;
+        bottom: -1px;
+        font-size: 1.8rem;
         font-weight: 300;
         padding: 20px 25px 20px 20px;
         position: relative; }
