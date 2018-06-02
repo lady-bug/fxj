@@ -8097,13 +8097,15 @@ body {
   font-weight: 300; }
 
 /* line 8, ../scss/fxj/_typo.scss */
-.h2--separator, .block-title {
+.h2--separator, .block-title,
+.page-header {
   font-weight: 300;
   margin: 3rem 0;
   position: relative;
   z-index: 1; }
   /* line 14, ../scss/fxj/_typo.scss */
-  .h2--separator:before, .block-title:before {
+  .h2--separator:before, .block-title:before,
+  .page-header:before {
     border-top: 1px solid #eeeeee;
     content: "";
     margin: 0 auto;
@@ -8117,16 +8119,50 @@ body {
     width: 100%;
     z-index: -1; }
   /* line 24, ../scss/fxj/_typo.scss */
-  .h2--separator span, .block-title span {
+  .h2--separator span, .block-title span,
+  .page-header span {
     background-color: white;
     display: inline-block;
-    margin: 0 0 0 2rem;
-    padding: 0 1rem; }
+    margin: 0;
+    padding: 0 1rem 0 0; }
+
+/* line 35, ../scss/fxj/_typo.scss */
+.page-header {
+  border-bottom: 0;
+  font-weight: 400; }
 
 /* line 2, ../scss/fxj/_layout.scss */
 .container-fluid {
   max-width: 1170px; }
 
+/* line 5, ../scss/fxj/_layout.scss */
+.region-content {
+  margin-bottom: 4rem; }
+
+@media (min-width: 768px) {
+  /* line 12, ../scss/fxj/_layout.scss */
+  .page-node-type-page .region-content,
+  .page-node-type-webform .region-content,
+  .page-node-type-colabora .region-content {
+    padding-left: 340px;
+    position: relative; }
+    /* line 16, ../scss/fxj/_layout.scss */
+    .page-node-type-page .region-content .field--name-field-imagen-colabora,
+    .page-node-type-webform .region-content .field--name-field-imagen-colabora,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora {
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 340px; }
+      /* line 22, ../scss/fxj/_layout.scss */
+      .page-node-type-page .region-content .field--name-field-imagen-colabora img,
+      .page-node-type-webform .region-content .field--name-field-imagen-colabora img,
+      .page-node-type-colabora .region-content .field--name-field-imagen-colabora img {
+        max-width: calc(100% - 20px); } }
+@media (max-width: 768px) {
+  /* line 30, ../scss/fxj/_layout.scss */
+  .field--name-field-imagen-colabora {
+    display: none; } }
 /* line 2, ../scss/fxj/_navbar-header.scss */
 .navbar {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); }
@@ -8980,10 +9016,12 @@ a.a2a_i, i.a2a_i {
   margin-bottom: 15px; }
 
 /* line 204, ../scss/fxj/_views.scss */
-.region-collaborate .h2--separator:before, .region-collaborate .block-title:before {
+.region-collaborate .h2--separator:before, .region-collaborate .block-title:before,
+.region-collaborate .page-header:before {
   border-color: white; }
 /* line 207, ../scss/fxj/_views.scss */
-.region-collaborate .h2--separator span, .region-collaborate .block-title span {
+.region-collaborate .h2--separator span, .region-collaborate .block-title span,
+.region-collaborate .page-header span {
   background-color: #eeeeee; }
 /* line 211, ../scss/fxj/_views.scss */
 .region-collaborate .collaborate-header {

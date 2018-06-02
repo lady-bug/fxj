@@ -24,10 +24,15 @@ img {
   span {
     background-color: white;
     display: inline-block;
-    margin: 0 0 0 2rem;
-    padding: 0 1rem;
+    margin: 0;
+    padding: 0 1rem 0 0;
   }
 }
-.block-title {
+.block-title,
+.page-header {
   @extend .h2--separator;
+}
+.page-header {
+  border-bottom: 0;
+  font-weight: 400;
 }

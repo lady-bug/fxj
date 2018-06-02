@@ -2,3 +2,32 @@
 .container-fluid {
   max-width: $container-large-desktop;
 }
+.region-content {
+  margin-bottom: 4rem;
+}
+@media (min-width: $screen-sm-min) {
+  .page-node-type-page,
+  .page-node-type-webform,
+  .page-node-type-colabora {
+    .region-content {
+      padding-left: 340px;
+      position:relative;
+
+      .field--name-field-imagen-colabora {
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 340px;
+
+        img {
+          max-width: calc(100% - 20px);
+        }
+      }
+    }
+  }
+}
+@media (max-width: $screen-sm-min) {
+  .field--name-field-imagen-colabora {
+    display: none;
+  }
+}
