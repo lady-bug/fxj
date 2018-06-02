@@ -130,6 +130,18 @@
         margin-right: 5px;
       }
     }
+    li.active > a {
+      color: $brand-primary;
+      background-color: transparent;
+
+      &:hover,
+      &:focus {
+        color: $brand-primary;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+    }
   }
 
   .block-addtoany {
