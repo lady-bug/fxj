@@ -31,7 +31,8 @@
   }
 }
 .views-field-field-imagen,
-.views-field-field-image {
+.views-field-field-image,
+.views-field-field-imagen-colabora {
   a {
     display: block;
 
@@ -111,7 +112,8 @@
 @media (max-width: $screen-sm-min) {
   .col{
     .views-field-field-imagen,
-    .views-field-field-image {
+    .views-field-field-image,
+    .views-field-field-imagen-colabora {
       box-sizing: border-box;
       float: left;
       overflow: hidden;
@@ -129,7 +131,8 @@
     }
     .views-field-title,
     .views-field-body,
-    .views-field-view-node {
+    .views-field-view-node,
+    .views-field-path {
       padding-left: 120px;
     }
   }
@@ -138,7 +141,8 @@
 @media (min-width: $screen-sm-min) {
   .col{
     .views-field-field-imagen,
-    .views-field-field-image {
+    .views-field-field-image,
+    .views-field-field-imagen-colabora {
       height: 150px;
       margin-bottom: -30px;
       overflow: hidden;
@@ -161,7 +165,8 @@
 @media (min-width: $screen-md-min) {
   .col{
     .views-field-field-imagen,
-    .views-field-field-image {
+    .views-field-field-image,
+    .views-field-field-imagen-colabora {
       height: 150px;
       margin-bottom: -30px;
       overflow: hidden;
