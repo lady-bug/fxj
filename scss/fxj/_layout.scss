@@ -5,6 +5,9 @@
 .region-content {
   margin-bottom: 4rem;
 }
+.breadcrumb {
+  margin-bottom: 0;
+}
 @media (min-width: $screen-sm-min) {
   .page-node-type-page,
   .page-node-type-webform,

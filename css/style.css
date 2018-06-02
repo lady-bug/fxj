@@ -8139,14 +8139,18 @@ body {
 .region-content {
   margin-bottom: 4rem; }
 
+/* line 8, ../scss/fxj/_layout.scss */
+.breadcrumb {
+  margin-bottom: 0; }
+
 @media (min-width: 768px) {
-  /* line 12, ../scss/fxj/_layout.scss */
+  /* line 15, ../scss/fxj/_layout.scss */
   .page-node-type-page .region-content,
   .page-node-type-webform .region-content,
   .page-node-type-colabora .region-content {
     padding-left: 340px;
     position: relative; }
-    /* line 16, ../scss/fxj/_layout.scss */
+    /* line 19, ../scss/fxj/_layout.scss */
     .page-node-type-page .region-content .field--name-field-imagen-colabora,
     .page-node-type-webform .region-content .field--name-field-imagen-colabora,
     .page-node-type-colabora .region-content .field--name-field-imagen-colabora {
@@ -8154,13 +8158,13 @@ body {
       position: absolute;
       top: 0;
       width: 340px; }
-      /* line 22, ../scss/fxj/_layout.scss */
+      /* line 25, ../scss/fxj/_layout.scss */
       .page-node-type-page .region-content .field--name-field-imagen-colabora img,
       .page-node-type-webform .region-content .field--name-field-imagen-colabora img,
       .page-node-type-colabora .region-content .field--name-field-imagen-colabora img {
         max-width: calc(100% - 20px); } }
 @media (max-width: 768px) {
-  /* line 30, ../scss/fxj/_layout.scss */
+  /* line 33, ../scss/fxj/_layout.scss */
   .field--name-field-imagen-colabora {
     display: none; } }
 /* line 2, ../scss/fxj/_navbar-header.scss */
@@ -9090,3 +9094,24 @@ a.a2a_i, i.a2a_i {
 .footer .view-footer a,
 .footer .collaborate-footer a {
   color: white; }
+
+/* line 305, ../scss/fxj/_views.scss */
+.view-empresas-embajadoras a {
+  display: block;
+  padding: 0 0 3rem 0;
+  text-align: center;
+  height: 130px; }
+  /* line 311, ../scss/fxj/_views.scss */
+  .view-empresas-embajadoras a img {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    max-height: 100%;
+    width: auto; }
+  /* line 320, ../scss/fxj/_views.scss */
+  .view-empresas-embajadoras a:hover img, .view-empresas-embajadoras a:focus img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1); }

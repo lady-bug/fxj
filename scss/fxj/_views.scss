@@ -300,3 +300,26 @@
     }
   }
 }
+
+.view-empresas-embajadoras {
+  a {
+    display: block;
+    padding: 0 0 3rem 0;
+    text-align: center;
+    height: 130px;
+
+    img {
+      @include transition(0.5s);
+      display: inline-block;
+      max-height: 100%;
+      width: auto;
+    }
+
+    &:hover,
+    &:focus {
+      img {
+        @include scale(1.1);
+      }
+    }
+  }
+}
