@@ -297,7 +297,7 @@
   border: 0;
 
   .search-block-form {
-    margin: 20vh 10vw 0 10vw;
+    margin: 30vh 10vw 0 10vw;
 
     .form-control {
       background-color: transparent;
@@ -346,7 +346,7 @@
   border: 0;
   display: none;
   background-color: transparent;
-  border-color: 0;
+  border-color: transparent;
 
   &:hover,
   &:focus {
@@ -354,8 +354,9 @@
   }
 }
 .simple-popup-blocks-global + #search-popup {
+  font-size: 2rem;
   display: block;
   position: absolute;
   right: 5px;
-  top: 20px;
+  top: 17px;
 }

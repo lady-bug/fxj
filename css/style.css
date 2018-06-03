@@ -8026,31 +8026,30 @@ ol, ul {
 .footer {
   margin-top: 45px;
   padding-top: 35px;
-  padding-bottom: 36px;
-  border-top: 1px solid #E5E5E5; }
+  padding-bottom: 36px; }
 
-/* line 42, ../scss/_overrides.scss */
+/* line 41, ../scss/_overrides.scss */
 p:last-child,
 .form-group:last-child,
 .panel:last-child {
   margin-bottom: 0; }
 
-/* line 50, ../scss/_overrides.scss */
+/* line 49, ../scss/_overrides.scss */
 .region-help > .glyphicon {
   font-size: 18px;
   float: left;
   margin: -0.05em 0.5em 0 0; }
-/* line 55, ../scss/_overrides.scss */
+/* line 54, ../scss/_overrides.scss */
 .region-help .block {
   overflow: hidden; }
 
-/* line 61, ../scss/_overrides.scss */
+/* line 60, ../scss/_overrides.scss */
 .help-block, .control-group .help-inline {
   color: #777777;
   font-size: 12px;
   margin: 5px 0 10px;
   padding: 0; }
-  /* line 66, ../scss/_overrides.scss */
+  /* line 65, ../scss/_overrides.scss */
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
@@ -8449,7 +8448,7 @@ body {
   border: 0; }
   /* line 299, ../scss/fxj/_navbar-header.scss */
   .spb-popup-main-wrapper .search-block-form {
-    margin: 20vh 10vw 0 10vw; }
+    margin: 30vh 10vw 0 10vw; }
     /* line 302, ../scss/fxj/_navbar-header.scss */
     .spb-popup-main-wrapper .search-block-form .form-control {
       background-color: transparent;
@@ -8501,17 +8500,18 @@ body {
   border: 0;
   display: none;
   background-color: transparent;
-  border-color: 0; }
+  border-color: transparent; }
   /* line 351, ../scss/fxj/_navbar-header.scss */
   #search-popup:hover, #search-popup:focus {
     color: #16a085; }
 
 /* line 356, ../scss/fxj/_navbar-header.scss */
 .simple-popup-blocks-global + #search-popup {
+  font-size: 2rem;
   display: block;
   position: absolute;
   right: 5px;
-  top: 20px; }
+  top: 17px; }
 
 /* line 2, ../scss/fxj/_forms.scss */
 ::-webkit-input-placeholder {
@@ -8645,14 +8645,13 @@ body {
 /* line 83, ../scss/fxj/_footer.scss */
 .sticky-footer.container-fluid,
 .footer.container-fluid {
-  border-top: 1px solid white;
   color: white;
   font-weight: 300;
   margin: 0;
   max-width: none;
   padding: 0; }
 
-/* line 92, ../scss/fxj/_footer.scss */
+/* line 91, ../scss/fxj/_footer.scss */
 .region-sticky-footer,
 .region-footer {
   max-width: 1170px;
@@ -8660,126 +8659,126 @@ body {
   margin-left: auto;
   padding: 15px; }
 
-/* line 100, ../scss/fxj/_footer.scss */
+/* line 99, ../scss/fxj/_footer.scss */
 .region-sticky-footer {
   padding: 0 15px; }
 
-/* line 106, ../scss/fxj/_footer.scss */
+/* line 105, ../scss/fxj/_footer.scss */
 .sticky-footer .block {
   margin-bottom: 0; }
-/* line 110, ../scss/fxj/_footer.scss */
+/* line 109, ../scss/fxj/_footer.scss */
 .sticky-footer.container-fluid {
   background-color: #c0392b; }
-/* line 113, ../scss/fxj/_footer.scss */
+/* line 112, ../scss/fxj/_footer.scss */
 .sticky-footer .block-dropdown-language .dropdown .language-link {
   font-size: 1.3rem; }
-/* line 116, ../scss/fxj/_footer.scss */
+/* line 115, ../scss/fxj/_footer.scss */
 .sticky-footer .menu.nav {
   border: 0;
   float: left;
   margin: 0;
   padding: 0; }
-  /* line 123, ../scss/fxj/_footer.scss */
+  /* line 122, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     background-color: #c0392b;
     color: white;
     font-size: 1.3rem; }
-    /* line 128, ../scss/fxj/_footer.scss */
+    /* line 127, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a:hover, .sticky-footer .menu.nav a:focus {
       text-decoration: underline; }
-    /* line 133, ../scss/fxj/_footer.scss */
+    /* line 132, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       margin-right: 5px; }
-  /* line 137, ../scss/fxj/_footer.scss */
+  /* line 136, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav li.active > a {
     color: #16a085;
     background-color: transparent; }
-    /* line 141, ../scss/fxj/_footer.scss */
+    /* line 140, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav li.active > a:hover, .sticky-footer .menu.nav li.active > a:focus {
       color: #16a085;
       background-color: transparent;
       text-decoration: underline; }
-/* line 151, ../scss/fxj/_footer.scss */
+/* line 150, ../scss/fxj/_footer.scss */
 .sticky-footer .block-addtoany {
   float: right;
   position: relative; }
-  /* line 154, ../scss/fxj/_footer.scss */
+  /* line 153, ../scss/fxj/_footer.scss */
   .sticky-footer .block-addtoany .a2a_kit {
     position: relative;
     right: 0;
     bottom: 2rem; }
 
-/* line 163, ../scss/fxj/_footer.scss */
+/* line 162, ../scss/fxj/_footer.scss */
 .js .sticky-footer {
   bottom: 0;
   position: sticky;
   width: 100%;
   z-index: 20; }
 
-/* line 173, ../scss/fxj/_footer.scss */
+/* line 172, ../scss/fxj/_footer.scss */
 .footer.container-fluid {
   background-color: #333333; }
-/* line 176, ../scss/fxj/_footer.scss */
+/* line 175, ../scss/fxj/_footer.scss */
 .footer .svg-inline--fa {
   width: 30px; }
-/* line 179, ../scss/fxj/_footer.scss */
+/* line 178, ../scss/fxj/_footer.scss */
 .footer a {
   color: white; }
-/* line 182, ../scss/fxj/_footer.scss */
+/* line 181, ../scss/fxj/_footer.scss */
 .footer h2 {
   color: #777777;
   font-size: 2rem;
   font-weight: 300;
   margin-top: 0;
   margin-bottom: 20px; }
-/* line 189, ../scss/fxj/_footer.scss */
+/* line 188, ../scss/fxj/_footer.scss */
 .footer strong {
   font-weight: 400; }
-/* line 192, ../scss/fxj/_footer.scss */
+/* line 191, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 3rem 0; }
-  /* line 201, ../scss/fxj/_footer.scss */
+  /* line 200, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 206, ../scss/fxj/_footer.scss */
+  /* line 205, ../scss/fxj/_footer.scss */
   .footer .block:nth-last-of-type(2) .row {
     margin-left: 0;
     margin-right: 0; }
-  /* line 211, ../scss/fxj/_footer.scss */
+  /* line 210, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid #777777;
     color: #777777;
     margin: 0;
     padding: 15px 0 0 0; }
-    /* line 217, ../scss/fxj/_footer.scss */
+    /* line 216, ../scss/fxj/_footer.scss */
     .footer .block:last-of-type a {
       color: #777777; }
-/* line 223, ../scss/fxj/_footer.scss */
+/* line 222, ../scss/fxj/_footer.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
-  /* line 226, ../scss/fxj/_footer.scss */
+  /* line 225, ../scss/fxj/_footer.scss */
   .footer .collaborate-feature-container:first-of-type {
     display: none; }
 
 @media (min-width: 768px) {
-  /* line 236, ../scss/fxj/_footer.scss */
+  /* line 235, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 240, ../scss/fxj/_footer.scss */
+  /* line 239, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
     width: 100%; } }
 @media (max-width: 767px) {
-  /* line 250, ../scss/fxj/_footer.scss */
+  /* line 249, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     padding: 5px 15px;
     text-align: center; }
-    /* line 253, ../scss/fxj/_footer.scss */
+    /* line 252, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       display: block;
       margin: 0 auto 5px auto; }
-  /* line 258, ../scss/fxj/_footer.scss */
+  /* line 257, ../scss/fxj/_footer.scss */
   .sticky-footer .block-dropdown-language {
     margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
