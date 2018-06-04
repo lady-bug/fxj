@@ -8163,9 +8163,12 @@ body {
       .page-node-type-colabora .region-content .field--name-field-imagen-colabora img {
         max-width: calc(100% - 20px); } }
 @media (max-width: 767px) {
-  /* line 35, ../scss/fxj/_layout.scss */
-  .region-collaborate img,
+  /* line 34, ../scss/fxj/_layout.scss */
   .footer img {
+    display: none; } }
+@media (max-width: 991px) {
+  /* line 41, ../scss/fxj/_layout.scss */
+  .region-collaborate img {
     display: none; } }
 /* line 2, ../scss/fxj/_navbar-header.scss */
 .navbar {

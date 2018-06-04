@@ -30,8 +30,14 @@
   }
 }
 @media (max-width: $screen-xs-max) {
-  .region-collaborate,
   .footer {
+    img {
+        display: none;
+    }
+  }
+}
+@media (max-width: $screen-sm-max) {
+  .region-collaborate {
     img {
         display: none;
     }
