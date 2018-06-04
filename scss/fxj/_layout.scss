@@ -29,8 +29,11 @@
     }
   }
 }
-@media (max-width: $screen-sm-min) {
-  .field--name-field-imagen-colabora {
-    display: none;
+@media (max-width: $screen-xs-max) {
+  .region-collaborate,
+  .footer {
+    img {
+        display: none;
+    }
   }
 }

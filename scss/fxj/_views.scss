@@ -109,7 +109,7 @@
     padding-left: 120px;
   }
 }
-@media (max-width: $screen-sm-min) {
+@media (max-width: $screen-xs-max) {
   .col{
     .views-field-field-imagen,
     .views-field-field-image,
@@ -251,20 +251,6 @@
   }
 }
 
-@media (max-width: $screen-md-min) {
-  .region-collaborate {
-    .collaborate-feature-container:nth-of-type(2) {
-      margin-bottom: 2rem;
-
-      .collaborate-feature {
-        text-align: left;
-        &:nth-of-type(2) {
-          display: none;
-        }
-      }
-    }
-  }
-}
 @media (min-width: $screen-md-min) {
   .region-collaborate {
     .collaborate-feature {
