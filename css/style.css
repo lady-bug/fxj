@@ -8329,36 +8329,52 @@ body {
         float: none;
         margin: 0;
         padding: 15px; }
+      /* line 187, ../scss/fxj/_navbar-header.scss */
+      .navbar-fixed-top .navbar-collapse .region-navigation-collapsible .block[id*="redessociales"] {
+        background-color: #333333;
+        padding: 15px; }
+        /* line 190, ../scss/fxj/_navbar-header.scss */
+        .navbar-fixed-top .navbar-collapse .region-navigation-collapsible .block[id*="redessociales"] h2 {
+          color: #777777;
+          font-size: 2rem;
+          font-weight: 600;
+          margin-top: 0; }
+        /* line 196, ../scss/fxj/_navbar-header.scss */
+        .navbar-fixed-top .navbar-collapse .region-navigation-collapsible .block[id*="redessociales"] a {
+          color: white; }
+        /* line 199, ../scss/fxj/_navbar-header.scss */
+        .navbar-fixed-top .navbar-collapse .region-navigation-collapsible .block[id*="redessociales"] .svg-inline--fa {
+          width: 30px; }
 
-  /* line 190, ../scss/fxj/_navbar-header.scss */
+  /* line 206, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     padding: 15px; }
-    /* line 193, ../scss/fxj/_navbar-header.scss */
+    /* line 209, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .caret {
       border-width: 10px; }
-    /* line 197, ../scss/fxj/_navbar-header.scss */
+    /* line 213, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn:not(.dropdown-toggle) {
       font-size: 2rem;
       padding-left: 0;
       text-align: left;
       width: calc(100% - 40px); }
-    /* line 203, ../scss/fxj/_navbar-header.scss */
+    /* line 219, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .dropdown-menu {
       -webkit-box-shadow: none;
       box-shadow: none;
       background-color: transparent;
       position: relative; }
-      /* line 208, ../scss/fxj/_navbar-header.scss */
+      /* line 224, ../scss/fxj/_navbar-header.scss */
       .navbar-nav .dropdown-menu a {
         font-size: 2rem; }
-    /* line 212, ../scss/fxj/_navbar-header.scss */
+    /* line 228, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn-group {
       display: block; }
-      /* line 216, ../scss/fxj/_navbar-header.scss */
+      /* line 232, ../scss/fxj/_navbar-header.scss */
       .navbar-nav .btn-group.open + .dropdown-menu {
         float: none;
         position: static; }
-    /* line 222, ../scss/fxj/_navbar-header.scss */
+    /* line 238, ../scss/fxj/_navbar-header.scss */
     .navbar-nav li {
       margin-bottom: 5px; }
       /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -8369,134 +8385,134 @@ body {
       .navbar-nav li:after {
         clear: both; } }
 @media (min-width: 768px) {
-  /* line 229, ../scss/fxj/_navbar-header.scss */
+  /* line 245, ../scss/fxj/_navbar-header.scss */
   .navbar {
     background-color: white; }
-    /* line 233, ../scss/fxj/_navbar-header.scss */
+    /* line 249, ../scss/fxj/_navbar-header.scss */
     .navbar-collapse .block[id*="botondona"] {
       display: none; }
 
-  /* line 238, ../scss/fxj/_navbar-header.scss */
+  /* line 254, ../scss/fxj/_navbar-header.scss */
   .navbar-header {
     width: 100%; }
-    /* line 241, ../scss/fxj/_navbar-header.scss */
+    /* line 257, ../scss/fxj/_navbar-header.scss */
     .navbar-header .logo {
       margin-left: 0; }
-    /* line 245, ../scss/fxj/_navbar-header.scss */
+    /* line 261, ../scss/fxj/_navbar-header.scss */
     .navbar-header .block[id*="botondona"] {
       margin-right: 37px; }
-    /* line 250, ../scss/fxj/_navbar-header.scss */
+    /* line 266, ../scss/fxj/_navbar-header.scss */
     .navbar-header .region-navigation > .search-block-form {
       right: 0px;
       top: 15px; }
-      /* line 254, ../scss/fxj/_navbar-header.scss */
+      /* line 270, ../scss/fxj/_navbar-header.scss */
       .navbar-header .region-navigation > .search-block-form .form-item {
         margin-bottom: 0; }
 
-  /* line 259, ../scss/fxj/_navbar-header.scss */
+  /* line 275, ../scss/fxj/_navbar-header.scss */
   .region-navigation-collapsible {
     position: relative; }
-    /* line 263, ../scss/fxj/_navbar-header.scss */
-    .region-navigation-collapsible .block[id*="dropdownlanguagecontent"], .region-navigation-collapsible .block[id*="dropdownlanguagecontenido"] {
+    /* line 279, ../scss/fxj/_navbar-header.scss */
+    .region-navigation-collapsible .block[id*="dropdownlanguagecontent"], .region-navigation-collapsible .block[id*="dropdownlanguagecontenido"], .region-navigation-collapsible .block[id*="redessociales"] {
       display: none; }
-    /* line 269, ../scss/fxj/_navbar-header.scss */
+    /* line 286, ../scss/fxj/_navbar-header.scss */
     .region-navigation-collapsible nav[id*="navegacionsecundaria"] {
       display: none; }
 
-  /* line 274, ../scss/fxj/_navbar-header.scss */
+  /* line 291, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     position: absolute;
     right: 14.5rem;
     top: 7px; }
-    /* line 279, ../scss/fxj/_navbar-header.scss */
+    /* line 296, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li {
       margin: 0 5px 0 0; }
-      /* line 284, ../scss/fxj/_navbar-header.scss */
+      /* line 301, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
         border-color: #16a085; }
-      /* line 290, ../scss/fxj/_navbar-header.scss */
+      /* line 307, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li .btn {
         padding: 15px 0 18px 0; }
-        /* line 293, ../scss/fxj/_navbar-header.scss */
+        /* line 310, ../scss/fxj/_navbar-header.scss */
         .navbar-nav > li .btn:not(.dropdown-toggle) {
           border-bottom: 5px solid white;
           font-weight: 300;
           text-decoration: none; }
-          /* line 298, ../scss/fxj/_navbar-header.scss */
+          /* line 315, ../scss/fxj/_navbar-header.scss */
           .navbar-nav > li .btn:not(.dropdown-toggle):hover, .navbar-nav > li .btn:not(.dropdown-toggle):focus {
             color: #16a085; }
-          /* line 303, ../scss/fxj/_navbar-header.scss */
+          /* line 320, ../scss/fxj/_navbar-header.scss */
           .navbar-nav > li .btn:not(.dropdown-toggle):after {
             color: #777777;
             content: "|";
             display: inline-block;
             margin: 0 0 0 8px; }
-      /* line 313, ../scss/fxj/_navbar-header.scss */
+      /* line 330, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li.active .btn:not(.dropdown-toggle) {
         border-bottom-color: #16a085; } }
 @media (min-width: 992px) {
-  /* line 322, ../scss/fxj/_navbar-header.scss */
+  /* line 339, ../scss/fxj/_navbar-header.scss */
   .navbar-header .block[id*="botondona"] {
     margin-right: 47px;
     padding: 0 15px; }
 
-  /* line 327, ../scss/fxj/_navbar-header.scss */
+  /* line 344, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     right: 19rem; }
-    /* line 329, ../scss/fxj/_navbar-header.scss */
+    /* line 346, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li {
       margin: 0 10px; }
-      /* line 331, ../scss/fxj/_navbar-header.scss */
+      /* line 348, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li .btn:not(.dropdown-toggle) {
         font-weight: 400; } }
-/* line 339, ../scss/fxj/_navbar-header.scss */
+/* line 356, ../scss/fxj/_navbar-header.scss */
 #block-fxj-alpha-search {
   display: none; }
 
-/* line 342, ../scss/fxj/_navbar-header.scss */
+/* line 359, ../scss/fxj/_navbar-header.scss */
 .spb-popup-main-wrapper {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background: rgba(255, 255, 255, 0.9) url(../logo.svg) no-repeat 10vw 1rem;
   background-size: 200px;
   border: 0; }
-  /* line 348, ../scss/fxj/_navbar-header.scss */
+  /* line 365, ../scss/fxj/_navbar-header.scss */
   .spb-popup-main-wrapper .search-block-form {
     margin: 30vh 10vw 0 10vw; }
-    /* line 351, ../scss/fxj/_navbar-header.scss */
+    /* line 368, ../scss/fxj/_navbar-header.scss */
     .spb-popup-main-wrapper .search-block-form .form-control {
       background-color: transparent;
       font-size: 3rem; }
-      /* line 355, ../scss/fxj/_navbar-header.scss */
+      /* line 372, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         font-size: 3rem; }
-      /* line 358, ../scss/fxj/_navbar-header.scss */
+      /* line 375, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control:-ms-input-placeholder {
         /* IE 10+ */
         font-size: 3rem; }
-      /* line 361, ../scss/fxj/_navbar-header.scss */
+      /* line 378, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::-ms-input-placeholder {
         font-size: 3rem; }
-      /* line 364, ../scss/fxj/_navbar-header.scss */
+      /* line 381, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::placeholder {
         font-size: 3rem; }
-    /* line 369, ../scss/fxj/_navbar-header.scss */
+    /* line 386, ../scss/fxj/_navbar-header.scss */
     .spb-popup-main-wrapper .search-block-form .form-submit {
       background-color: transparent;
       font-size: 2rem; }
 
-/* line 375, ../scss/fxj/_navbar-header.scss */
+/* line 392, ../scss/fxj/_navbar-header.scss */
 .spb_top_center {
   bottom: 0;
   left: 0;
   right: 0;
   top: 0; }
 
-/* line 381, ../scss/fxj/_navbar-header.scss */
+/* line 398, ../scss/fxj/_navbar-header.scss */
 .block-fxj-alpha-search-modal-minimize {
   display: none; }
 
-/* line 384, ../scss/fxj/_navbar-header.scss */
+/* line 401, ../scss/fxj/_navbar-header.scss */
 .block-fxj-alpha-search-modal-close {
   width: 4rem;
   height: 4rem;
@@ -8508,18 +8524,18 @@ body {
   right: 10vw;
   top: 1rem; }
 
-/* line 394, ../scss/fxj/_navbar-header.scss */
+/* line 411, ../scss/fxj/_navbar-header.scss */
 #search-popup {
   border: 0;
   color: #777777;
   display: none;
   background-color: transparent;
   border-color: transparent; }
-  /* line 401, ../scss/fxj/_navbar-header.scss */
+  /* line 418, ../scss/fxj/_navbar-header.scss */
   #search-popup:hover, #search-popup:focus {
     color: #16a085; }
 
-/* line 406, ../scss/fxj/_navbar-header.scss */
+/* line 423, ../scss/fxj/_navbar-header.scss */
 .simple-popup-blocks-global + #search-popup {
   display: block;
   font-size: 2rem;
@@ -8528,7 +8544,7 @@ body {
   top: 15px; }
 
 @media (min-width: 768px) {
-  /* line 414, ../scss/fxj/_navbar-header.scss */
+  /* line 431, ../scss/fxj/_navbar-header.scss */
   .simple-popup-blocks-global + #search-popup {
     right: -10px; } }
 /* line 2, ../scss/fxj/_forms.scss */

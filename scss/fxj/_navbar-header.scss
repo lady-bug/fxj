@@ -184,6 +184,22 @@
           margin: 0;
           padding: 15px;
         }
+        &[id*="redessociales"] {
+          background-color: $gray-dark;
+          padding: 15px;
+          h2 {
+            color: $gray-light;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-top: 0;
+          }
+          a {
+            color: white;
+          }
+          .svg-inline--fa {
+            width: 30px;
+          }
+        }
       }
     }
   }
@@ -261,7 +277,8 @@
 
     .block {
       &[id*="dropdownlanguagecontent"],
-      &[id*="dropdownlanguagecontenido"] {
+      &[id*="dropdownlanguagecontenido"],
+      &[id*="redessociales"] {
         display: none;
       }
     }
