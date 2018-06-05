@@ -8188,7 +8188,7 @@ body {
       -webkit-transition: 0.5s;
       -o-transition: 0.5s;
       transition: 0.5s;
-      background-color: #333333; }
+      background-color: #777777; }
     /* line 19, ../scss/fxj/_navbar-header.scss */
     .navbar .navbar-toggle:hover {
       background-color: transparent; }
@@ -8233,61 +8233,71 @@ body {
         display: block;
         max-height: 100%; }
     /* line 62, ../scss/fxj/_navbar-header.scss */
-    .navbar-header .region-navigation > .search-block-form {
-      top: 10px;
-      right: 15px;
-      position: absolute;
-      width: calc(100% - 250px);
-      max-width: 200px; }
-  /* line 71, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .block[id*="botondona"] {
+      float: right;
+      margin: 17px 50px 0 0; }
+    /* line 67, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .region-navigation > {
+      position: relative; }
+      /* line 70, ../scss/fxj/_navbar-header.scss */
+      .navbar-header .region-navigation > .search-block-form {
+        top: 10px;
+        right: 15px;
+        position: absolute;
+        width: calc(100% - 250px);
+        max-width: 200px; }
+  /* line 81, ../scss/fxj/_navbar-header.scss */
+  .navbar-collapse .block[id*="botondona"] {
+    margin: 15px; }
+  /* line 86, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     margin: 0; }
-    /* line 77, ../scss/fxj/_navbar-header.scss */
+    /* line 92, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .dropdown-toggle:hover .caret, .navbar-nav .dropdown-toggle:focus .caret {
       color: #16a085; }
-    /* line 84, ../scss/fxj/_navbar-header.scss */
+    /* line 99, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn-group.open + .dropdown-menu {
       display: block;
       border: 0; }
-    /* line 89, ../scss/fxj/_navbar-header.scss */
+    /* line 104, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn-group .btn {
       font-size: 1.6rem;
       color: #777777; }
-    /* line 94, ../scss/fxj/_navbar-header.scss */
+    /* line 109, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn-group .btn {
       -webkit-box-shadow: none;
       box-shadow: none;
       background-color: transparent;
       border: 0;
       border-radius: 0; }
-    /* line 101, ../scss/fxj/_navbar-header.scss */
+    /* line 116, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .dropdown-menu a {
       font-size: 1.6rem;
       font-weight: 300; }
-    /* line 107, ../scss/fxj/_navbar-header.scss */
+    /* line 122, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li a,
     .navbar-nav > li .open a {
       color: #333333;
       background-color: transparent; }
-      /* line 112, ../scss/fxj/_navbar-header.scss */
+      /* line 127, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li a:hover, .navbar-nav > li a:focus,
       .navbar-nav > li .open a:hover,
       .navbar-nav > li .open a:focus {
         color: #333333;
         background-color: transparent;
         text-decoration: underline; }
-    /* line 119, ../scss/fxj/_navbar-header.scss */
+    /* line 134, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li .active a {
       color: #16a085;
       background-color: transparent; }
-      /* line 123, ../scss/fxj/_navbar-header.scss */
+      /* line 138, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li .active a:hover, .navbar-nav > li .active a:focus {
         color: #16a085;
         background-color: transparent;
         text-decoration: underline; }
 
 @media (max-width: 767px) {
-  /* line 135, ../scss/fxj/_navbar-header.scss */
+  /* line 150, ../scss/fxj/_navbar-header.scss */
   .navbar-fixed-top .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.3);
     height: 100vh;
@@ -8298,42 +8308,42 @@ body {
     position: absolute;
     top: 0;
     z-index: -1; }
-    /* line 146, ../scss/fxj/_navbar-header.scss */
+    /* line 161, ../scss/fxj/_navbar-header.scss */
     .navbar-fixed-top .navbar-collapse .region-navigation-collapsible {
       background-color: rgba(255, 255, 255, 0.95);
       min-height: 100%;
       max-height: 100%;
       padding-top: 8rem; }
 
-  /* line 153, ../scss/fxj/_navbar-header.scss */
+  /* line 168, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     padding: 15px; }
-    /* line 156, ../scss/fxj/_navbar-header.scss */
+    /* line 171, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .caret {
       border-width: 10px; }
-    /* line 160, ../scss/fxj/_navbar-header.scss */
+    /* line 175, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn:not(.dropdown-toggle) {
       font-size: 2rem;
       padding-left: 0;
       text-align: left;
       width: calc(100% - 40px); }
-    /* line 166, ../scss/fxj/_navbar-header.scss */
+    /* line 181, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .dropdown-menu {
       -webkit-box-shadow: none;
       box-shadow: none;
       background-color: transparent;
       position: relative; }
-      /* line 171, ../scss/fxj/_navbar-header.scss */
+      /* line 186, ../scss/fxj/_navbar-header.scss */
       .navbar-nav .dropdown-menu a {
         font-size: 2rem; }
-    /* line 175, ../scss/fxj/_navbar-header.scss */
+    /* line 190, ../scss/fxj/_navbar-header.scss */
     .navbar-nav .btn-group {
       display: block; }
-      /* line 179, ../scss/fxj/_navbar-header.scss */
+      /* line 194, ../scss/fxj/_navbar-header.scss */
       .navbar-nav .btn-group.open + .dropdown-menu {
         float: none;
         position: static; }
-    /* line 185, ../scss/fxj/_navbar-header.scss */
+    /* line 200, ../scss/fxj/_navbar-header.scss */
     .navbar-nav li {
       margin-bottom: 5px; }
       /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -8344,114 +8354,130 @@ body {
       .navbar-nav li:after {
         clear: both; } }
 @media (min-width: 768px) {
-  /* line 192, ../scss/fxj/_navbar-header.scss */
+  /* line 207, ../scss/fxj/_navbar-header.scss */
   .navbar {
     background-color: white; }
+    /* line 211, ../scss/fxj/_navbar-header.scss */
+    .navbar-collapse .block[id*="botondona"] {
+      display: none; }
 
-  /* line 195, ../scss/fxj/_navbar-header.scss */
+  /* line 216, ../scss/fxj/_navbar-header.scss */
   .navbar-header {
     width: 100%; }
-    /* line 197, ../scss/fxj/_navbar-header.scss */
-    .navbar-header .region-navigation {
-      position: relative; }
-    /* line 200, ../scss/fxj/_navbar-header.scss */
+    /* line 219, ../scss/fxj/_navbar-header.scss */
     .navbar-header .logo {
       margin-left: 0; }
-    /* line 204, ../scss/fxj/_navbar-header.scss */
+    /* line 222, ../scss/fxj/_navbar-header.scss */
+    .navbar-header .block[id*="botondona"] {
+      margin-right: 37px; }
+    /* line 225, ../scss/fxj/_navbar-header.scss */
     .navbar-header .region-navigation > .search-block-form {
       right: 0px;
       top: 15px; }
-      /* line 208, ../scss/fxj/_navbar-header.scss */
+      /* line 229, ../scss/fxj/_navbar-header.scss */
       .navbar-header .region-navigation > .search-block-form .form-item {
         margin-bottom: 0; }
 
-  /* line 213, ../scss/fxj/_navbar-header.scss */
+  /* line 234, ../scss/fxj/_navbar-header.scss */
   .region-navigation-collapsible {
     position: relative; }
 
-  /* line 216, ../scss/fxj/_navbar-header.scss */
+  /* line 237, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     position: absolute;
-    right: 55px;
-    top: 10px; }
-    /* line 221, ../scss/fxj/_navbar-header.scss */
+    right: 14.5rem;
+    top: 7px; }
+    /* line 242, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li {
       margin: 0 5px 0 0; }
-      /* line 226, ../scss/fxj/_navbar-header.scss */
+      /* line 247, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
         border-color: #16a085; }
-      /* line 232, ../scss/fxj/_navbar-header.scss */
+      /* line 253, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li .btn {
-        padding: 15px 0; }
-        /* line 235, ../scss/fxj/_navbar-header.scss */
+        padding: 15px 0 18px 0; }
+        /* line 256, ../scss/fxj/_navbar-header.scss */
         .navbar-nav > li .btn:not(.dropdown-toggle) {
           border-bottom: 5px solid white;
           font-weight: 300;
           text-decoration: none; }
-          /* line 240, ../scss/fxj/_navbar-header.scss */
+          /* line 261, ../scss/fxj/_navbar-header.scss */
           .navbar-nav > li .btn:not(.dropdown-toggle):hover, .navbar-nav > li .btn:not(.dropdown-toggle):focus {
             color: #16a085; }
-          /* line 245, ../scss/fxj/_navbar-header.scss */
+          /* line 266, ../scss/fxj/_navbar-header.scss */
           .navbar-nav > li .btn:not(.dropdown-toggle):after {
             color: #777777;
             content: "|";
             display: inline-block;
             margin: 0 0 0 8px; }
-      /* line 255, ../scss/fxj/_navbar-header.scss */
+      /* line 276, ../scss/fxj/_navbar-header.scss */
       .navbar-nav > li.active .btn:not(.dropdown-toggle) {
         border-bottom-color: #16a085; } }
 @media (min-width: 992px) {
-  /* line 264, ../scss/fxj/_navbar-header.scss */
-  .navbar-nav > li {
-    margin: 0 10px; } }
-/* line 271, ../scss/fxj/_navbar-header.scss */
+  /* line 285, ../scss/fxj/_navbar-header.scss */
+  .navbar-header .block[id*="botondona"] {
+    border: 1px solid #777777;
+    border-width: 0 1px;
+    margin-right: 47px;
+    padding: 0 15px; }
+
+  /* line 292, ../scss/fxj/_navbar-header.scss */
+  .navbar-nav {
+    right: 19rem; }
+    /* line 294, ../scss/fxj/_navbar-header.scss */
+    .navbar-nav > li {
+      margin: 0 10px; }
+      /* line 296, ../scss/fxj/_navbar-header.scss */
+      .navbar-nav > li .btn:not(.dropdown-toggle) {
+        font-weight: 400; } }
+/* line 304, ../scss/fxj/_navbar-header.scss */
 #block-fxj-alpha-search {
   display: none; }
 
-/* line 274, ../scss/fxj/_navbar-header.scss */
+/* line 307, ../scss/fxj/_navbar-header.scss */
 .spb-popup-main-wrapper {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   background: rgba(255, 255, 255, 0.9) url(../logo.svg) no-repeat 10vw 1rem;
   background-size: 200px;
   border: 0; }
-  /* line 280, ../scss/fxj/_navbar-header.scss */
+  /* line 313, ../scss/fxj/_navbar-header.scss */
   .spb-popup-main-wrapper .search-block-form {
     margin: 30vh 10vw 0 10vw; }
-    /* line 283, ../scss/fxj/_navbar-header.scss */
+    /* line 316, ../scss/fxj/_navbar-header.scss */
     .spb-popup-main-wrapper .search-block-form .form-control {
       background-color: transparent;
       font-size: 3rem; }
-      /* line 287, ../scss/fxj/_navbar-header.scss */
+      /* line 320, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::-webkit-input-placeholder {
         /* Chrome/Opera/Safari */
         font-size: 3rem; }
-      /* line 290, ../scss/fxj/_navbar-header.scss */
+      /* line 323, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control:-ms-input-placeholder {
         /* IE 10+ */
         font-size: 3rem; }
-      /* line 293, ../scss/fxj/_navbar-header.scss */
+      /* line 326, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::-ms-input-placeholder {
         font-size: 3rem; }
-      /* line 296, ../scss/fxj/_navbar-header.scss */
+      /* line 329, ../scss/fxj/_navbar-header.scss */
       .spb-popup-main-wrapper .search-block-form .form-control::placeholder {
         font-size: 3rem; }
-    /* line 301, ../scss/fxj/_navbar-header.scss */
+    /* line 334, ../scss/fxj/_navbar-header.scss */
     .spb-popup-main-wrapper .search-block-form .form-submit {
       background-color: transparent;
       font-size: 2rem; }
 
-/* line 307, ../scss/fxj/_navbar-header.scss */
+/* line 340, ../scss/fxj/_navbar-header.scss */
 .spb_top_center {
   bottom: 0;
   left: 0;
   right: 0;
   top: 0; }
 
-/* line 313, ../scss/fxj/_navbar-header.scss */
+/* line 346, ../scss/fxj/_navbar-header.scss */
 .block-fxj-alpha-search-modal-minimize {
   display: none; }
 
-/* line 316, ../scss/fxj/_navbar-header.scss */
+/* line 349, ../scss/fxj/_navbar-header.scss */
 .block-fxj-alpha-search-modal-close {
   width: 4rem;
   height: 4rem;
@@ -8463,23 +8489,24 @@ body {
   right: 10vw;
   top: 1rem; }
 
-/* line 326, ../scss/fxj/_navbar-header.scss */
+/* line 359, ../scss/fxj/_navbar-header.scss */
 #search-popup {
   border: 0;
+  color: #777777;
   display: none;
   background-color: transparent;
   border-color: transparent; }
-  /* line 332, ../scss/fxj/_navbar-header.scss */
+  /* line 366, ../scss/fxj/_navbar-header.scss */
   #search-popup:hover, #search-popup:focus {
     color: #16a085; }
 
-/* line 337, ../scss/fxj/_navbar-header.scss */
+/* line 371, ../scss/fxj/_navbar-header.scss */
 .simple-popup-blocks-global + #search-popup {
-  font-size: 2rem;
   display: block;
+  font-size: 2rem;
   position: absolute;
-  right: 5px;
-  top: 17px; }
+  right: 6px;
+  top: 15px; }
 
 /* line 2, ../scss/fxj/_forms.scss */
 ::-webkit-input-placeholder {

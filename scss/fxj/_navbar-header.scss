@@ -13,7 +13,7 @@
 
     .icon-bar {
       @include transition(0.5s);
-      background-color: $gray-dark;
+      background-color: $gray-light;
     }
 
     &:hover {
@@ -59,12 +59,27 @@
       }
     }
 
-    .region-navigation > .search-block-form {
-      top: 10px;
-      right: 15px;
-      position: absolute;
-      width: calc(100% - 250px);
-      max-width: 200px;
+    .block[id*="botondona"] {
+      float: right;
+      margin: 17px 50px 0 0;
+    }
+
+    .region-navigation > {
+      position: relative;
+
+      .search-block-form {
+        top: 10px;
+        right: 15px;
+        position: absolute;
+        width: calc(100% - 250px);
+        max-width: 200px;
+      }
+    }
+  }
+
+  &-collapse {
+    .block[id*="botondona"] {
+      margin: 15px;
     }
   }
 
@@ -191,16 +206,22 @@
 @media (min-width: $screen-sm-min) {
   .navbar {
     background-color: white;
+
+    &-collapse {
+      .block[id*="botondona"] {
+        display: none;
+      }
+    }
   }
   .navbar-header {
     width: 100%;
-    .region-navigation {
-      position: relative;
-    }
+
     .logo {
       margin-left: 0;
     }
-
+    .block[id*="botondona"] {
+      margin-right: 37px;
+    }
     .region-navigation > .search-block-form {
       right: 0px;
       top: 15px;
@@ -215,8 +236,8 @@
   }
   .navbar-nav {
     position: absolute;
-    right: 55px;
-    top: 10px;
+    right: 14.5rem;
+    top: 7px;
 
     > li {
 
@@ -230,7 +251,7 @@
       }
 
       .btn {
-        padding: 15px 0;
+        padding: 15px 0 18px 0;
 
         &:not(.dropdown-toggle) {
           border-bottom: 5px solid white;
@@ -260,9 +281,21 @@
   }
 }
 @media (min-width: $screen-md-min) {
+  .navbar-header {
+    .block[id*="botondona"] {
+      border: 1px solid $gray-light;
+      border-width: 0 1px;
+      margin-right: 47px;
+      padding: 0 15px;
+    }
+  }
   .navbar-nav {
+        right: 19rem;
     > li {
         margin: 0 10px;
+        .btn:not(.dropdown-toggle) {
+          font-weight: 400;
+        }
     }
   }
 }
@@ -325,6 +358,7 @@
 }
 #search-popup {
   border: 0;
+  color: $gray-light;
   display: none;
   background-color: transparent;
   border-color: transparent;
@@ -335,9 +369,9 @@
   }
 }
 .simple-popup-blocks-global + #search-popup {
-  font-size: 2rem;
   display: block;
+  font-size: 2rem;
   position: absolute;
-  right: 5px;
-  top: 17px;
+  right: 6px;
+  top: 15px;
 }
