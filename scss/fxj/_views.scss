@@ -4,8 +4,10 @@
 }
 .view-footer,
 .collaborate-footer {
+  font-weight: 600;
   margin: 2rem 0 3rem 0;
   text-transform: uppercase;
+
 
   .svg-inline--fa {
     margin-right: 1rem;
@@ -13,7 +15,7 @@
   }
 
   a {
-    color: $gray-dark;
+    color: $gray-light;
   }
 }
 
@@ -283,6 +285,7 @@
   .collaborate-footer {
     a {
       color: white;
+      font-weight: 300;
     }
   }
 }
