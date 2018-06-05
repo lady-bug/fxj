@@ -8143,24 +8143,25 @@ body {
   margin-bottom: 0; }
 
 @media (min-width: 768px) {
-  /* line 15, ../scss/fxj/_layout.scss */
-  .page-node-type-page .region-content,
-  .page-node-type-webform .region-content,
+  /* line 14, ../scss/fxj/_layout.scss */
+  .page-node-type-campanas .region-content,
   .page-node-type-colabora .region-content {
     padding-left: 340px;
     position: relative; }
-    /* line 19, ../scss/fxj/_layout.scss */
-    .page-node-type-page .region-content .field--name-field-imagen-colabora,
-    .page-node-type-webform .region-content .field--name-field-imagen-colabora,
-    .page-node-type-colabora .region-content .field--name-field-imagen-colabora {
+    /* line 18, ../scss/fxj/_layout.scss */
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+    .page-node-type-campanas .region-content .field--name-field-image,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+    .page-node-type-colabora .region-content .field--name-field-image {
       left: 0;
       position: absolute;
       top: 0;
       width: 340px; }
       /* line 25, ../scss/fxj/_layout.scss */
-      .page-node-type-page .region-content .field--name-field-imagen-colabora img,
-      .page-node-type-webform .region-content .field--name-field-imagen-colabora img,
-      .page-node-type-colabora .region-content .field--name-field-imagen-colabora img {
+      .page-node-type-campanas .region-content .field--name-field-imagen-colabora img,
+      .page-node-type-campanas .region-content .field--name-field-image img,
+      .page-node-type-colabora .region-content .field--name-field-imagen-colabora img,
+      .page-node-type-colabora .region-content .field--name-field-image img {
         max-width: calc(100% - 20px); } }
 @media (max-width: 767px) {
   /* line 34, ../scss/fxj/_layout.scss */

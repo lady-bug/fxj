@@ -9,14 +9,14 @@
   margin-bottom: 0;
 }
 @media (min-width: $screen-sm-min) {
-  .page-node-type-page,
-  .page-node-type-webform,
+  .page-node-type-campanas,
   .page-node-type-colabora {
     .region-content {
       padding-left: 340px;
       position:relative;
 
-      .field--name-field-imagen-colabora {
+      .field--name-field-imagen-colabora,
+      .field--name-field-image {
         left: 0;
         position: absolute;
         top: 0;
