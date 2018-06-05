@@ -8180,7 +8180,7 @@ body {
   /* line 8, ../scss/fxj/_navbar-header.scss */
   .navbar .navbar-toggle {
     border: 0;
-    left: 15px;
+    left: 5px;
     position: absolute;
     top: 7px; }
     /* line 14, ../scss/fxj/_navbar-header.scss */
@@ -8227,7 +8227,7 @@ body {
   .navbar-header .logo {
     display: block;
     height: 50px;
-    margin: 8px 15px 8px 70px;
+    margin: 8px 15px 8px 52px;
     padding: 0; }
     /* line 56, ../scss/fxj/_navbar-header.scss */
     .navbar-header .logo img {
