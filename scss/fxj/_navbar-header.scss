@@ -164,6 +164,26 @@
       min-height: 100%;
       max-height: 100%;
       padding-top: 8rem;
+
+      nav {
+        &[id*="navegacionsecundaria"] {
+          background-color: $brand-quaternary;
+          margin-top: 10px;
+          padding-top: 10px;
+
+          a {
+            color: white;
+          }
+        }
+      }
+      .block {
+        &[id*="dropdownlanguagecontent"] {
+          background-color: $brand-quaternary;
+          float: none;
+          margin: 0;
+          padding: 15px;
+        }
+      }
     }
   }
   .navbar-nav {
@@ -220,9 +240,12 @@
     .logo {
       margin-left: 0;
     }
-    .block[id*="botondona"] {
-      margin-right: 37px;
+    .block {
+      &[id*="botondona"] {
+        margin-right: 37px;
+      }
     }
+
     .region-navigation > .search-block-form {
       right: 0px;
       top: 15px;
@@ -234,6 +257,17 @@
   }
   .region-navigation-collapsible{
     position: relative;
+
+    .block {
+      &[id*="dropdownlanguagecontent"] {
+        display: none;
+      }
+    }
+    nav {
+      &[id*="navegacionsecundaria"] {
+        display: none;
+      }
+    }
   }
   .navbar-nav {
     position: absolute;
