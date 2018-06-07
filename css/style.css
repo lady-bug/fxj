@@ -8448,7 +8448,7 @@ body {
 
   /* line 278, ../scss/fxj/_navbar-header.scss */
   .region-navigation-collapsible {
-    position: relative; }
+    /*position: relative;*/ }
     /* line 282, ../scss/fxj/_navbar-header.scss */
     .region-navigation-collapsible .block[id*="dropdownlanguagecontent"], .region-navigation-collapsible .block[id*="dropdownlanguagecontenido"], .region-navigation-collapsible .block[id*="redessociales"] {
       display: none; }
@@ -8459,7 +8459,7 @@ body {
   /* line 294, ../scss/fxj/_navbar-header.scss */
   .navbar-nav {
     position: absolute;
-    right: 14.5rem;
+    right: 16rem;
     top: 7px; }
     /* line 299, ../scss/fxj/_navbar-header.scss */
     .navbar-nav > li {

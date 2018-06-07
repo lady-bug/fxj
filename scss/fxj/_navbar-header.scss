@@ -276,7 +276,7 @@
     }
   }
   .region-navigation-collapsible{
-    position: relative;
+    /*position: relative;*/
 
     .block {
       &[id*="dropdownlanguagecontent"],
@@ -293,7 +293,7 @@
   }
   .navbar-nav {
     position: absolute;
-    right: 14.5rem;
+    right: 16rem;
     top: 7px;
 
     > li {
