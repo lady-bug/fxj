@@ -35,25 +35,23 @@
     max-width: $container-large-desktop;
   }
   .carousel-caption {
-    bottom: 80px;
+    bottom: 70px;
     padding: 0;
     text-align: left;
     right: auto;
     width: 28rem;
 
-    h3 {
-      font-size: 3.5rem;
+    h3 {display: none;
+      font-size: 3.2rem;
       font-weight: 600;
       margin: 0 0 20px 0;
       padding: 0;
     }
     p {
-      margin: 0;
+      font-size: 3rem;
+      font-weight: 600;
+      margin: 0 0 10px 0;
       padding: 0;
-
-      &:first-of-type{
-        display: none;
-      }
 
     }
     a {

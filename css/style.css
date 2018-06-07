@@ -9024,79 +9024,79 @@ a.a2a_i, i.a2a_i {
   max-width: 1170px; }
 /* line 37, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-caption {
-  bottom: 80px;
+  bottom: 70px;
   padding: 0;
   text-align: left;
   right: auto;
   width: 28rem; }
   /* line 44, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption h3 {
-    font-size: 3.5rem;
+    display: none;
+    font-size: 3.2rem;
     font-weight: 600;
     margin: 0 0 20px 0;
     padding: 0; }
   /* line 50, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption p {
-    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0 0 10px 0;
     padding: 0; }
-    /* line 54, ../scss/fxj/_bootstrap-carousel.scss */
-    .carousel .carousel-caption p:first-of-type {
-      display: none; }
-  /* line 59, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 57, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-caption a {
     font-size: 1.6rem;
     font-weight: 300; }
-/* line 66, ../scss/fxj/_bootstrap-carousel.scss */
+/* line 64, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-indicators {
   bottom: 20px;
   margin-bottom: 0;
   max-width: 1170px; }
-  /* line 71, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 69, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-indicators li {
     width: 20px;
     height: 20px;
     border-radius: 10px;
     margin-right: 5px; }
-    /* line 76, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 74, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-indicators li:hover, .carousel .carousel-indicators li:focus, .carousel .carousel-indicators li.active {
       background-color: #16a085; }
-/* line 83, ../scss/fxj/_bootstrap-carousel.scss */
+/* line 81, ../scss/fxj/_bootstrap-carousel.scss */
 .carousel .carousel-control {
   opacity: 1;
   filter: alpha(opacity=100);
   background: transparent none; }
-  /* line 87, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 85, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control .glyphicon {
     width: 40px;
     height: 40px;
     border: 1px solid white;
     border-radius: 20px;
     font-size: 20px; }
-    /* line 93, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 91, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-control .glyphicon:before {
       margin-top: 8px;
       display: block; }
-    /* line 97, ../scss/fxj/_bootstrap-carousel.scss */
+    /* line 95, ../scss/fxj/_bootstrap-carousel.scss */
     .carousel .carousel-control .glyphicon-chevron-left, .carousel .carousel-control .glyphicon-chevron-right {
       top: auto;
       bottom: 20px; }
-  /* line 106, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 104, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control:hover .glyphicon, .carousel .carousel-control:focus .glyphicon {
     background-color: white;
     color: #16a085; }
 
 @media (min-width: 1200px) {
-  /* line 133, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 131, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .item img {
     left: auto; }
-  /* line 137, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 135, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-container {
     margin-right: calc((100% - 1170px )/2);
     margin-left: calc((100% - 1170px)/2); }
-  /* line 141, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 139, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.right {
     right: calc((100% - 1170px )/2); }
-  /* line 144, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 142, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.left {
     left: calc((100% - 1170px )/2); } }
 /* line 1, ../scss/fxj/_views.scss */
