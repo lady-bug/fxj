@@ -92,6 +92,14 @@
   {% endblock %}
 {% endif %}
 
+{% if page.slider %}
+  {% block slider %}
+    <div class="slider {{ container }}" role="contentinfo">
+      {{ page.slider }}
+    </div>
+  {% endblock %}
+{% endif %}
+
 {# Main #}
 {% block main %}
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">

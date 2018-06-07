@@ -1,75 +1,88 @@
+.slider{
+  &.container-fluid {
+    margin: 0;
+    max-width: none;
+    padding: 0;
+  }
+  /*.region-slider{
+    @extend .clearfix;
+    max-width: $container-large-desktop;
+    margin-right: auto;
+    margin-left: auto;
+  }*/
+}
 
 .carousel {
-  max-height: 300px;
-  overflow: hidden;
 
-  .item > a {
-    .img-responsive {
+  .item {
+    text-align: center;
+    img {
       @include transition(0.3s);
-    }
-    &:hover,
-    &:focus {
-      .img-responsive {
-        @include scale(1.1);
-      }
+      display: inline-block;
+      height: 300px;
+      left: calc((100% - 1440px)/2);
+      position: relative;
+      max-width: none;
     }
   }
+  .carousel-container {
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-width: $container-large-desktop;
+  }
   .carousel-caption {
-    background-color: white;
-    bottom: auto;
+    bottom: 80px;
     padding: 0;
     text-align: left;
-    top: 20px;
+    right: auto;
+    width: 28rem;
 
     h3 {
+      font-size: 3.5rem;
+      font-weight: 600;
+      margin: 0 0 20px 0;
       padding: 0;
-      margin: 0;
-      font-size: 1.6rem;
-      font-weight: 300;
-
-      a {
-        background-color: $brand-primary;
-        color: white;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
-      }
     }
     p {
-      display: none;
-      padding: 0;
       margin: 0;
+      padding: 0;
 
-      a {
-        color: $gray-dark;
-        display: block;
-        padding: 10px;
-        text-decoration: none;
+      &:first-of-type{
+        display: none;
       }
+
+    }
+    a {
+      @extend .btn;
+      @extend .btn-primary;
+      font-size: 1.6rem;
+      font-weight: 300;
     }
   }
   .carousel-indicators {
+    bottom: 20px;
     margin-bottom: 0;
-    bottom: 10px;
+    max-width: $container-large-desktop;
 
     li {
       @include square(20px);
       border-radius: 10px;
       margin-right: 5px;
+
       &:hover,
       &:focus,
       &.active {
         background-color: $brand-primary;
       }
     }
-
   }
   .carousel-control {
     @include opacity(1);
     background: transparent none;
-    bottom: 40px;
-    top: auto;
-
 
     .glyphicon {
       @include square(40px);
@@ -80,6 +93,11 @@
       &:before {
           margin-top: 8px;
           display: block;
+      }
+      &-chevron-left,
+      &-chevron-right {
+        top:auto;
+        bottom: 20px;
       }
     }
 
@@ -93,19 +111,38 @@
   }
 }
 
+@media (max-width: $screen-xs-max) {
+  .carousel {
+
+  }
+}
 @media (min-width: $screen-sm-min) {
   .carousel {
-    .carousel-caption {
-      width: 30%;
-      top: 40px;
 
-      p {
-        display: block;
-        a {
-          display: block;
-          min-height: 14rem;
-        }
+  }
+}
+
+@media (min-width: $screen-md-min) {
+  .carousel {
+
+  }
+}
+@media (min-width: $screen-lg-min) {
+  .carousel {
+    .item {
+      img {
+        left: auto;
       }
+    }
+    .carousel-container {
+      margin-right: calc((100% - #{$container-large-desktop} )/2);
+      margin-left: calc((100% - #{$container-large-desktop})/2);
+    }
+    .carousel-control.right {
+      right: calc((100% - #{$container-large-desktop} )/2);
+    }
+    .carousel-control.left {
+      left: calc((100% - #{$container-large-desktop} )/2);
     }
   }
 }
