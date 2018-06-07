@@ -9101,17 +9101,17 @@ a.a2a_i, i.a2a_i {
   z-index: 2; }
 
 @media (min-width: 1200px) {
-  /* line 157, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 141, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .item img {
     left: auto; }
-  /* line 161, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 145, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-container {
     margin-right: calc((100% - 1170px )/2);
     margin-left: calc((100% - 1170px)/2); }
-  /* line 165, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 149, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.right {
     right: calc((100% - 1170px )/2); }
-  /* line 168, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 152, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.left {
     left: calc((100% - 1170px )/2); } }
 /* line 1, ../scss/fxj/_views.scss */
