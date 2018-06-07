@@ -161,6 +161,7 @@
 .js {
   .sticky-footer {
     bottom: 0;
+    position: -webkit-sticky;
     position: sticky;
     width: 100%;
     z-index: 20;
