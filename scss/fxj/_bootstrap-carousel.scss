@@ -59,6 +59,7 @@
     bottom: 20px;
     margin-bottom: 0;
     max-width: $container-large-desktop;
+    z-index: 1;
 
     li {
       @include square(20px);
