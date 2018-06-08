@@ -7,11 +7,13 @@
 }
 
 .carousel {
+  background-color: $gray-lighter;
 
   .item {
     text-align: center;
     img {
       @include transition(0.3s);
+      @include shadow-xl();
       display: inline-block;
       height: 300px;
       left: calc((100% - 1440px)/2);
