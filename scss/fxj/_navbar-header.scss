@@ -249,6 +249,7 @@
     background-color: white;
 
     &-collapse {
+      position: relative;
       .block[id*="botondona"] {
         display: none;
       }
