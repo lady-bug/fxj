@@ -9336,11 +9336,14 @@ a.a2a_i, i.a2a_i {
 /* line 216, ../scss/fxj/_views.scss */
 .region-collaborate .collaborate-feature-container {
   margin-bottom: 0; }
-/* line 227, ../scss/fxj/_views.scss */
+  /* line 225, ../scss/fxj/_views.scss */
+  .region-collaborate .collaborate-feature-container:nth-of-type(2) .collaborate-feature {
+    text-align: left; }
+/* line 230, ../scss/fxj/_views.scss */
 .region-collaborate .collaborate-feature {
-  text-align: center;
-  margin-bottom: 2rem; }
-  /* line 231, ../scss/fxj/_views.scss */
+  margin-bottom: 2rem;
+  text-align: center; }
+  /* line 234, ../scss/fxj/_views.scss */
   .region-collaborate .collaborate-feature a {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -9349,10 +9352,10 @@ a.a2a_i, i.a2a_i {
     font-size: 2rem;
     padding: 20px;
     text-decoration: none; }
-  /* line 240, ../scss/fxj/_views.scss */
+  /* line 243, ../scss/fxj/_views.scss */
   .region-collaborate .collaborate-feature p {
     font-weight: 300; }
-  /* line 243, ../scss/fxj/_views.scss */
+  /* line 246, ../scss/fxj/_views.scss */
   .region-collaborate .collaborate-feature .fontawesome-icon {
     width: 40px;
     height: 40px;
@@ -9365,37 +9368,37 @@ a.a2a_i, i.a2a_i {
     padding-top: 8px; }
 
 @media (min-width: 992px) {
-  /* line 259, ../scss/fxj/_views.scss */
+  /* line 262, ../scss/fxj/_views.scss */
   .region-collaborate .collaborate-feature .fontawesome-icon {
     width: 70px;
     height: 70px;
     border-radius: 35px;
     font-size: 30px;
     padding-top: 14px; }
-  /* line 268, ../scss/fxj/_views.scss */
+  /* line 271, ../scss/fxj/_views.scss */
   .region-collaborate .collaborate-feature-container:nth-of-type(2) .collaborate-feature {
     text-align: left;
     min-height: 148px;
     overflow: hidden; } }
-/* line 277, ../scss/fxj/_views.scss */
+/* line 280, ../scss/fxj/_views.scss */
 .footer .collaborate-feature-container {
   margin-bottom: 10px; }
-  /* line 280, ../scss/fxj/_views.scss */
+  /* line 283, ../scss/fxj/_views.scss */
   .footer .collaborate-feature-container:nth-of-type(2) {
     display: none; }
-/* line 286, ../scss/fxj/_views.scss */
+/* line 289, ../scss/fxj/_views.scss */
 .footer .view-footer a,
 .footer .collaborate-footer a {
   color: white;
   font-weight: 300; }
 
-/* line 294, ../scss/fxj/_views.scss */
+/* line 297, ../scss/fxj/_views.scss */
 .view-empresas-embajadoras a {
   display: block;
   padding: 0 0 3rem 0;
   text-align: center;
   height: 130px; }
-  /* line 300, ../scss/fxj/_views.scss */
+  /* line 303, ../scss/fxj/_views.scss */
   .view-empresas-embajadoras a img {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -9403,7 +9406,7 @@ a.a2a_i, i.a2a_i {
     display: inline-block;
     max-height: 100%;
     width: auto; }
-  /* line 309, ../scss/fxj/_views.scss */
+  /* line 312, ../scss/fxj/_views.scss */
   .view-empresas-embajadoras a:hover img, .view-empresas-embajadoras a:focus img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
