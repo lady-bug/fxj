@@ -249,7 +249,9 @@
     background-color: white;
 
     &-collapse {
+      margin: 6px 15rem 0 165px !important;
       position: relative;
+
       .block[id*="botondona"] {
         display: none;
       }
@@ -294,8 +296,7 @@
   }
   .navbar-nav {
     position: absolute;
-    right: 16rem;
-    top: 7px;
+    right: 0;
 
     > li {
 
@@ -346,7 +347,7 @@
     }
   }
   .navbar-nav {
-        right: 19rem;
+        right: 4rem;
     > li {
         margin: 0 10px;
         .btn:not(.dropdown-toggle) {
