@@ -52,3 +52,6 @@
     border-bottom: 1px solid $gray;
   }
 }
+.field--name-field-boton {
+  @extend .h2;
+}

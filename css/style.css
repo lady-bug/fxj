@@ -1609,7 +1609,7 @@ hr {
 
 /* line 9, ../bootstrap/stylesheets/bootstrap/_type.scss */
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .field--name-field-boton, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
@@ -1623,8 +1623,9 @@ h1, h2, h3, h4, h5, h6,
   h5 .small, h6 small,
   h6 .small,
   .h1 small,
-  .h1 .small, .h2 small,
-  .h2 .small, .h3 small,
+  .h1 .small, .h2 small, .field--name-field-boton small,
+  .h2 .small,
+  .field--name-field-boton .small, .h3 small,
   .h3 .small, .h4 small,
   .h4 .small, .h5 small,
   .h5 .small, .h6 small,
@@ -1635,7 +1636,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* line 24, ../bootstrap/stylesheets/bootstrap/_type.scss */
 h1, .h1,
-h2, .h2,
+h2, .h2, .field--name-field-boton,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
@@ -1644,8 +1645,9 @@ h3, .h3 {
   h1 .small, .h1 small,
   .h1 .small,
   h2 small,
-  h2 .small, .h2 small,
+  h2 .small, .h2 small, .field--name-field-boton small,
   .h2 .small,
+  .field--name-field-boton .small,
   h3 small,
   h3 .small, .h3 small,
   .h3 .small {
@@ -1674,7 +1676,7 @@ h1, .h1 {
   font-size: 36px; }
 
 /* line 48, ../bootstrap/stylesheets/bootstrap/_type.scss */
-h2, .h2 {
+h2, .h2, .field--name-field-boton {
   font-size: 30px; }
 
 /* line 49, ../bootstrap/stylesheets/bootstrap/_type.scss */
