@@ -5,7 +5,11 @@
 	 width="499.257px" height="157.095px" viewBox="0 0 499.257 157.095" enable-background="new 0 0 499.257 157.095"
 	 xml:space="preserve">
 <g id="name">
-	<text id="FxJ_3_" transform="matrix(1 0 0 1 154.5947 62.5654)"><tspan x="0" y="0" fill="#333333" font-family="'SourceSansPro-Light'" font-size="72" letter-spacing="2">Fundaciόn</tspan><tspan x="3.6" y="54" fill="#333333" font-family="'SourceSansPro-Light'" font-size="36">por la</tspan><tspan x="87.263" y="54" fill="#333333" font-family="'SourceSansPro-Regular'" font-size="36"> </tspan><tspan x="94.462" y="72" fill="#333333" font-family="'SourceSansPro-Regular'" font-size="72">Justicia</tspan></text>
+	<text id="FxJ_3_" transform="matrix(1 0 0 1 154.5947 62.5654)">
+		<tspan x="0" y="0" fill="#333333" font-family="SourceSansPro-Light" font-size="72" letter-spacing="2">Fundaciόn</tspan>
+		<tspan x="3.6" y="54" fill="#333333" font-family="SourceSansPro-Light" font-size="36">por la</tspan>
+		<tspan x="87.263" y="54" fill="#333333" font-family="SourceSansPro-Regular" font-size="36"> </tspan>
+		<tspan x="94.462" y="72" fill="#333333" font-family="SourceSansPro-Regular" font-size="72">Justicia</tspan></text>
 </g>
 <g id="simbolo_white">
 	<g>
@@ -31,7 +35,7 @@
 				</g>
 			</g>
 			<g>
-				<polygon fill="#FFFFFF" points="120.312,105.483 126.971,105.483 106.115,84.937 85.12,105.483 91.729,105.483 106.067,91.552 
+				<polygon fill="#FFFFFF" points="120.312,105.483 126.971,105.483 106.115,84.937 85.12,105.483 91.729,105.483 106.067,91.552
 									"/>
 				<polygon fill="#FFFFFF" points="102.808,89.623 102.808,89.624 102.808,89.624 				"/>
 				<g>
