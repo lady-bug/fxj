@@ -8830,32 +8830,36 @@ body {
     /* line 215, ../scss/fxj/_footer.scss */
     .footer .block:last-of-type a {
       color: #777777; }
-/* line 221, ../scss/fxj/_footer.scss */
-.footer .collaborate-feature-container {
+/* line 222, ../scss/fxj/_footer.scss */
+.footer .collaborate-feature-container p {
   margin-bottom: 10px; }
-  /* line 224, ../scss/fxj/_footer.scss */
-  .footer .collaborate-feature-container:first-of-type {
-    display: none; }
+/* line 225, ../scss/fxj/_footer.scss */
+.footer .collaborate-feature-container:nth-of-type(2) {
+  display: none; }
+/* line 229, ../scss/fxj/_footer.scss */
+.footer .collaborate-footer a {
+  color: white;
+  font-weight: 300; }
 
 @media (min-width: 768px) {
-  /* line 234, ../scss/fxj/_footer.scss */
+  /* line 239, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 238, ../scss/fxj/_footer.scss */
+  /* line 243, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
     width: 100%; } }
 @media (max-width: 767px) {
-  /* line 248, ../scss/fxj/_footer.scss */
+  /* line 253, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     padding: 5px 15px;
     text-align: center; }
-    /* line 251, ../scss/fxj/_footer.scss */
+    /* line 256, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       display: block;
       margin: 0 auto 5px auto; }
-  /* line 256, ../scss/fxj/_footer.scss */
+  /* line 261, ../scss/fxj/_footer.scss */
   .sticky-footer .block-dropdown-language {
     margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
@@ -9386,25 +9390,13 @@ a.a2a_i, i.a2a_i {
     text-align: left;
     min-height: 148px;
     overflow: hidden; } }
-/* line 280, ../scss/fxj/_views.scss */
-.footer .collaborate-feature-container {
-  margin-bottom: 10px; }
-  /* line 283, ../scss/fxj/_views.scss */
-  .footer .collaborate-feature-container:nth-of-type(2) {
-    display: none; }
-/* line 289, ../scss/fxj/_views.scss */
-.footer .view-footer a,
-.footer .collaborate-footer a {
-  color: white;
-  font-weight: 300; }
-
-/* line 297, ../scss/fxj/_views.scss */
+/* line 282, ../scss/fxj/_views.scss */
 .view-empresas-embajadoras a {
   display: block;
   padding: 0 0 3rem 0;
   text-align: center;
   height: 130px; }
-  /* line 303, ../scss/fxj/_views.scss */
+  /* line 288, ../scss/fxj/_views.scss */
   .view-empresas-embajadoras a img {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -9412,7 +9404,7 @@ a.a2a_i, i.a2a_i {
     display: inline-block;
     max-height: 100%;
     width: auto; }
-  /* line 312, ../scss/fxj/_views.scss */
+  /* line 297, ../scss/fxj/_views.scss */
   .view-empresas-embajadoras a:hover img, .view-empresas-embajadoras a:focus img {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
