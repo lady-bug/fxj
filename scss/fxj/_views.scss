@@ -280,7 +280,8 @@
   }
 }
 .region-sidebar-second {
-  .block[id*="block-colabora"] {
+  .block[id*="block-colabora"],
+  .block[id*="block-ayudanos"] {
     padding: 0;
 
     .row {
