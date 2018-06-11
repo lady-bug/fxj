@@ -197,19 +197,22 @@
   margin-right: auto;
   margin-left: auto;
   padding: 15px;
-}
-.collaborate-header {
-  margin-bottom: 15px;
-}
-.region-collaborate {
-  .h2--separator {
-    &:before {
-      border-color: white;
-    }
-    span {
-      background-color: $gray-lighter;
+
+  .collaborate-header {
+    margin-bottom: 15px;
+  }
+
+  &.region {
+    .block-title{
+      &:before {
+        border-color: white;
+      }
+      span {
+        background-color: $gray-lighter;
+      }
     }
   }
+
   .collaborate-header {
       display:none;
   }
@@ -254,6 +257,7 @@
       padding-top: 8px;
     }
   }
+
 }
 
 @media (min-width: $screen-md-min) {
@@ -267,7 +271,6 @@
       }
     }
     .collaborate-feature-container:nth-of-type(2) {
-
       .collaborate-feature {
         text-align: left;
         min-height: 148px;
@@ -276,7 +279,55 @@
     }
   }
 }
+.region-sidebar-second {
+  .block[id*="block-colabora"] {
+    padding: 0;
 
+    .row {
+      margin: 0;
+    }
+    .collaborate-header {
+      display: none;
+    }
+    .collaborate-feature-container {
+      p {
+        margin-bottom: 20px;
+      }
+      a {
+        color: $gray-dark;
+      }
+      .fontawesome-icon {
+        @include square(30px);
+        border: 1px solid $gray-dark;
+        border-radius: 15px;
+        display: inline-block;
+        margin-right: 5px;
+        padding-top: 3px;
+        text-align: center;
+      }
+
+      &:nth-of-type(2) {
+        .collaborate-feature:first-of-type {
+          display:none;
+        }
+
+      }
+      &:nth-of-type(3),
+      &:nth-of-type(4) {
+        padding: 0 10px;
+      }
+    }
+    .collaborate-footer {
+      border: 1px solid white;
+      border-width: 1px 0 0 0;
+      font-weight: 300;
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 10px;
+    }
+  }
+
+}
 
 .view-empresas-embajadoras {
   a {

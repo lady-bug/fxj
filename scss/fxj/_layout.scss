@@ -8,6 +8,12 @@
 .breadcrumb {
   margin-bottom: 0;
 }
+.region-sidebar-second {
+  .block {
+    background-color: $gray-lighter;
+    padding: 10px;
+  }
+}
 @media (min-width: $screen-sm-min) {
   .page-node-type-campanas,
   .page-node-type-colabora {
