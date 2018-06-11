@@ -8965,18 +8965,19 @@ a.a2a_i, i.a2a_i {
     /* line 62, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown .language-link {
       font-weight: 300;
-      margin: .5rem 0; }
-    /* line 66, ../scss/fxj/_language-selector.scss */
+      margin-top: .5rem;
+      margin-bottom: .5rem; }
+    /* line 67, ../scss/fxj/_language-selector.scss */
     .block-dropdown-language .dropdown .dropdown-menu {
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
       border: 0;
       border-radius: 0;
       min-width: 6.5em;
       transform: translateY(-7em); }
-      /* line 73, ../scss/fxj/_language-selector.scss */
+      /* line 74, ../scss/fxj/_language-selector.scss */
       .block-dropdown-language .dropdown .dropdown-menu .language-link {
         background-color: transparent; }
-        /* line 76, ../scss/fxj/_language-selector.scss */
+        /* line 77, ../scss/fxj/_language-selector.scss */
         .block-dropdown-language .dropdown .dropdown-menu .language-link:hover, .block-dropdown-language .dropdown .dropdown-menu .language-link:focus {
           text-decoration: underline; }
 
