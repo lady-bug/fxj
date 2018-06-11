@@ -173,6 +173,12 @@
 
           a {
             color: white;
+
+            &:hover,
+            &:focus {
+              background-color: $brand-quaternary;
+              text-decoration: underline;
+            }
           }
         }
       }
