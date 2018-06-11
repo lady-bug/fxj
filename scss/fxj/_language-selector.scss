@@ -61,14 +61,14 @@
     }
     .language-link {
       font-weight: 300;
+      margin: .5rem 0;
     }
     .dropdown-menu {
       @include shadow();
-      background-color: rgba(255,255,255,.9);
       border: 0;
       border-radius: 0;
       min-width: 6.5em;
-      transform: translateY(-6.5em);
+      transform: translateY(-7em);
 
       .language-link {
         background-color: transparent;
