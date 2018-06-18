@@ -2088,26 +2088,57 @@ pre {
     clear: both; }
 
 /* line 39, ../bootstrap/stylesheets/bootstrap/_grid.scss */
-.row {
+.row, .page-node-type-campanas .region-content .content,
+.page-node-type-colabora .region-content .content {
   margin-left: -15px;
   margin-right: -15px; }
   /* line 14, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-  .row:before, .row:after {
+  .row:before, .page-node-type-campanas .region-content .content:before,
+  .page-node-type-colabora .region-content .content:before, .row:after, .page-node-type-campanas .region-content .content:after,
+  .page-node-type-colabora .region-content .content:after {
     content: " ";
     display: table; }
   /* line 19, ../bootstrap/stylesheets/bootstrap/mixins/_clearfix.scss */
-  .row:after {
+  .row:after, .page-node-type-campanas .region-content .content:after,
+  .page-node-type-colabora .region-content .content:after {
     clear: both; }
 
 /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .footer .block:not(:last-of-type), .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .region-collaborate .collaborate-feature-container, .region-collaborate .collaborate-feature-container:nth-of-type(2), .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .footer .block:not(:last-of-type), .region-collaborate .collaborate-feature-container, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .region-collaborate .collaborate-feature-container:nth-of-type(2), .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .footer .block:not(:last-of-type), .col-lg-3, .col-xs-4, .col-sm-4, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+.page-node-type-campanas .region-content .field--name-field-image,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+.page-node-type-colabora .region-content .field--name-field-image, .col-md-4, .region-collaborate .collaborate-feature-container, .region-collaborate .collaborate-feature-container:nth-of-type(2), .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .footer .block:not(:last-of-type), .region-collaborate .collaborate-feature-container, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .page-node-type-campanas .region-content .field--name-body,
+.page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-campanas .region-content .field--name-field-boton,
+.page-node-type-campanas .region-content .field--name-field-webform,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-colabora .region-content .field--name-field-boton,
+.page-node-type-colabora .region-content .field--name-field-webform, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+.page-node-type-campanas .region-content .field--name-field-image,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+.page-node-type-colabora .region-content .field--name-field-image, .page-node-type-campanas .region-content .field--name-body,
+.page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-campanas .region-content .field--name-field-boton,
+.page-node-type-campanas .region-content .field--name-field-webform,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-colabora .region-content .field--name-field-boton,
+.page-node-type-colabora .region-content .field--name-field-webform, .col-sm-12, .region-collaborate .collaborate-feature-container:nth-of-type(2), .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
 /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+.page-node-type-campanas .region-content .field--name-field-image,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+.page-node-type-colabora .region-content .field--name-field-image, .page-node-type-campanas .region-content .field--name-body,
+.page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-campanas .region-content .field--name-field-boton,
+.page-node-type-campanas .region-content .field--name-field-webform,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-colabora .region-content .field--name-field-boton,
+.page-node-type-colabora .region-content .field--name-field-webform {
   float: left; }
 
 /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2155,7 +2186,16 @@ pre {
   width: 91.66667%; }
 
 /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-.col-xs-12 {
+.col-xs-12, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+.page-node-type-campanas .region-content .field--name-field-image,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+.page-node-type-colabora .region-content .field--name-field-image, .page-node-type-campanas .region-content .field--name-body,
+.page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-campanas .region-content .field--name-field-boton,
+.page-node-type-campanas .region-content .field--name-field-webform,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-colabora .region-content .field--name-field-boton,
+.page-node-type-colabora .region-content .field--name-field-webform {
   width: 100%; }
 
 /* line 55, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2316,7 +2356,16 @@ pre {
 
 @media (min-width: 768px) {
   /* line 27, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .footer .block:not(:last-of-type), .region-collaborate .collaborate-feature-container, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .region-collaborate .collaborate-feature-container:nth-of-type(2) {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-image,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-image, .col-sm-5, .col-sm-6, .footer .block:not(:last-of-type), .region-collaborate .collaborate-feature-container, .col-sm-7, .col-sm-8, .page-node-type-campanas .region-content .field--name-body,
+  .page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+  .page-node-type-campanas .region-content .field--name-field-boton,
+  .page-node-type-campanas .region-content .field--name-field-webform,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton,
+  .page-node-type-colabora .region-content .field--name-field-webform, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .region-collaborate .collaborate-feature-container:nth-of-type(2) {
     float: left; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2332,7 +2381,10 @@ pre {
     width: 25%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-4 {
+  .col-sm-4, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-image,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-image {
     width: 33.33333%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -2348,7 +2400,13 @@ pre {
     width: 58.33333%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-8 {
+  .col-sm-8, .page-node-type-campanas .region-content .field--name-body,
+  .page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+  .page-node-type-campanas .region-content .field--name-field-boton,
+  .page-node-type-campanas .region-content .field--name-field-webform,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton,
+  .page-node-type-colabora .region-content .field--name-field-webform {
     width: 66.66667%; }
 
   /* line 35, ../bootstrap/stylesheets/bootstrap/mixins/_grid-framework.scss */
@@ -3845,39 +3903,327 @@ a.btn.disabled, .carousel .carousel-caption a.disabled, fieldset[disabled] a.btn
     background-color: #333; }
 
 /* line 71, ../bootstrap/stylesheets/bootstrap/_buttons.scss */
-.btn-primary, .carousel .carousel-caption a, .col .views-field-title a, .region-collaborate .collaborate-feature-container .views-field-title a {
+.btn-primary, .carousel .carousel-caption a, .col .views-field-title a, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a,
+.page-node-type-campanas .region-content .field--name-field-image .views-field-title a,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a,
+.page-node-type-colabora .region-content .field--name-field-image .views-field-title a, .page-node-type-campanas .region-content .field--name-body .views-field-title a,
+.page-node-type-colabora .region-content .field--name-body .views-field-title a, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a,
+.page-node-type-campanas .region-content .field--name-field-boton .views-field-title a,
+.page-node-type-campanas .region-content .field--name-field-webform .views-field-title a,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a,
+.page-node-type-colabora .region-content .field--name-field-boton .views-field-title a,
+.page-node-type-colabora .region-content .field--name-field-webform .views-field-title a, .region-collaborate .collaborate-feature-container .views-field-title a {
   color: #fff;
   background-color: #16a085;
   border-color: #138a72; }
   /* line 11, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:focus, .carousel .carousel-caption a:focus, .col .views-field-title a:focus, .region-collaborate .collaborate-feature-container .views-field-title a:focus, .btn-primary.focus, .carousel .carousel-caption a.focus, .col .views-field-title a.focus, .region-collaborate .collaborate-feature-container .views-field-title a.focus {
+  .btn-primary:focus, .carousel .carousel-caption a:focus, .col .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:focus, .region-collaborate .collaborate-feature-container .views-field-title a:focus, .btn-primary.focus, .carousel .carousel-caption a.focus, .col .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.focus, .region-collaborate .collaborate-feature-container .views-field-title a.focus {
     color: #fff;
     background-color: #107360;
     border-color: #041915; }
   /* line 17, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:hover, .carousel .carousel-caption a:hover, .col .views-field-title a:hover, .region-collaborate .collaborate-feature-container .views-field-title a:hover {
+  .btn-primary:hover, .carousel .carousel-caption a:hover, .col .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:hover, .region-collaborate .collaborate-feature-container .views-field-title a:hover {
     color: #fff;
     background-color: #107360;
     border-color: #0c5446; }
   /* line 22, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:active, .carousel .carousel-caption a:active, .col .views-field-title a:active, .region-collaborate .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .carousel .carousel-caption a.active, .col .views-field-title a.active, .region-collaborate .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .carousel .carousel-caption .open > a.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
+  .btn-primary:active, .carousel .carousel-caption a:active, .col .views-field-title a:active, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:active, .page-node-type-campanas .region-content .field--name-body .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a:active, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:active, .region-collaborate .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .carousel .carousel-caption a.active, .col .views-field-title a.active, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.active, .page-node-type-campanas .region-content .field--name-body .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.active, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.active, .region-collaborate .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .carousel .carousel-caption .open > a.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-body .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
     color: #fff;
     background-color: #107360;
     border-color: #0c5446; }
     /* line 29, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-    .btn-primary:active:hover, .carousel .carousel-caption a:active:hover, .col .views-field-title a:active:hover, .region-collaborate .collaborate-feature-container .views-field-title a:active:hover, .btn-primary:active:focus, .carousel .carousel-caption a:active:focus, .col .views-field-title a:active:focus, .region-collaborate .collaborate-feature-container .views-field-title a:active:focus, .btn-primary:active.focus, .carousel .carousel-caption a:active.focus, .col .views-field-title a:active.focus, .region-collaborate .collaborate-feature-container .views-field-title a:active.focus, .btn-primary.active:hover, .carousel .carousel-caption a.active:hover, .col .views-field-title a.active:hover, .region-collaborate .collaborate-feature-container .views-field-title a.active:hover, .btn-primary.active:focus, .carousel .carousel-caption a.active:focus, .col .views-field-title a.active:focus, .region-collaborate .collaborate-feature-container .views-field-title a.active:focus, .btn-primary.active.focus, .carousel .carousel-caption a.active.focus, .col .views-field-title a.active.focus, .region-collaborate .collaborate-feature-container .views-field-title a.active.focus, .open > .btn-primary.dropdown-toggle:hover, .carousel .carousel-caption .open > a.dropdown-toggle:hover, .col .views-field-title .open > a.dropdown-toggle:hover, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .carousel .carousel-caption .open > a.dropdown-toggle:focus, .col .views-field-title .open > a.dropdown-toggle:focus, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus, .carousel .carousel-caption .open > a.dropdown-toggle.focus, .col .views-field-title .open > a.dropdown-toggle.focus, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle.focus {
+    .btn-primary:active:hover, .carousel .carousel-caption a:active:hover, .col .views-field-title a:active:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:active:hover,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:active:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a:active:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active:hover,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:active:hover,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:active:hover,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:active:hover, .region-collaborate .collaborate-feature-container .views-field-title a:active:hover, .btn-primary:active:focus, .carousel .carousel-caption a:active:focus, .col .views-field-title a:active:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:active:focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:active:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a:active:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active:focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:active:focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:active:focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:active:focus, .region-collaborate .collaborate-feature-container .views-field-title a:active:focus, .btn-primary:active.focus, .carousel .carousel-caption a:active.focus, .col .views-field-title a:active.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:active.focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:active.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a:active.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active.focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:active.focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:active.focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:active.focus, .region-collaborate .collaborate-feature-container .views-field-title a:active.focus, .btn-primary.active:hover, .carousel .carousel-caption a.active:hover, .col .views-field-title a.active:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.active:hover,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.active:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a.active:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active:hover,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.active:hover,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.active:hover,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.active:hover, .region-collaborate .collaborate-feature-container .views-field-title a.active:hover, .btn-primary.active:focus, .carousel .carousel-caption a.active:focus, .col .views-field-title a.active:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.active:focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.active:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a.active:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active:focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.active:focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.active:focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.active:focus, .region-collaborate .collaborate-feature-container .views-field-title a.active:focus, .btn-primary.active.focus, .carousel .carousel-caption a.active.focus, .col .views-field-title a.active.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.active.focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.active.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title a.active.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active.focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.active.focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.active.focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.active.focus, .region-collaborate .collaborate-feature-container .views-field-title a.active.focus, .open > .btn-primary.dropdown-toggle:hover, .carousel .carousel-caption .open > a.dropdown-toggle:hover, .col .views-field-title .open > a.dropdown-toggle:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title .open > a.dropdown-toggle:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle:hover,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle:hover, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:hover, .open > .btn-primary.dropdown-toggle:focus, .carousel .carousel-caption .open > a.dropdown-toggle:focus, .col .views-field-title .open > a.dropdown-toggle:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title .open > a.dropdown-toggle:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle:focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle:focus, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle:focus, .open > .btn-primary.dropdown-toggle.focus, .carousel .carousel-caption .open > a.dropdown-toggle.focus, .col .views-field-title .open > a.dropdown-toggle.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-body .views-field-title .open > a.dropdown-toggle.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle.focus,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle.focus, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle.focus {
       color: #fff;
       background-color: #0c5446;
       border-color: #041915; }
   /* line 37, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary:active, .carousel .carousel-caption a:active, .col .views-field-title a:active, .region-collaborate .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .carousel .carousel-caption a.active, .col .views-field-title a.active, .region-collaborate .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .carousel .carousel-caption .open > a.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
+  .btn-primary:active, .carousel .carousel-caption a:active, .col .views-field-title a:active, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:active, .page-node-type-campanas .region-content .field--name-body .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a:active, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:active,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:active,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:active, .region-collaborate .collaborate-feature-container .views-field-title a:active, .btn-primary.active, .carousel .carousel-caption a.active, .col .views-field-title a.active, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.active, .page-node-type-campanas .region-content .field--name-body .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.active, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.active,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.active,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.active, .region-collaborate .collaborate-feature-container .views-field-title a.active, .open > .btn-primary.dropdown-toggle, .carousel .carousel-caption .open > a.dropdown-toggle, .col .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-body .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title .open > a.dropdown-toggle, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title .open > a.dropdown-toggle,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title .open > a.dropdown-toggle, .region-collaborate .collaborate-feature-container .views-field-title .open > a.dropdown-toggle {
     background-image: none; }
   /* line 45, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary.disabled:hover, .carousel .carousel-caption a.disabled:hover, .col .views-field-title a.disabled:hover, .region-collaborate .collaborate-feature-container .views-field-title a.disabled:hover, .btn-primary.disabled:focus, .carousel .carousel-caption a.disabled:focus, .col .views-field-title a.disabled:focus, .region-collaborate .collaborate-feature-container .views-field-title a.disabled:focus, .btn-primary.disabled.focus, .carousel .carousel-caption a.disabled.focus, .col .views-field-title a.disabled.focus, .region-collaborate .collaborate-feature-container .views-field-title a.disabled.focus, .btn-primary[disabled]:hover, .carousel .carousel-caption a[disabled]:hover, .col .views-field-title a[disabled]:hover, .region-collaborate .collaborate-feature-container .views-field-title a[disabled]:hover, .btn-primary[disabled]:focus, .carousel .carousel-caption a[disabled]:focus, .col .views-field-title a[disabled]:focus, .region-collaborate .collaborate-feature-container .views-field-title a[disabled]:focus, .btn-primary[disabled].focus, .carousel .carousel-caption a[disabled].focus, .col .views-field-title a[disabled].focus, .region-collaborate .collaborate-feature-container .views-field-title a[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .carousel .carousel-caption a:hover, .carousel .carousel-caption fieldset[disabled] a:hover, fieldset[disabled] .col .views-field-title a:hover, .col .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a:hover, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .carousel .carousel-caption a:focus, .carousel .carousel-caption fieldset[disabled] a:focus, fieldset[disabled] .col .views-field-title a:focus, .col .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a:focus, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .carousel .carousel-caption a.focus, .carousel .carousel-caption fieldset[disabled] a.focus, fieldset[disabled] .col .views-field-title a.focus, .col .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a.focus, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a.focus {
+  .btn-primary.disabled:hover, .carousel .carousel-caption a.disabled:hover, .col .views-field-title a.disabled:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.disabled:hover,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.disabled:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.disabled:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled:hover,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.disabled:hover,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.disabled:hover,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.disabled:hover, .region-collaborate .collaborate-feature-container .views-field-title a.disabled:hover, .btn-primary.disabled:focus, .carousel .carousel-caption a.disabled:focus, .col .views-field-title a.disabled:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.disabled:focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.disabled:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.disabled:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled:focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.disabled:focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.disabled:focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.disabled:focus, .region-collaborate .collaborate-feature-container .views-field-title a.disabled:focus, .btn-primary.disabled.focus, .carousel .carousel-caption a.disabled.focus, .col .views-field-title a.disabled.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.disabled.focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.disabled.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a.disabled.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled.focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.disabled.focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.disabled.focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.disabled.focus, .region-collaborate .collaborate-feature-container .views-field-title a.disabled.focus, .btn-primary[disabled]:hover, .carousel .carousel-caption a[disabled]:hover, .col .views-field-title a[disabled]:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a[disabled]:hover,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a[disabled]:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a[disabled]:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled]:hover,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a[disabled]:hover,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a[disabled]:hover,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a[disabled]:hover, .region-collaborate .collaborate-feature-container .views-field-title a[disabled]:hover, .btn-primary[disabled]:focus, .carousel .carousel-caption a[disabled]:focus, .col .views-field-title a[disabled]:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a[disabled]:focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a[disabled]:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a[disabled]:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled]:focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a[disabled]:focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a[disabled]:focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a[disabled]:focus, .region-collaborate .collaborate-feature-container .views-field-title a[disabled]:focus, .btn-primary[disabled].focus, .carousel .carousel-caption a[disabled].focus, .col .views-field-title a[disabled].focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a[disabled].focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a[disabled].focus, .page-node-type-campanas .region-content .field--name-body .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a[disabled].focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled].focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a[disabled].focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a[disabled].focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a[disabled].focus, .region-collaborate .collaborate-feature-container .views-field-title a[disabled].focus, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .carousel .carousel-caption a:hover, .carousel .carousel-caption fieldset[disabled] a:hover, fieldset[disabled] .col .views-field-title a:hover, .col .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .page-node-type-campanas .region-content .field--name-body .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-body .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-body .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:hover, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:hover,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title fieldset[disabled] a:hover,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:hover,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a:hover, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .carousel .carousel-caption a:focus, .carousel .carousel-caption fieldset[disabled] a:focus, fieldset[disabled] .col .views-field-title a:focus, .col .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-image .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-image .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-body .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-body .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-body .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a:focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a:focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title fieldset[disabled] a:focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a:focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a:focus, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .carousel .carousel-caption a.focus, .carousel .carousel-caption fieldset[disabled] a.focus, fieldset[disabled] .col .views-field-title a.focus, .col .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-image .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-image .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-body .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-body .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-body .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a.focus, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a.focus,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title fieldset[disabled] a.focus,
+  fieldset[disabled] .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a.focus,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title fieldset[disabled] a.focus, fieldset[disabled] .region-collaborate .collaborate-feature-container .views-field-title a.focus, .region-collaborate .collaborate-feature-container .views-field-title fieldset[disabled] a.focus {
     background-color: #16a085;
     border-color: #138a72; }
   /* line 53, ../bootstrap/stylesheets/bootstrap/mixins/_buttons.scss */
-  .btn-primary .badge, .carousel .carousel-caption a .badge, .col .views-field-title a .badge, .region-collaborate .collaborate-feature-container .views-field-title a .badge {
+  .btn-primary .badge, .carousel .carousel-caption a .badge, .col .views-field-title a .badge, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a .badge,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a .badge, .page-node-type-campanas .region-content .field--name-body .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a .badge, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a .badge,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a .badge,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a .badge,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a .badge, .region-collaborate .collaborate-feature-container .views-field-title a .badge {
     color: #16a085;
     background-color: #fff; }
 
@@ -7573,7 +7919,8 @@ html.js .ajax-new-content:empty {
   vertical-align: middle; }
 
 /* line 59, ../scss/component/_file.scss */
-.image-widget.row {
+.image-widget.row, .page-node-type-campanas .region-content .image-widget.content,
+.page-node-type-colabora .region-content .image-widget.content {
   overflow: hidden; }
 
 /**
@@ -8181,33 +8528,18 @@ body {
   background-color: #eeeeee;
   padding: 10px; }
 
-@media (min-width: 768px) {
-  /* line 20, ../scss/fxj/_layout.scss */
-  .page-node-type-campanas .region-content,
-  .page-node-type-colabora .region-content {
-    padding-left: 340px;
-    position: relative; }
-    /* line 24, ../scss/fxj/_layout.scss */
-    .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
-    .page-node-type-campanas .region-content .field--name-field-image,
-    .page-node-type-colabora .region-content .field--name-field-imagen-colabora,
-    .page-node-type-colabora .region-content .field--name-field-image {
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 340px; }
-      /* line 31, ../scss/fxj/_layout.scss */
-      .page-node-type-campanas .region-content .field--name-field-imagen-colabora img,
-      .page-node-type-campanas .region-content .field--name-field-image img,
-      .page-node-type-colabora .region-content .field--name-field-imagen-colabora img,
-      .page-node-type-colabora .region-content .field--name-field-image img {
-        max-width: calc(100% - 20px); } }
 @media (max-width: 767px) {
-  /* line 40, ../scss/fxj/_layout.scss */
+  /* line 51, ../scss/fxj/_layout.scss */
   .footer img {
     display: none; } }
+@media (min-width: 768px) {
+  /* line 59, ../scss/fxj/_layout.scss */
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton,
+  .page-node-type-colabora .region-content .field--name-field-webform {
+    float: right; } }
 @media (max-width: 991px) {
-  /* line 47, ../scss/fxj/_layout.scss */
+  /* line 70, ../scss/fxj/_layout.scss */
   .region-collaborate img {
     display: none; } }
 /* line 2, ../scss/fxj/_navbar-header.scss */
@@ -8825,7 +9157,9 @@ body {
   .footer .block:first-of-type img {
     width: 100px; }
   /* line 204, ../scss/fxj/_footer.scss */
-  .footer .block:nth-last-of-type(2) .row {
+  .footer .block:nth-last-of-type(2) .row, .footer .block:nth-last-of-type(2) .page-node-type-campanas .region-content .content, .page-node-type-campanas .region-content .footer .block:nth-last-of-type(2) .content,
+  .footer .block:nth-last-of-type(2) .page-node-type-colabora .region-content .content,
+  .page-node-type-colabora .region-content .footer .block:nth-last-of-type(2) .content {
     margin-left: 0;
     margin-right: 0; }
   /* line 209, ../scss/fxj/_footer.scss */
@@ -9204,18 +9538,45 @@ a.a2a_i, i.a2a_i {
   margin: 5px 0; }
 
 /* line 65, ../scss/fxj/_views.scss */
-.col, .region-collaborate .collaborate-feature-container {
+.col, .page-node-type-campanas .region-content .field--name-field-imagen-colabora,
+.page-node-type-campanas .region-content .field--name-field-image,
+.page-node-type-colabora .region-content .field--name-field-imagen-colabora,
+.page-node-type-colabora .region-content .field--name-field-image, .page-node-type-campanas .region-content .field--name-body,
+.page-node-type-colabora .region-content .field--name-body, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-campanas .region-content .field--name-field-boton,
+.page-node-type-campanas .region-content .field--name-field-webform,
+.page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora,
+.page-node-type-colabora .region-content .field--name-field-boton,
+.page-node-type-colabora .region-content .field--name-field-webform, .region-collaborate .collaborate-feature-container {
   position: relative;
   margin-bottom: 15px; }
   /* line 70, ../scss/fxj/_views.scss */
-  .col .views-field-title a, .region-collaborate .collaborate-feature-container .views-field-title a {
+  .col .views-field-title a, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title a,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title a, .page-node-type-campanas .region-content .field--name-body .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title a, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title a,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title a,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title a,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title a, .region-collaborate .collaborate-feature-container .views-field-title a {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
     font-weight: 300;
     text-decoration: none; }
   /* line 77, ../scss/fxj/_views.scss */
-  .col .views-field-field-tipo, .region-collaborate .collaborate-feature-container .views-field-field-tipo {
+  .col .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-body .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-tipo, .region-collaborate .collaborate-feature-container .views-field-field-tipo {
     left: 20px;
     position: absolute;
     top: 60px; }
@@ -9249,10 +9610,43 @@ a.a2a_i, i.a2a_i {
 
 @media (max-width: 767px) {
   /* line 116, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
+  .col .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image,
   .region-collaborate .collaborate-feature-container .views-field-field-image,
   .col .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora,
   .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora {
     box-sizing: border-box;
     float: left;
@@ -9261,10 +9655,43 @@ a.a2a_i, i.a2a_i {
     text-align: center;
     width: 100px; }
     /* line 126, ../scss/fxj/_views.scss */
-    .col .views-field-field-imagen img, .region-collaborate .collaborate-feature-container .views-field-field-imagen img,
+    .col .views-field-field-imagen img, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen img,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen img, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen img, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen img,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen img,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen img,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen img, .region-collaborate .collaborate-feature-container .views-field-field-imagen img,
     .col .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image img,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image img,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image img,
     .region-collaborate .collaborate-feature-container .views-field-field-image img,
     .col .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora img,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora img,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora img,
     .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora img {
       height: 100px;
       left: -35%;
@@ -9272,54 +9699,240 @@ a.a2a_i, i.a2a_i {
       width: auto;
       max-width: none; }
   /* line 134, ../scss/fxj/_views.scss */
-  .col .views-field-title, .region-collaborate .collaborate-feature-container .views-field-title,
+  .col .views-field-title, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-title,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-title,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-title,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-title, .page-node-type-campanas .region-content .field--name-body .views-field-title,
+  .page-node-type-colabora .region-content .field--name-body .views-field-title, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-title,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-title,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-title,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-title,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-title,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-title, .region-collaborate .collaborate-feature-container .views-field-title,
   .col .views-field-body,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-body,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-body,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-body,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-body,
+  .page-node-type-campanas .region-content .field--name-body .views-field-body,
+  .page-node-type-colabora .region-content .field--name-body .views-field-body,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-body,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-body,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-body,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-body,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-body,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-body,
   .region-collaborate .collaborate-feature-container .views-field-body,
   .col .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-body .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-body .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-view-node,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-view-node,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-view-node,
   .region-collaborate .collaborate-feature-container .views-field-view-node,
   .col .views-field-path,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-path,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-path,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-path,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-path,
+  .page-node-type-campanas .region-content .field--name-body .views-field-path,
+  .page-node-type-colabora .region-content .field--name-body .views-field-path,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-path,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-path,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-path,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-path,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-path,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-path,
   .region-collaborate .collaborate-feature-container .views-field-path {
     padding-left: 120px; } }
 @media (min-width: 768px) {
   /* line 145, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
+  .col .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image,
   .region-collaborate .collaborate-feature-container .views-field-field-image,
   .col .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora,
   .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora {
     height: 150px;
     margin-bottom: -30px;
     overflow: hidden;
     position: relative; }
     /* line 153, ../scss/fxj/_views.scss */
-    .col .views-field-field-imagen .field-content, .region-collaborate .collaborate-feature-container .views-field-field-imagen .field-content,
+    .col .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen .field-content, .region-collaborate .collaborate-feature-container .views-field-field-imagen .field-content,
     .col .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image .field-content,
     .region-collaborate .collaborate-feature-container .views-field-field-image .field-content,
     .col .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora .field-content,
     .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora .field-content {
       position: relative;
       top: -32%; }
   /* line 159, ../scss/fxj/_views.scss */
-  .col .views-field-field-tipo, .region-collaborate .collaborate-feature-container .views-field-field-tipo {
+  .col .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-body .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-tipo, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-tipo,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-tipo,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-tipo, .region-collaborate .collaborate-feature-container .views-field-field-tipo {
     left: 10px;
     position: relative;
     top: -10px; } }
 @media (min-width: 992px) {
   /* line 169, ../scss/fxj/_views.scss */
-  .col .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
+  .col .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen, .region-collaborate .collaborate-feature-container .views-field-field-imagen,
   .col .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image,
   .region-collaborate .collaborate-feature-container .views-field-field-image,
   .col .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora,
+  .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora,
   .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora {
     height: 150px;
     margin-bottom: -30px;
     overflow: hidden;
     position: static; }
     /* line 177, ../scss/fxj/_views.scss */
-    .col .views-field-field-imagen .field-content, .region-collaborate .collaborate-feature-container .views-field-field-imagen .field-content,
+    .col .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen .field-content, .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen .field-content, .region-collaborate .collaborate-feature-container .views-field-field-imagen .field-content,
     .col .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-image .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-image .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-image .field-content,
     .region-collaborate .collaborate-feature-container .views-field-field-image .field-content,
     .col .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-image .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-imagen-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-image .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-body .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-body .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-boton .views-field-field-imagen-colabora .field-content,
+    .page-node-type-campanas .region-content .field--name-field-webform .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-subir-pdf-colabora .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-boton .views-field-field-imagen-colabora .field-content,
+    .page-node-type-colabora .region-content .field--name-field-webform .views-field-field-imagen-colabora .field-content,
     .region-collaborate .collaborate-feature-container .views-field-field-imagen-colabora .field-content {
       position: static;
       top: auto; } }
@@ -9400,8 +10013,14 @@ a.a2a_i, i.a2a_i {
 .region-sidebar-second .block[id*="block-ayudanos"] {
   padding: 0; }
   /* line 287, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .row,
-  .region-sidebar-second .block[id*="block-ayudanos"] .row {
+  .region-sidebar-second .block[id*="block-colabora"] .row, .region-sidebar-second .block[id*="block-colabora"] .page-node-type-campanas .region-content .content, .page-node-type-campanas .region-content .region-sidebar-second .block[id*="block-colabora"] .content,
+  .region-sidebar-second .block[id*="block-colabora"] .page-node-type-colabora .region-content .content,
+  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="block-colabora"] .content,
+  .region-sidebar-second .block[id*="block-ayudanos"] .row,
+  .region-sidebar-second .block[id*="block-ayudanos"] .page-node-type-campanas .region-content .content,
+  .page-node-type-campanas .region-content .region-sidebar-second .block[id*="block-ayudanos"] .content,
+  .region-sidebar-second .block[id*="block-ayudanos"] .page-node-type-colabora .region-content .content,
+  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="block-ayudanos"] .content {
     margin: 0; }
   /* line 290, ../scss/fxj/_views.scss */
   .region-sidebar-second .block[id*="block-colabora"] .collaborate-header,
