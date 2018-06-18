@@ -16,7 +16,7 @@
       @include shadow-xl();
       display: inline-block;
       height: 300px;
-      left: calc((100% - 1440px)/2);
+      left: calc((100% - 1170px)/2);
       position: relative;
       max-width: none;
     }
@@ -138,7 +138,7 @@
   }
 }
 
-@media (min-width: $screen-lg-min) {
+@media (min-width: $screen-md-min) {
   .carousel {
     .item {
       img {
@@ -149,6 +149,11 @@
       margin-right: calc((100% - #{$container-large-desktop} )/2);
       margin-left: calc((100% - #{$container-large-desktop})/2);
     }
+  }
+}
+
+@media (min-width: $screen-lg-min) {
+  .carousel {
     .carousel-control.right {
       right: calc((100% - #{$container-large-desktop} )/2);
     }

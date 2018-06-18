@@ -9024,7 +9024,7 @@ a.a2a_i, i.a2a_i {
       box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
       display: inline-block;
       height: 300px;
-      left: calc((100% - 1440px)/2);
+      left: calc((100% - 1170px)/2);
       position: relative;
       max-width: none; }
   /* line 24, ../scss/fxj/_bootstrap-carousel.scss */
@@ -9123,18 +9123,19 @@ a.a2a_i, i.a2a_i {
   .carousel-fade .carousel-control {
     z-index: 2; }
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   /* line 144, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .item img {
     left: auto; }
   /* line 148, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-container {
     margin-right: calc((100% - 1170px )/2);
-    margin-left: calc((100% - 1170px)/2); }
-  /* line 152, ../scss/fxj/_bootstrap-carousel.scss */
+    margin-left: calc((100% - 1170px)/2); } }
+@media (min-width: 1200px) {
+  /* line 157, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.right {
     right: calc((100% - 1170px )/2); }
-  /* line 155, ../scss/fxj/_bootstrap-carousel.scss */
+  /* line 160, ../scss/fxj/_bootstrap-carousel.scss */
   .carousel .carousel-control.left {
     left: calc((100% - 1170px )/2); } }
 /* line 1, ../scss/fxj/_views.scss */
