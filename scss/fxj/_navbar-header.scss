@@ -369,8 +369,7 @@
 }
 .spb-popup-main-wrapper {
   @include shadow();
-  background: hsla(0,0%,100%,.9) url(../logo.svg) no-repeat 10vw 1rem;
-  background-size: 200px;
+  background: hsla(0,0%,100%,.9) url(../logo.png) no-repeat 10vw 1rem;
   border: 0;
 
   .search-block-form {
