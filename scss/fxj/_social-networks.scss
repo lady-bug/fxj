@@ -1,0 +1,27 @@
+.social-networks {
+  .region {
+    @extend .row;
+  }
+  .block{
+    &:first-of-type {
+      .h2--separator {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+    &:not(:first-of-type) {
+      @extend .col;
+      @extend .col-sm-4;
+
+      &[id*="youtubetimeline"] {
+        .field--name-body {
+          overflow: hidden;
+        }
+        iframe {
+          position: relative;
+          top: -50px;
+        }
+      }
+  }
+}
+}
