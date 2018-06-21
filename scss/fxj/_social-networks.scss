@@ -13,6 +13,9 @@
       @extend .col;
       @extend .col-sm-4;
 
+      .field--name-body {
+        text-align: center;
+      }
       &[id*="youtubetimeline"] {
         .field--name-body {
           overflow: hidden;
