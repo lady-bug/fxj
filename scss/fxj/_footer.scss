@@ -172,7 +172,8 @@
     background-color: $gray-dark;
   }
   .svg-inline--fa {
-    width: 30px;
+    width: 20px;
+    margin-right: 5px;
   }
   a {
     color: white;
@@ -226,9 +227,14 @@
       display:none;
     }
   }
-  .collaborate-footer a {
-    color: white;
-    font-weight: 300;
+  .collaborate-footer {
+    margin-left: 0;
+    margin-right: 0;
+    
+    a {
+      color: white;
+      font-weight: 300;
+    }
   }
 }
 

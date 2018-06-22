@@ -9135,71 +9135,76 @@ body {
   background-color: #333333; }
 /* line 174, ../scss/fxj/_footer.scss */
 .footer .svg-inline--fa {
-  width: 30px; }
-/* line 177, ../scss/fxj/_footer.scss */
+  width: 20px;
+  margin-right: 5px; }
+/* line 178, ../scss/fxj/_footer.scss */
 .footer a {
   color: white; }
-/* line 180, ../scss/fxj/_footer.scss */
+/* line 181, ../scss/fxj/_footer.scss */
 .footer h2 {
   color: #777777;
   font-size: 2rem;
   font-weight: 600;
   margin-top: 0;
   margin-bottom: 20px; }
-/* line 187, ../scss/fxj/_footer.scss */
+/* line 188, ../scss/fxj/_footer.scss */
 .footer strong {
   font-weight: 400; }
-/* line 190, ../scss/fxj/_footer.scss */
+/* line 191, ../scss/fxj/_footer.scss */
 .footer .block {
   margin: 0 0 3rem 0; }
-  /* line 199, ../scss/fxj/_footer.scss */
+  /* line 200, ../scss/fxj/_footer.scss */
   .footer .block:first-of-type img {
     width: 100px; }
-  /* line 204, ../scss/fxj/_footer.scss */
+  /* line 205, ../scss/fxj/_footer.scss */
   .footer .block:nth-last-of-type(2) .row, .footer .block:nth-last-of-type(2) .page-node-type-campanas .region-content .content, .page-node-type-campanas .region-content .footer .block:nth-last-of-type(2) .content,
   .footer .block:nth-last-of-type(2) .page-node-type-colabora .region-content .content,
   .page-node-type-colabora .region-content .footer .block:nth-last-of-type(2) .content, .footer .block:nth-last-of-type(2) .social-networks .region, .social-networks .footer .block:nth-last-of-type(2) .region {
     margin-left: 0;
     margin-right: 0; }
-  /* line 209, ../scss/fxj/_footer.scss */
+  /* line 210, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     border-top: 1px solid #777777;
     color: #777777;
     margin: 0;
     padding: 15px 0 0 0; }
-    /* line 215, ../scss/fxj/_footer.scss */
+    /* line 216, ../scss/fxj/_footer.scss */
     .footer .block:last-of-type a {
       color: #777777; }
-/* line 222, ../scss/fxj/_footer.scss */
+/* line 223, ../scss/fxj/_footer.scss */
 .footer .collaborate-feature-container p {
   margin-bottom: 10px; }
-/* line 225, ../scss/fxj/_footer.scss */
+/* line 226, ../scss/fxj/_footer.scss */
 .footer .collaborate-feature-container:nth-of-type(2) {
   display: none; }
-/* line 229, ../scss/fxj/_footer.scss */
-.footer .collaborate-footer a {
-  color: white;
-  font-weight: 300; }
+/* line 230, ../scss/fxj/_footer.scss */
+.footer .collaborate-footer {
+  margin-left: 0;
+  margin-right: 0; }
+  /* line 234, ../scss/fxj/_footer.scss */
+  .footer .collaborate-footer a {
+    color: white;
+    font-weight: 300; }
 
 @media (min-width: 768px) {
-  /* line 239, ../scss/fxj/_footer.scss */
+  /* line 245, ../scss/fxj/_footer.scss */
   .footer .block:first-child img {
     width: auto; }
-  /* line 243, ../scss/fxj/_footer.scss */
+  /* line 249, ../scss/fxj/_footer.scss */
   .footer .block:last-of-type {
     clear: both;
     float: left;
     width: 100%; } }
 @media (max-width: 767px) {
-  /* line 253, ../scss/fxj/_footer.scss */
+  /* line 259, ../scss/fxj/_footer.scss */
   .sticky-footer .menu.nav a {
     padding: 5px 15px;
     text-align: center; }
-    /* line 256, ../scss/fxj/_footer.scss */
+    /* line 262, ../scss/fxj/_footer.scss */
     .sticky-footer .menu.nav a .svg-inline--fa {
       display: block;
       margin: 0 auto 5px auto; }
-  /* line 261, ../scss/fxj/_footer.scss */
+  /* line 267, ../scss/fxj/_footer.scss */
   .sticky-footer .block-dropdown-language {
     margin-top: 5px; } }
 /* line 2, ../scss/fxj/_addtoany.scss */
