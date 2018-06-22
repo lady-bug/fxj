@@ -2,7 +2,7 @@ core: 8.x
 type: theme
 base theme: bootstrap
 
-name: 'Fundación por la Justicia - Alpha version'
+name: 'Fundación por la Justicia'
 description: 'Alpha version of FxJ theme for their website. It uses the Bootstrap framework Sass source files and must be compiled (not for beginners).'
 package: 'Bootstrap'
 
@@ -24,5 +24,5 @@ regions:
   page_bottom: 'Page bottom'
 
 libraries:
-  - 'fxj_alpha/global-styling'
-  - 'fxj_alpha/bootstrap-scripts'
+  - 'fxj/global-styling'
+  - 'fxj/bootstrap-scripts'

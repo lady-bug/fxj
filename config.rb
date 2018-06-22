@@ -1,7 +1,7 @@
 #enable sass in rails
 gem "sass"
 #-------------------
-http_path = "/themes/custom/fxj_alpha"
+http_path = "/themes/custom/fxj"
 css_dir = "css"
 sass_dir = "scss"
 images_dir = "images"

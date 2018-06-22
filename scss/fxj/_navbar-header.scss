@@ -364,7 +364,7 @@
 }
 
 //spb popup on serach block
-#block-fxj-alpha-search {
+#block-fxj-search {
   display: none;
 }
 .spb-popup-main-wrapper {
@@ -405,10 +405,10 @@
   right: 0;
   top: 0;
 }
-.block-fxj-alpha-search-modal-minimize {
+.block-fxj-search-modal-minimize {
   display: none;
 }
-.block-fxj-alpha-search-modal-close {
+.block-fxj-search-modal-close {
   @include square(4rem);
   background-color: transparent;
   border: 0;

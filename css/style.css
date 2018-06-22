@@ -8850,7 +8850,7 @@ body {
       .navbar-nav > li .btn:not(.dropdown-toggle), .navbar-nav > li .carousel .carousel-caption a:not(.dropdown-toggle), .carousel .carousel-caption .navbar-nav > li a:not(.dropdown-toggle) {
         font-weight: 400; } }
 /* line 367, ../scss/fxj/_navbar-header.scss */
-#block-fxj-alpha-search {
+#block-fxj-search {
   display: none; }
 
 /* line 370, ../scss/fxj/_navbar-header.scss */
@@ -8892,11 +8892,11 @@ body {
   top: 0; }
 
 /* line 408, ../scss/fxj/_navbar-header.scss */
-.block-fxj-alpha-search-modal-minimize {
+.block-fxj-search-modal-minimize {
   display: none; }
 
 /* line 411, ../scss/fxj/_navbar-header.scss */
-.block-fxj-alpha-search-modal-close {
+.block-fxj-search-modal-close {
   width: 4rem;
   height: 4rem;
   background-color: transparent;
@@ -10041,36 +10041,36 @@ a.a2a_i, i.a2a_i {
     min-height: 148px;
     overflow: hidden; } }
 /* line 284, ../scss/fxj/_views.scss */
-.region-sidebar-second .block[id*="block-colabora"],
-.region-sidebar-second .block[id*="block-ayudanos"] {
+.region-sidebar-second .block[id*="colabora"],
+.region-sidebar-second .block[id*="ayudanos"] {
   padding: 0; }
   /* line 288, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .row, .region-sidebar-second .block[id*="block-colabora"] .page-node-type-campanas .region-content .content, .page-node-type-campanas .region-content .region-sidebar-second .block[id*="block-colabora"] .content,
-  .region-sidebar-second .block[id*="block-colabora"] .page-node-type-colabora .region-content .content,
-  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="block-colabora"] .content, .region-sidebar-second .block[id*="block-colabora"] .social-networks .region, .social-networks .region-sidebar-second .block[id*="block-colabora"] .region,
-  .region-sidebar-second .block[id*="block-ayudanos"] .row,
-  .region-sidebar-second .block[id*="block-ayudanos"] .page-node-type-campanas .region-content .content,
-  .page-node-type-campanas .region-content .region-sidebar-second .block[id*="block-ayudanos"] .content,
-  .region-sidebar-second .block[id*="block-ayudanos"] .page-node-type-colabora .region-content .content,
-  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="block-ayudanos"] .content,
-  .region-sidebar-second .block[id*="block-ayudanos"] .social-networks .region,
-  .social-networks .region-sidebar-second .block[id*="block-ayudanos"] .region {
+  .region-sidebar-second .block[id*="colabora"] .row, .region-sidebar-second .block[id*="colabora"] .page-node-type-campanas .region-content .content, .page-node-type-campanas .region-content .region-sidebar-second .block[id*="colabora"] .content,
+  .region-sidebar-second .block[id*="colabora"] .page-node-type-colabora .region-content .content,
+  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="colabora"] .content, .region-sidebar-second .block[id*="colabora"] .social-networks .region, .social-networks .region-sidebar-second .block[id*="colabora"] .region,
+  .region-sidebar-second .block[id*="ayudanos"] .row,
+  .region-sidebar-second .block[id*="ayudanos"] .page-node-type-campanas .region-content .content,
+  .page-node-type-campanas .region-content .region-sidebar-second .block[id*="ayudanos"] .content,
+  .region-sidebar-second .block[id*="ayudanos"] .page-node-type-colabora .region-content .content,
+  .page-node-type-colabora .region-content .region-sidebar-second .block[id*="ayudanos"] .content,
+  .region-sidebar-second .block[id*="ayudanos"] .social-networks .region,
+  .social-networks .region-sidebar-second .block[id*="ayudanos"] .region {
     margin: 0; }
   /* line 291, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-header,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-header {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-header,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-header {
     display: none; }
   /* line 295, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container p,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container p {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container p,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container p {
     margin-bottom: 20px; }
   /* line 298, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container a,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container a {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container a,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container a {
     color: #333333; }
   /* line 301, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container .fontawesome-icon,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container .fontawesome-icon {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container .fontawesome-icon,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container .fontawesome-icon {
     width: 30px;
     height: 30px;
     border: 1px solid #333333;
@@ -10080,17 +10080,17 @@ a.a2a_i, i.a2a_i {
     padding-top: 3px;
     text-align: center; }
   /* line 312, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container:nth-of-type(2) .collaborate-feature:first-of-type,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container:nth-of-type(2) .collaborate-feature:first-of-type {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container:nth-of-type(2) .collaborate-feature:first-of-type,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container:nth-of-type(2) .collaborate-feature:first-of-type {
     display: none; }
   /* line 317, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container:nth-of-type(3), .region-sidebar-second .block[id*="block-colabora"] .collaborate-feature-container:nth-of-type(4),
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container:nth-of-type(3),
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-feature-container:nth-of-type(4) {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container:nth-of-type(3), .region-sidebar-second .block[id*="colabora"] .collaborate-feature-container:nth-of-type(4),
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container:nth-of-type(3),
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-feature-container:nth-of-type(4) {
     padding: 0 10px; }
   /* line 322, ../scss/fxj/_views.scss */
-  .region-sidebar-second .block[id*="block-colabora"] .collaborate-footer,
-  .region-sidebar-second .block[id*="block-ayudanos"] .collaborate-footer {
+  .region-sidebar-second .block[id*="colabora"] .collaborate-footer,
+  .region-sidebar-second .block[id*="ayudanos"] .collaborate-footer {
     border: 1px solid white;
     border-width: 1px 0 0 0;
     font-weight: 300;
