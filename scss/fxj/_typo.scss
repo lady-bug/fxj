@@ -6,13 +6,13 @@ img {
   @extend .img-responsive;
 }
 .h2--separator {
-  font-weight: 300;
+  font-weight: 400;
   margin: 3rem 0;
   position: relative;
   z-index: 1;
 
   &:before {
-        border-top: 1px solid $gray-lighter;
+        border-top: 1px solid $gray-dark;
         content:"";
         margin: 0 auto; /* this centers the line to the full width specified */
         position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */

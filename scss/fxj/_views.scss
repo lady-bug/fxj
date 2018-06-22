@@ -208,9 +208,6 @@
 
   &.region {
     .block-title{
-      &:before {
-        border-color: white;
-      }
       span {
         background-color: $gray-lighter;
       }
