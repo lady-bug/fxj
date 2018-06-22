@@ -8509,7 +8509,8 @@ body {
 /* line 35, ../scss/fxj/_typo.scss */
 .page-header {
   border-bottom: 0;
-  font-weight: 400; }
+  font-weight: 400;
+  margin-top: 0; }
 
 /* line 2, ../scss/fxj/_layout.scss */
 .container-fluid {
@@ -8983,6 +8984,15 @@ body {
 .search-block-form .input-group {
   border-bottom: 1px solid #555555; }
 
+/* line 59, ../scss/fxj/_forms.scss */
+.region-sidebar-second h2 {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 2rem; }
+/* line 64, ../scss/fxj/_forms.scss */
+.region-sidebar-second label {
+  font-weight: 400; }
+
 /* line 2, ../scss/fxj/_footer.scss */
 #sliding-popup {
   -webkit-transition: 0.5s;
@@ -9329,8 +9339,9 @@ a.a2a_i, i.a2a_i {
 /* line 1, ../scss/fxj/_breadcrumb.scss */
 .breadcrumb {
   background-color: transparent;
+  margin-bottom: 2rem;
   padding: 8px 0; }
-  /* line 5, ../scss/fxj/_breadcrumb.scss */
+  /* line 6, ../scss/fxj/_breadcrumb.scss */
   .breadcrumb > li + li:before {
     content: "> "; }
 

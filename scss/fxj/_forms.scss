@@ -55,3 +55,13 @@
 .field--name-field-boton {
   @extend .h2;
 }
+.region-sidebar-second {
+  h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  label {
+    font-weight: 400;
+  }
+}
